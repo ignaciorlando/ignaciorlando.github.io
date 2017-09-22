@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/publication_types/2/</link>
+    <description>Recent content in 2 on José Ignacio Orlando</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
+    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/2/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>An Ensemble Deep Learning Based Approach for Red Lesion Detection in Fundus Images</title>
+      <link>https://ignaciorlando.github.io/publication/cmpb-redlesions/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/cmpb-redlesions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Discriminatively Trained Fully Connected Conditional Random Field Model for Blood Vessel Segmentation in Fundus Images</title>
+      <link>https://ignaciorlando.github.io/publication/tbme-vessels/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/tbme-vessels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proliferative Diabetic Retinopathy Characterization based on Fractal Features: Evaluation on a Publicly Available Data Set</title>
+      <link>https://ignaciorlando.github.io/publication/medphys-fractals/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/medphys-fractals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessment of image features for vessel wall segmentation in intravascular ultrasound images</title>
+      <link>https://ignaciorlando.github.io/publication/ijcars-ivus/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/ijcars-ivus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessment of image features for vessel wall segmentation in intravascular ultrasound images</title>
+      <link>https://ignaciorlando.github.io/publication/ijcars-ivus0/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/ijcars-ivus0/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

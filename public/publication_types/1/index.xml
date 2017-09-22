@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on José Ignacio Orlando</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
+    <lastBuildDate>Thu, 05 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Retinal blood vessel segmentation in high resolution fundus photographs using automated feature parameter estimation</title>
+      <link>https://ignaciorlando.github.io/publication/sipaim-highres/</link>
+      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/sipaim-highres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convolutional neural network transfer for automated glaucoma identification</title>
+      <link>https://ignaciorlando.github.io/publication/sipaim-glaucoma/</link>
+      <pubDate>Mon, 05 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/sipaim-glaucoma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning fully-connected CRFs for blood vessel segmentation in retinal images</title>
+      <link>https://ignaciorlando.github.io/publication/miccai-vessels/</link>
+      <pubDate>Sun, 14 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/miccai-vessels/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
