@@ -268,15 +268,6 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     </item>
     
     <item>
-      <title>Assessment of image features for vessel wall segmentation in intravascular ultrasound images</title>
-      <link>https://ignaciorlando.github.io/publication/ijcars-ivus0/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/publication/ijcars-ivus0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Deep Learning</title>
       <link>https://ignaciorlando.github.io/project/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
