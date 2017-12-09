@@ -1,0 +1,34 @@
++++
+date = "2017-12-04T11:00:00"
+draft = false
+tags = ["linux", "macos", "server"]
+title = "Syncronizing your code with a Linux server"
+math = false
++++
+
+Hi all!
+
+This post will be mainly focused on how to synchronize a folder with your code (and data, although we will see this might be quite inefficient) both on
+your personal computer and a Linux server. Most of the techniques came to me from [@blito](https://github.com/blito), who worked for a while in my
+former laboratory in Argentina.
+
+Let's start by defining the problem. Sometimes we don't have access to computers with enough hardware to do both the coding and the testing of that code. 
+For instance, in Argentina I had access to a Linux server with a NVIDIA Titan X GPU. However, it was shared with all my colleagues, 
+and to do the coding I had to use my own laptop (a Macbook PRO 2015) and/or a nice desktop computer with Ubuntu 14.04 but a pretty mediocre GPU. 
+
+At the very beginning, I had used git to synchronize my code, basically pushing every single time I wanted to test something, and making a pull in the remote
+server to get the updated code and run a test case. As you might guess, this was extremelly inefficient, specially considering that I'm obsessed with
+making the commit messages clear.
+
+After discussing this issue with my colleagues, @blito came with this awesome bash command, which works both in macOS and in Ubuntu.
+It is pretty straightforward: every time you want to upload your updated code to the remote server, you just need to run:
+
+```
+rsync -chavzP --stats <local source folder> <user>@<server>:<remote target folder>
+```
+
+Take into account that this command synchronizes all the content of the folder in your target folder. In other words, it does not create a copy 
+of the local source folder but of its content.
+
+This command is pretty useful if you will copy only text files (code, configuration files and so on). If you want to copy data, it might take a while
+and perhaps you will need to consider further alternatives. 
