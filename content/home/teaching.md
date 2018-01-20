@@ -14,7 +14,7 @@ weight = 60
 
 +++
 
-I have been a Teaching Assistant for the following courses at UNCPBA (Argentina):
+I have been a Teaching Assistant in the following courses at UNICEN (Argentina):
 
 - [Workshop on Medical Image Analysis](http://tallerim.alumnos.exa.unicen.edu.ar/) (2014-today)
 - [Workshop on Computational Mathematics](http://tudai1-1.alumnos.exa.unicen.edu.ar/taller-de-matematica-computacional) (2015-today)

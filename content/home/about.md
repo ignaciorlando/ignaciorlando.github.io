@@ -14,7 +14,7 @@ weight = 1
   interests = [
     "Machine Learning",
     "Retinal Imaging",
-    "Medical Imaging"
+    "Computer Vision"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -37,4 +37,4 @@ weight = 1
 
 # Biography
 
-I am currently a Postdoctoral Research Associate at PLADEMA Institute (UNCPBA, Argentina) granted by the National Council of Scientific and Technological Research (CONICET). My research is supervised by Prof. Matthew B. Blaschko (KU Leuven, Belgium) and Prof. Mariana del Fresno (CIC-PBA, Argentina). My research interests include machine learning for ophthalmic image analysis, medical imaging and computer vision.
+I have received my degree in Software Engineering from the UNICEN University (Tandil, Argentina). I've also got my PhD on Computational and Applied Mathematics on the same university, working in the Pladema Institute with a scholarship granted by CONICET (Argentina). For my thesis I worked on fundus image analysis based on machine/deep learning techniques and probabilistic graphical models, under the supervision of Prof. Matthew B. Blascko (KU Leuven, Belgium) and Prof. Mariana del Fresno (UNICEN, Argentina). After graduation I've made a short Postdoctoral stay in Pladema, and in January 2018 I've moved to the Medical University of Vienna (Austria) to join the Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA). My research interests are in medical image analysis, computer vision and machine learning. 
