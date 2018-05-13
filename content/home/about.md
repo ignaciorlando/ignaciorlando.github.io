@@ -12,7 +12,7 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Machine Learning",
+    "Machine/Deep Learning",
     "Retinal Imaging",
     "Computer Vision"
   ]
@@ -36,5 +36,5 @@ weight = 1
 +++
 
 # Biography
-
-I have received my degree in Software Engineering from the UNICEN University (Tandil, Argentina). I've also got my PhD on Computational and Applied Mathematics on the same university, working in the Pladema Institute with a scholarship granted by CONICET (Argentina). For my thesis I worked on fundus image analysis based on machine/deep learning techniques and probabilistic graphical models, under the supervision of Prof. Matthew B. Blascko (KU Leuven, Belgium) and Prof. Mariana del Fresno (UNICEN, Argentina). After graduation I've made a short Postdoctoral stay in Pladema, and in January 2018 I've moved to the Medical University of Vienna (Austria) to join the Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA). My research interests are in medical image analysis, computer vision and machine learning. 
+Hi everyone! I'm José Ignacio Orlando, but you can call me Nacho :)
+I'm an Argentinian researcher currently working as a postdoc in the [Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA)](https://optima.meduniwien.ac.at/), at the [Medical University of Vienna](https://www.meduniwien.ac.at/hp/1/department-of-ophthalmology/) (Austria). In 2013 I've received my Software Engineering degree from [UNICEN](https://www.unicen.edu.ar/english) (Tandil, Argentina), and in September 2017 I've defended my PhD thesis in Computational and Industrial Mathematics in the same university. I've done my doctoral research at the [PLADEMA Institute](http://www.pladema.net/) with a PhD scholarship granted by [CONICET](http://www.conicet.gov.ar/?lan=en), and supervised by [Prof. Dr. Matthew B. Blaschko](http://homes.esat.kuleuven.be/~mblaschk/) ([ESAT-PSI](https://www.esat.kuleuven.be/psi), [KU Leuven](https://www.kuleuven.be/english/), Belgium) and [Prof. Dr. Mariana del Fresno](https://www.researchgate.net/profile/Mariana_Del_Fresno) ([CIC-PBA](https://www.gba.gob.ar/cic), UNICEN, Tandil, Argentina). My main research interests involve the application of machine learning and computer vision techniques for ophthalmic image analysis. 

@@ -16,7 +16,7 @@ weight = 60
 
 I have been a Teaching Assistant in the following courses at UNICEN (Argentina):
 
-- [Workshop on Medical Image Analysis](http://tallerim.alumnos.exa.unicen.edu.ar/) (2014-today)
-- [Workshop on Computational Mathematics](http://tudai1-1.alumnos.exa.unicen.edu.ar/taller-de-matematica-computacional) (2015-today)
+- [Workshop on Medical Image Analysis](http://tallerim.alumnos.exa.unicen.edu.ar/) (2014-2018)
+- [Workshop on Computational Mathematics](http://tudai1-1.alumnos.exa.unicen.edu.ar/taller-de-matematica-computacional) (2015-2018)
 - [Information Theory](http://www.exa.unicen.edu.ar/catedras/teoinfo/) (2013-2016)
 - [Software Development Methodologies](http://metodologias.alumnos.exa.unicen.edu.ar/) (2010-2012)
