@@ -11,6 +11,26 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>NVIDIA Hardware Grant</title>
+      <link>https://ignaciorlando.github.io/post/news-nvidia/</link>
+      <pubDate>Wed, 14 Feb 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/news-nvidia/</guid>
+      <description>&lt;p&gt;My application to the &lt;a href=&#34;https://developer.nvidia.com/academic_gpu_seeding&#34; target=&#34;_blank&#34;&gt;NVIDIA GPU Grant&lt;/a&gt; was accepted! As part of this grant, I will receive a &lt;a href=&#34;https://www.nvidia.com/en-us/titan/titan-xp/&#34; target=&#34;_blank&#34;&gt;NVIDIA Titan XP GPU&lt;/a&gt; to perform my research on deep learning techniques for OCT image analysis. I would really like to thank the NVIDIA Corporation for providing me with this cutting-edge hardware that will certainly help me to improve the efficiency of my methods.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Moving to Vienna!</title>
+      <link>https://ignaciorlando.github.io/post/news-optima/</link>
+      <pubDate>Mon, 01 Jan 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/news-optima/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m glad to tell you, guys, that since next week I will be formally part of the &lt;a href=&#34;https://optima.meduniwien.ac.at/&#34; target=&#34;_blank&#34;&gt;Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA)&lt;/a&gt;, a multidisciplinary research team that belongs to the Department of Ophthalmology and Optometry of the Medical University of Vienna (Austria). I&amp;rsquo;m joining the laboratory as a Postdoctoral Research Associate, working on automated OCT image analysis using deep learning techniques. My research will be funded by the project WWTF AugUniWien / FA746A0249. I&amp;rsquo;m really looking forward to start to work with this amazing team!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Retinal blood vessel segmentation in high resolution fundus photographs using automated parameter estimation</title>
       <link>https://ignaciorlando.github.io/talk/sipaim2017/</link>
       <pubDate>Fri, 06 Oct 2017 15:00:00 +0000</pubDate>
@@ -46,6 +66,10 @@ Embed your slides or video here using [shortcodes](https://gcushen.github.io/hug
       
       <guid>https://ignaciorlando.github.io/post/news-phd-defense/</guid>
       <description>&lt;p&gt;Yesterday, September 21th 2017, I have officially defended my PhD thesis!! It was entitled &amp;ldquo;Machine learning for ophthalmic screening and diagnostics from fundus images&amp;rdquo;. You can find its English version &lt;a href=&#34;https://lirias.kuleuven.be/bitstream/123456789/592162/1/tesis.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, and the Spanish version &lt;a href=&#34;http://www.ridaa.unicen.edu.ar/xmlui/handle/123456789/1476&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Most of the code of each of the contributions is available on my github profile. Feel free to clone the repositories and experiment with them!&lt;/p&gt;
+
+&lt;p&gt;I would like to thank my supervisors, Matthew and Mariana, for guiding me through all this years. I would also like to thank the members of the jury, Prof. Dr. José M. Massa, Prof. Dra. Virginia Ballarin and Prof. Dr. Pablo Granitto, for carefully reading the thesis.&lt;/p&gt;
+
+&lt;p&gt;Now I will continue working as a postdoc at PLADEMA, until 2018, when I&amp;rsquo;m leaving to Vienna to join the Christian Doppler Laboratory for Ophthalmic Image Analysis.&lt;/p&gt;
 </description>
     </item>
     
