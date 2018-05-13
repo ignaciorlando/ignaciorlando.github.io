@@ -16,6 +16,7 @@ url_pdf = ""
 url_project = ""
 url_slides = ""
 url_video = ""
+selected = true
 
 
 # Optional featured image (relative to `static/img/` folder).
