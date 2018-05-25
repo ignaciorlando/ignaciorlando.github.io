@@ -2,7 +2,7 @@
 abstract = "Glaucoma is the leading cause of irreversible but preventable blindness in the world. Its major treatable risk factor is the intra-ocular pressure, although other biomarkers are being explored to improve the understanding of the pathophysiology of the disease. It has been recently observed that glaucoma induces changes in the ocular hemodynamics. However, its effects on the functional behavior of the retinal arterioles have not been studied yet. In this paper we propose a first approach for characterizing those changes using computational hemodynamics predicted from patient specific retinal arborizations. The retinal blood flow is simulated using a 0D model for a steady, incompressible non Newtonian fluid in rigid domains. The simulation is performed on patient-specific arterial trees extracted from fundus images. We also propose a novel feature representation technique to comprise the outcomes of the simulation stage into a fixed length feature vector that can be used for classification studies. Our experiments on a new database of fundus images show that our approach is able to capture representative changes in the hemodynamics of glaucomatous patients. Code and data is available in this website."
 authors = ["JI Orlando", "J Barbosa Breda", "K van Keer", "MB Blaschko", "PJ Blanco", "C Bulant"]
 abstract_short = ""
-date = "2018-09-16"
+date = "2018-01-01"
 image_preview = ""
 math = true
 publication_types = ["1"]

@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
-    <lastBuildDate>Thu, 05 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Towards a glaucoma risk index based on simulated hemodynamics from fundus images</title>
+      <link>https://ignaciorlando.github.io/publication/miccai-hemodynamics/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/miccai-hemodynamics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Retinal blood vessel segmentation in high resolution fundus photographs using automated feature parameter estimation</title>
