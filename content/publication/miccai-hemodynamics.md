@@ -8,15 +8,14 @@ math = true
 publication_types = ["1"]
 publication = "In *International Conference on Medical Image Computing and Computer Assisted Intervention*, MICCAI."
 publication_short = "In *MICCAI 2018*"
-selected = false
+selected = true
 title = "Towards a glaucoma risk index based on simulated hemodynamics from fundus images"
 url_code = "https://github.com/ignaciorlando/glaucoma-hemodynamics"
-url_dataset = "https://app.box.com/s/evh4su6waptzoicj56jxgr503nwu4fqt"
+url_dataset = ""
 url_pdf = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-selected = true
 
 
 # Optional featured image (relative to `static/img/` folder).
