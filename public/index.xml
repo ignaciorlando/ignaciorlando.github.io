@@ -23,6 +23,23 @@
     </item>
     
     <item>
+      <title>Our paper was accepted for MICCAI 2018!</title>
+      <link>https://ignaciorlando.github.io/post/news-miccai-2018/</link>
+      <pubDate>Wed, 14 Feb 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/news-miccai-2018/</guid>
+      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&amp;rdquo; has been accepted for presentation in MICCAI 2018!
+In this article we present one of the first attempts to characterize the hemodynamics of the retinal arterioles og glaucomatous patients. To this end, we have used a 0D model for simulating the blood flow in patient specific segmentations of the arteries, and proposed a novel dictionary-learning based strategy for summarizing all the hemodynamic outcomes into a fixed length feature vector. By means of this approach we want to perform clinical studies on large populations to understand the hemodynamics of glaucomatous patients!&lt;/p&gt;
+
+&lt;p&gt;We have good news for you, btw! Jointly with the manuscript, we will also release our code&amp;hellip; and data! In particular, we have built LES-AV, a set of 22 fundus photographs taken from the Leuven Eye Study. The images include not only manual annotations of the retinal vessels, but also their classification into arteries and veins.&lt;/p&gt;
+
+&lt;p&gt;This work was part of a collaboration with João Barbosa Breda, Karel van Keer, Matthew B. Blascko, Pablo J. Blanco and Carlos A. Bulant. This is also part of the work that I made after defending my thesis in Argentina, and before moving to Vienna to join OPTIMA. So, yeah, it is cool to see CONICET again in the MICCAI proceedings :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/miccai2018header.png&#34; alt=&#34;Brief description of our pipeline&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Moving to Vienna!</title>
       <link>https://ignaciorlando.github.io/post/news-optima/</link>
       <pubDate>Mon, 01 Jan 2018 12:00:00 +0000</pubDate>
