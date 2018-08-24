@@ -16,6 +16,9 @@ url_pdf = "https://hal-ecp.archives-ouvertes.fr/file/index/docid/1024226/filenam
 url_project = "http://pages.saclay.inria.fr/matthew.blaschko/projects/retina/"
 url_slides = ""
 url_video = ""
+[[url_custom]]
+    name = "Poster"
+    url = "pdf/miccai_2014_poster.pdf"
 
 
 # Optional featured image (relative to `static/img/` folder).
