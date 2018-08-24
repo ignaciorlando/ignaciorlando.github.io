@@ -1,7 +1,7 @@
 +++
 date = "2018-07-24T12:00:00"
 draft = false
-tags = ["news"]
+tags = ["news", "english"]
 title = "REFUGE: Retinal Fundus Glaucoma Challenge"
 math = true
 summary = """REFUGE as part of OMIA, at MICCAI 2018"""

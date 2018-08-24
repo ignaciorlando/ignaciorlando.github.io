@@ -1,7 +1,7 @@
 +++
 date = "2018-02-14T12:00:00"
 draft = false
-tags = ["news"]
+tags = ["news", "english"]
 title = "NVIDIA Hardware Grant"
 math = true
 summary = """My application to the NVIDIA Hardware Grant was successful!"""

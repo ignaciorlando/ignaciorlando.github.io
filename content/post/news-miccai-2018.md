@@ -1,7 +1,7 @@
 +++
 date = "2018-05-25T12:00:00"
 draft = false
-tags = ["news"]
+tags = ["news", "english"]
 title = "Our paper was accepted for MICCAI 2018!"
 math = true
 summary = """Our paper with João Barbosa Breda, Karel van Keer, Matthew B. Blascko, Pablo J. Blanco and Carlos A. Bulant has been accepted for presentation in MICCAI 2018."""

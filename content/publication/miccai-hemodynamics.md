@@ -16,6 +16,9 @@ url_pdf = "http://arxiv.org/abs/1805.10273"
 url_project = ""
 url_slides = ""
 url_video = ""
+[[url_custom]]
+    name = "Poster"
+    url = "pdf/miccai_2018_poster.pdf"
 
 
 # Optional featured image (relative to `static/img/` folder).

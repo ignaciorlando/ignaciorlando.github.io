@@ -1,7 +1,7 @@
 +++
 date = "2017-09-22T12:00:00"
 draft = false
-tags = ["news"]
+tags = ["news", "english"]
 title = "I've defended my PhD thesis!"
 math = true
 summary = """In September 11 I've defended my PhD thesis."""

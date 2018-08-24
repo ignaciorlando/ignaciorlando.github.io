@@ -1,7 +1,7 @@
 +++
 date = "2018-01-01T12:00:00"
 draft = false
-tags = ["news"]
+tags = ["news", "english"]
 title = "Moving to Vienna!"
 math = true
 summary = """Joining OPTIMA."""
