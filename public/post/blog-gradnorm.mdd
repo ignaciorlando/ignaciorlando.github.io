@@ -1,0 +1,12 @@
++++
+date = "2018-07-24T12:00:00"
+draft = false
+tags = ["blog", "deep-learning", "multitask-learning", "english"]
+title = "Understanding GradNorm"
+math = true
+summary = """Some of my notes for understanding GradNorm: Gradient Normalization for Adaptive Loss Balancing in Deep Multitask Networks"""
++++
+
+#![REFUGE](/img/headers/logo_refuge_header.png)
+
+Our purpose is to learn a series of weights $w_i(t)$ such that they move the losses to a common scale

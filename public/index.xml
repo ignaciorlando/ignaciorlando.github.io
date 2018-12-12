@@ -11,6 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Presentation at UBA</title>
+      <link>https://ignaciorlando.github.io/post/news-presentation/</link>
+      <pubDate>Fri, 07 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/news-presentation/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/headers/uba-presentation.jpg&#34; alt=&#34;Presentation&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In December 7th I gave a lecture on machine learning for ophthalmic image analysis at the University of Buenos Aires (UBA, Argentina).
+This talk was part of the closure event of the &amp;ldquo;Deep Learning for Medical Image Analysis&amp;rdquo; course that &lt;a href=&#34;https://eferrante.github.io/&#34; target=&#34;_blank&#34;&gt;Enzo Ferrante&lt;/a&gt;
+taught at the Faculty of Exact Sciences. Thanks Enzo for the invitation!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>REFUGE: Retinal Fundus Glaucoma Challenge</title>
       <link>https://ignaciorlando.github.io/post/news-refuge/</link>
       <pubDate>Tue, 24 Jul 2018 12:00:00 +0000</pubDate>

@@ -8,7 +8,82 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://ignaciorlando.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://ignaciorlando.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/home/about/</guid>
+      <description>Biography Hi everyone! I&amp;rsquo;m José Ignacio Orlando, but you can call me Nacho :) I&amp;rsquo;m an Argentinian researcher currently working as a postdoc in the Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA), at the Medical University of Vienna (Austria). In 2013 I&amp;rsquo;ve received my Software Engineering degree from UNICEN (Tandil, Argentina), and in September 2017 I&amp;rsquo;ve defended my PhD thesis in Computational and Industrial Mathematics in the same university.</description>
+    </item>
+    
+    <item>
+      <title>Recent publications</title>
+      <link>https://ignaciorlando.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://ignaciorlando.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://ignaciorlando.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://ignaciorlando.github.io/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://ignaciorlando.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://ignaciorlando.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/home/teaching/</guid>
+      <description>I have been a Teaching Assistant in the following courses at UNICEN (Argentina):
+ Workshop on Medical Image Analysis (2014-2018) Workshop on Computational Mathematics (2015-2018) Information Theory (2013-2016) Software Development Methodologies (2010-2012)  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://ignaciorlando.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

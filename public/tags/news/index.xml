@@ -7,8 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
-    <lastBuildDate>Tue, 24 Jul 2018 12:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/news/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Dec 2018 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ignaciorlando.github.io/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Presentation at UBA</title>
+      <link>https://ignaciorlando.github.io/post/news-presentation/</link>
+      <pubDate>Fri, 07 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/news-presentation/</guid>
+      <description>In December 7th I gave a lecture on machine learning for ophthalmic image analysis at the University of Buenos Aires (UBA, Argentina). This talk was part of the closure event of the &amp;ldquo;Deep Learning for Medical Image Analysis&amp;rdquo; course that Enzo Ferrante taught at the Faculty of Exact Sciences. Thanks Enzo for the invitation!</description>
+    </item>
     
     <item>
       <title>REFUGE: Retinal Fundus Glaucoma Challenge</title>
@@ -16,12 +27,8 @@
       <pubDate>Tue, 24 Jul 2018 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-refuge/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/headers/logo_refuge_header.png&#34; alt=&#34;REFUGE&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We kindly invite you to participate in the &lt;a href=&#34;https://refuge.grand-challenge.org/&#34; target=&#34;_blank&#34;&gt;REFUGE challenge&lt;/a&gt; on glaucoma detection in fundus images, as part of the &lt;a href=&#34;https://sites.google.com/site/mwomia2018/&#34; target=&#34;_blank&#34;&gt;Ophthalmic Medical Image Analysis (OMIA) workshop&lt;/a&gt; at &lt;a href=&#34;https://www.miccai2018.org/&#34; target=&#34;_blank&#34;&gt;MICCAI 2018&lt;/a&gt; in Granada (Spain).&lt;/p&gt;
-
-&lt;p&gt;The deadline for submitting your results on the validation set either for glaucoma detection, optic disc/cup segmentation and/or fovea detection is this Friday 28th!&lt;/p&gt;
-</description>
+      <description>We kindly invite you to participate in the REFUGE challenge on glaucoma detection in fundus images, as part of the Ophthalmic Medical Image Analysis (OMIA) workshop at MICCAI 2018 in Granada (Spain).
+The deadline for submitting your results on the validation set either for glaucoma detection, optic disc/cup segmentation and/or fovea detection is this Friday 28th!</description>
     </item>
     
     <item>
@@ -30,15 +37,7 @@
       <pubDate>Fri, 25 May 2018 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-miccai-2018/</guid>
-      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&amp;rdquo; has been accepted for presentation in MICCAI 2018!
-In this article we present one of the first attempts to characterize the hemodynamics of the retinal arterioles og glaucomatous patients. To this end, we have used a 0D model for simulating the blood flow in patient specific segmentations of the arteries, and proposed a novel dictionary-learning based strategy for summarizing all the hemodynamic outcomes into a fixed length feature vector. By means of this approach we want to perform clinical studies on large populations to understand the hemodynamics of glaucomatous patients!&lt;/p&gt;
-
-&lt;p&gt;We have good news for you, btw! Jointly with the manuscript, we will also release our code&amp;hellip; and data In particular, we have built LES-AV, a set of 22 fundus photographs taken from the Leuven Eye Study. The images include not only manual annotations of the retinal vessels, but also their classification into arteries and veins.&lt;/p&gt;
-
-&lt;p&gt;This work was part of a collaboration with João Barbosa Breda, Karel van Keer, Matthew B. Blascko, Pablo J. Blanco and Carlos A. Bulant. This is also part of the work that I made after defending my thesis in Argentina, and before moving to Vienna to join OPTIMA. So, yeah, it is cool to see CONICET again in the MICCAI proceedings :)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/miccai2018header.png&#34; alt=&#34;Brief description of our pipeline&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Our paper entitled &amp;ldquo;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&amp;rdquo; has been accepted for presentation in MICCAI 2018! In this article we present one of the first attempts to characterize the hemodynamics of the retinal arterioles og glaucomatous patients. To this end, we have used a 0D model for simulating the blood flow in patient specific segmentations of the arteries, and proposed a novel dictionary-learning based strategy for summarizing all the hemodynamic outcomes into a fixed length feature vector.</description>
     </item>
     
     <item>
@@ -47,10 +46,7 @@ In this article we present one of the first attempts to characterize the hemodyn
       <pubDate>Wed, 14 Feb 2018 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-nvidia/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/titanxp.jpg&#34; alt=&#34;My Titan XP GPU&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My application for the &lt;a href=&#34;https://developer.nvidia.com/academic_gpu_seeding&#34; target=&#34;_blank&#34;&gt;NVIDIA GPU Grant&lt;/a&gt; was accepted! As part of this grant, I will receive a &lt;a href=&#34;https://www.nvidia.com/en-us/titan/titan-xp/&#34; target=&#34;_blank&#34;&gt;NVIDIA Titan XP GPU&lt;/a&gt; to perform my research on deep learning techniques for OCT image analysis. I would really like to thank the NVIDIA Corporation for providing me with this cutting-edge hardware that will certainly help me to improve the efficiency of my methods.&lt;/p&gt;
-</description>
+      <description>My application for the NVIDIA GPU Grant was accepted! As part of this grant, I will receive a NVIDIA Titan XP GPU to perform my research on deep learning techniques for OCT image analysis. I would really like to thank the NVIDIA Corporation for providing me with this cutting-edge hardware that will certainly help me to improve the efficiency of my methods.</description>
     </item>
     
     <item>
@@ -59,10 +55,7 @@ In this article we present one of the first attempts to characterize the hemodyn
       <pubDate>Mon, 01 Jan 2018 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-optima/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/meduniwien.jpg&#34; alt=&#34;The entrance to the Medical University of Vienna&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m glad to tell you, guys, that since next week I will be formally part of the &lt;a href=&#34;https://optima.meduniwien.ac.at/&#34; target=&#34;_blank&#34;&gt;Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA)&lt;/a&gt;, a multidisciplinary research team that belongs to the Department of Ophthalmology and Optometry of the Medical University of Vienna (Austria). I&amp;rsquo;m joining the laboratory as a Postdoctoral Research Associate, working on automated OCT image analysis using deep learning techniques. My research will be funded by the project WWTF AugUniWien / FA746A0249. I&amp;rsquo;m really looking forward to start to work with this amazing team!&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m glad to tell you, guys, that since next week I will be formally part of the Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA), a multidisciplinary research team that belongs to the Department of Ophthalmology and Optometry of the Medical University of Vienna (Austria). I&amp;rsquo;m joining the laboratory as a Postdoctoral Research Associate, working on automated OCT image analysis using deep learning techniques. My research will be funded by the project WWTF AugUniWien / FA746A0249.</description>
     </item>
     
     <item>
@@ -71,12 +64,8 @@ In this article we present one of the first attempts to characterize the hemodyn
       <pubDate>Fri, 22 Sep 2017 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-phd-defense/</guid>
-      <description>&lt;p&gt;Yesterday, September 21th 2017, I have officially defended my PhD thesis!! It was entitled &amp;ldquo;Machine learning for ophthalmic screening and diagnostics from fundus images&amp;rdquo;. You can find its English version &lt;a href=&#34;https://lirias.kuleuven.be/bitstream/123456789/592162/1/tesis.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, and the Spanish version &lt;a href=&#34;http://www.ridaa.unicen.edu.ar/xmlui/handle/123456789/1476&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Most of the code of each of the contributions is available on my github profile. Feel free to clone the repositories and experiment with them!&lt;/p&gt;
-
-&lt;p&gt;I would like to thank my supervisors, Matthew and Mariana, for guiding me through all this years. I would also like to thank the members of the jury, Prof. Dr. José M. Massa, Prof. Dra. Virginia Ballarin and Prof. Dr. Pablo Granitto, for carefully reading the thesis.&lt;/p&gt;
-
-&lt;p&gt;Now I will continue working as a postdoc at PLADEMA, until 2018, when I&amp;rsquo;m leaving to Vienna to join the Christian Doppler Laboratory for Ophthalmic Image Analysis.&lt;/p&gt;
-</description>
+      <description>Yesterday, September 21th 2017, I have officially defended my PhD thesis!! It was entitled &amp;ldquo;Machine learning for ophthalmic screening and diagnostics from fundus images&amp;rdquo;. You can find its English version here, and the Spanish version here. Most of the code of each of the contributions is available on my github profile. Feel free to clone the repositories and experiment with them!
+I would like to thank my supervisors, Matthew and Mariana, for guiding me through all this years.</description>
     </item>
     
   </channel>
