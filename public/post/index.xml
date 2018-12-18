@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Two papers accepted for ISBI 2019!</title>
+      <link>https://ignaciorlando.github.io/post/news-isbi-2019/</link>
+      <pubDate>Tue, 18 Dec 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/news-isbi-2019/</guid>
+      <description>Excellent news to finish an amazing year of work as OPTIMA! We got two papers accepted for presentation at ISBI 2019 :)
+&amp;ldquo;U2-Net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans&amp;rdquo; describes a novel U-shaped architecture for photoreceptor layer segmentation in OCT scans. We modified the basic U-Net with LeakyReLUs, batch normalization and dropout to improve the original segmentation performance. Additionally, we used epistemic uncertainty estimation based on Monte Carlo sampling with dropout on test time to provide qualitative feedback about potential errors of the network.</description>
+    </item>
+    
+    <item>
       <title>Presentation at UBA</title>
       <link>https://ignaciorlando.github.io/post/news-uba-presentation/</link>
       <pubDate>Fri, 07 Dec 2018 12:00:00 +0000</pubDate>
