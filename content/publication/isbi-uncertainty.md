@@ -18,8 +18,8 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/isbi-uncertainty.png"
-caption = "Qualitative results of our U2-Net. From top to bottom: B-scan, manual annotation, automated segmentation, epistemic uncertainty map."
+image = "headers/ISBI_2019_banner_web-960.jpg"
+caption = ""
 
 
 +++
