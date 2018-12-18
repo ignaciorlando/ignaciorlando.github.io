@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>U2-Net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans</title>
+      <link>https://ignaciorlando.github.io/publication/isbi-uncertainty/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/isbi-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Presentation at UBA</title>
       <link>https://ignaciorlando.github.io/post/news-uba-presentation/</link>
       <pubDate>Fri, 07 Dec 2018 12:00:00 +0000</pubDate>
@@ -175,15 +184,6 @@ Embed your slides or video here using [shortcodes](https://gcushen.github.io/hug
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/publication/medphys-fractals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Convolutional neural network transfer for automated glaucoma identification</title>
-      <link>https://ignaciorlando.github.io/publication/sipaim-glaucoma/</link>
-      <pubDate>Mon, 05 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/publication/sipaim-glaucoma/</guid>
       <description></description>
     </item>
     
