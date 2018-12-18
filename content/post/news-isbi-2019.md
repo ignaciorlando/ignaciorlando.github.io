@@ -7,7 +7,7 @@ math = true
 summary = """Our two papers on automated retinal OCT image analysis using deep learning have been accepted for presentation at ISBI 2019."""
 +++
 
-![Brief description of our pipeline](/img/ISBI_2019_banner_web-960.jpg)
+![](/img/headers/ISBI_2019_banner_web-960.jpg)
 
 Excellent news to finish an amazing year of work as OPTIMA! We got two papers accepted for presentation at ISBI 2019 :)
 
