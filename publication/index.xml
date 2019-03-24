@@ -13,11 +13,29 @@
     
     
     <item>
+      <title>Improving realism in patient-specific abdominal Ultrasound simulation using CycleGANs</title>
+      <link>https://ignaciorlando.github.io/publication/cars-us-simulation/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/cars-us-simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>U2-Net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans</title>
       <link>https://ignaciorlando.github.io/publication/isbi-uncertainty/</link>
       <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/publication/isbi-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using CycleGANs for effectively reducing image variability across OCT devices and improving retinal fluid segmentation</title>
+      <link>https://ignaciorlando.github.io/publication/isbi-cyclegan/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/isbi-cyclegan/</guid>
       <description></description>
     </item>
     

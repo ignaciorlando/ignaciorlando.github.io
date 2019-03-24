@@ -29,11 +29,29 @@
     </item>
     
     <item>
+      <title>Improving realism in patient-specific abdominal Ultrasound simulation using CycleGANs</title>
+      <link>https://ignaciorlando.github.io/publication/cars-us-simulation/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/cars-us-simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>U2-Net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans</title>
       <link>https://ignaciorlando.github.io/publication/isbi-uncertainty/</link>
       <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/publication/isbi-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using CycleGANs for effectively reducing image variability across OCT devices and improving retinal fluid segmentation</title>
+      <link>https://ignaciorlando.github.io/publication/isbi-cyclegan/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/isbi-cyclegan/</guid>
       <description></description>
     </item>
     
@@ -167,24 +185,6 @@ Embed your slides or video here using [shortcodes](https://gcushen.github.io/hug
 
 &lt;p&gt;Now I will continue working as a postdoc at PLADEMA, until 2018, when I&amp;rsquo;m leaving to Vienna to join the Christian Doppler Laboratory for Ophthalmic Image Analysis.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>A Discriminatively Trained Fully Connected Conditional Random Field Model for Blood Vessel Segmentation in Fundus Images</title>
-      <link>https://ignaciorlando.github.io/publication/tbme-vessels/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/publication/tbme-vessels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Proliferative Diabetic Retinopathy Characterization based on Fractal Features: Evaluation on a Publicly Available Data Set</title>
-      <link>https://ignaciorlando.github.io/publication/medphys-fractals/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/publication/medphys-fractals/</guid>
-      <description></description>
     </item>
     
   </channel>
