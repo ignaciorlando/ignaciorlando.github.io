@@ -11,6 +11,17 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>U2-Net: A Bayesian U-Net Model with Epistemic Uncertainty Feedback for Photoreceptor Layer Segmentation in Pathological OCT Scans</title>
+      <link>https://ignaciorlando.github.io/talk/isbi2019/</link>
+      <pubDate>Wed, 10 Apr 2019 15:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/talk/isbi2019/</guid>
+      <description>&lt;!--- and
+Embed your slides or video here using [shortcodes](https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.---&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Two papers accepted for ISBI 2019!</title>
       <link>https://ignaciorlando.github.io/post/news-2018-12-18-isbi/</link>
       <pubDate>Tue, 18 Dec 2018 12:00:00 +0000</pubDate>
@@ -53,6 +64,17 @@
       
       <guid>https://ignaciorlando.github.io/publication/isbi-cyclegan/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning for ophthalmic image analysis</title>
+      <link>https://ignaciorlando.github.io/talk/uba2018/</link>
+      <pubDate>Fri, 07 Dec 2018 15:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/talk/uba2018/</guid>
+      <description>&lt;!--- and
+Embed your slides or video here using [shortcodes](https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.---&gt;
+</description>
     </item>
     
     <item>
@@ -134,17 +156,6 @@ In this article we present one of the first attempts to characterize the hemodyn
     </item>
     
     <item>
-      <title>Machine learning for ophthalmic image analysis</title>
-      <link>https://ignaciorlando.github.io/talk/uba2018/</link>
-      <pubDate>Thu, 07 Dec 2017 15:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/talk/uba2018/</guid>
-      <description>&lt;!--- and
-Embed your slides or video here using [shortcodes](https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.---&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Retinal blood vessel segmentation in high resolution fundus photographs using automated parameter estimation</title>
       <link>https://ignaciorlando.github.io/talk/sipaim2017/</link>
       <pubDate>Fri, 06 Oct 2017 15:00:00 +0000</pubDate>
@@ -171,20 +182,6 @@ Embed your slides or video here using [shortcodes](https://gcushen.github.io/hug
       
       <guid>https://ignaciorlando.github.io/publication/cmpb-redlesions/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>I&#39;ve defended my PhD thesis!</title>
-      <link>https://ignaciorlando.github.io/post/news-2017-09-22-phd-defense/</link>
-      <pubDate>Fri, 22 Sep 2017 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/post/news-2017-09-22-phd-defense/</guid>
-      <description>&lt;p&gt;Yesterday, September 21th 2017, I have officially defended my PhD thesis!! It was entitled &amp;ldquo;Machine learning for ophthalmic screening and diagnostics from fundus images&amp;rdquo;. You can find its English version &lt;a href=&#34;https://lirias.kuleuven.be/bitstream/123456789/592162/1/tesis.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, and the Spanish version &lt;a href=&#34;http://www.ridaa.unicen.edu.ar/xmlui/handle/123456789/1476&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Most of the code of each of the contributions is available on my github profile. Feel free to clone the repositories and experiment with them!&lt;/p&gt;
-
-&lt;p&gt;I would like to thank my supervisors, Matthew and Mariana, for guiding me through all this years. I would also like to thank the members of the jury, Prof. Dr. José M. Massa, Prof. Dra. Virginia Ballarin and Prof. Dr. Pablo Granitto, for carefully reading the thesis.&lt;/p&gt;
-
-&lt;p&gt;Now I will continue working as a postdoc at PLADEMA, until 2018, when I&amp;rsquo;m leaving to Vienna to join the Christian Doppler Laboratory for Ophthalmic Image Analysis.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

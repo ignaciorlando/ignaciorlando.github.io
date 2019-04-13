@@ -13,9 +13,18 @@
     
     
     <item>
+      <title>U2-Net: A Bayesian U-Net Model with Epistemic Uncertainty Feedback for Photoreceptor Layer Segmentation in Pathological OCT Scans</title>
+      <link>https://ignaciorlando.github.io/talk/isbi2019/</link>
+      <pubDate>Wed, 10 Apr 2019 15:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/talk/isbi2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Machine learning for ophthalmic image analysis</title>
       <link>https://ignaciorlando.github.io/talk/uba2018/</link>
-      <pubDate>Thu, 07 Dec 2017 15:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Dec 2018 15:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/talk/uba2018/</guid>
       <description></description>
