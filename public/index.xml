@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Multiclass segmentation as multitask learning for drusen segmentation in retinal optical coherence tomography</title>
+      <link>https://ignaciorlando.github.io/publication/miccai-drusen/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/miccai-drusen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Exploiting Epistemic Uncertainty of Anatomy Segmentation for Anomaly Detection in Retinal OCT</title>
       <link>https://ignaciorlando.github.io/publication/tmi-anomaly/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
@@ -173,15 +182,6 @@ In this article we present one of the first attempts to characterize the hemodyn
       <description>&lt;!--- and
 Embed your slides or video here using [shortcodes](https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.---&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Retinal blood vessel segmentation in high resolution fundus photographs using automated feature parameter estimation</title>
-      <link>https://ignaciorlando.github.io/publication/sipaim-highres/</link>
-      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/publication/sipaim-highres/</guid>
-      <description></description>
     </item>
     
   </channel>
