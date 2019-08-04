@@ -37,6 +37,23 @@ In this article we present a hybrid approach towards US simulation that combines
     </item>
     
     <item>
+      <title>Our paper was accepted for MICCAI!</title>
+      <link>https://ignaciorlando.github.io/post/news-2019-06-05/</link>
+      <pubDate>Wed, 05 Jun 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/news-2019-06-05/</guid>
+      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Multiclass segmentation as multitask learning for drusen segmentation in retinal optical coherence tomography&amp;rdquo; has been accepted for publication at MICCAI 2019!
+Drusen segmentation in OCT is a challenging task. In general, it is posed either as a binary segmentation problem (drusen vs. everything else) or as a layer segmentation problem (by detecting the outer boundary of the RPE and the Bruch&amp;rsquo;s membrane). Each approach has its advantages and disadvantages: binary segmentation might be prone to false positives in areas that are not anatomically plausible, while layer segmentation might fail under the presence of large drusenoid deposits. In this paper we propose to take the best of each world by posing a multiclass segmentation problem in which we target both layers and drusen. Furthermore, instead of training a single, large capacity U-Net model with a multiclass cross entropy loss, we propose to benefit from multitask learning. To this end, we disentangle the multiclass problem as a series of binary segmentation tasks, and we assign to each of them its own decoder, while sharing a single encoder through skip connections. We also analyze if adding connections between the decoders for the layers with the decoder of the drusen segmentation task helps or not. In our experiments we observed better performance when no gradient flow is allowed through these extra connections.&lt;/p&gt;
+
+&lt;p&gt;If you have other problems with &amp;ldquo;sandwiched&amp;rdquo; classes, then maybe this idea can help you to boost your performance :)&lt;/p&gt;
+
+&lt;p&gt;This paper is part of Rhona Asgari&amp;rsquo;s PhD thesis, supervised by Hrvoje Bogunović at OPTIMA.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;headers/miccai2019header.png&#34; alt=&#34;Brief description of our pipeline&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Exploiting Epistemic Uncertainty of Anatomy Segmentation for Anomaly Detection in Retinal OCT</title>
       <link>https://ignaciorlando.github.io/publication/tmi-anomaly/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
@@ -176,18 +193,6 @@ In this article we present one of the first attempts to characterize the hemodyn
       <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/titanxp.jpg&#34; alt=&#34;My Titan XP GPU&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My application for the &lt;a href=&#34;https://developer.nvidia.com/academic_gpu_seeding&#34; target=&#34;_blank&#34;&gt;NVIDIA GPU Grant&lt;/a&gt; was accepted! As part of this grant, I will receive a &lt;a href=&#34;https://www.nvidia.com/en-us/titan/titan-xp/&#34; target=&#34;_blank&#34;&gt;NVIDIA Titan XP GPU&lt;/a&gt; to perform my research on deep learning techniques for OCT image analysis. I would really like to thank the NVIDIA Corporation for providing me with this cutting-edge hardware that will certainly help me to improve the efficiency of my methods.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Moving to Vienna!</title>
-      <link>https://ignaciorlando.github.io/post/news-2018-01-01-optima/</link>
-      <pubDate>Mon, 01 Jan 2018 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/post/news-2018-01-01-optima/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/meduniwien.jpg&#34; alt=&#34;The entrance to the Medical University of Vienna&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m glad to tell you, guys, that since next week I will be formally part of the &lt;a href=&#34;https://optima.meduniwien.ac.at/&#34; target=&#34;_blank&#34;&gt;Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA)&lt;/a&gt;, a multidisciplinary research team that belongs to the Department of Ophthalmology and Optometry of the Medical University of Vienna (Austria). I&amp;rsquo;m joining the laboratory as a Postdoctoral Research Associate, working on automated OCT image analysis using deep learning techniques. My research will be funded by the project WWTF AugUniWien / FA746A0249. I&amp;rsquo;m really looking forward to start to work with this amazing team!&lt;/p&gt;
 </description>
     </item>
     

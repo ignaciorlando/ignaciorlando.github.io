@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Deep Learning</title>
+      <link>https://ignaciorlando.github.io/tags/deep-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>English</title>
       <link>https://ignaciorlando.github.io/tags/english/</link>
       <pubDate>Tue, 30 Jul 2019 12:00:00 +0000</pubDate>
@@ -31,11 +40,11 @@
     </item>
     
     <item>
-      <title>Fundus Image Analysis</title>
-      <link>https://ignaciorlando.github.io/tags/fundus-image-analysis/</link>
-      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <title>Medical Imaging</title>
+      <link>https://ignaciorlando.github.io/tags/medical-imaging/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ignaciorlando.github.io/tags/fundus-image-analysis/</guid>
+      <guid>https://ignaciorlando.github.io/tags/medical-imaging/</guid>
       <description></description>
     </item>
     
@@ -49,20 +58,11 @@
     </item>
     
     <item>
-      <title>Oct Image Analysis</title>
-      <link>https://ignaciorlando.github.io/tags/oct-image-analysis/</link>
+      <title>Retinal Imaging</title>
+      <link>https://ignaciorlando.github.io/tags/retinal-imaging/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ignaciorlando.github.io/tags/oct-image-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ultrasound Simulation</title>
-      <link>https://ignaciorlando.github.io/tags/ultrasound-simulation/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/tags/ultrasound-simulation/</guid>
+      <guid>https://ignaciorlando.github.io/tags/retinal-imaging/</guid>
       <description></description>
     </item>
     

@@ -26,11 +26,11 @@ view = 1
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
+  name = "Retinal imaging"
   tag = ".deep-learning"
 
 [[filter]]
-  name = "Other"
+  name = "Medical imaging"
   tag = ".demo"
 
 +++

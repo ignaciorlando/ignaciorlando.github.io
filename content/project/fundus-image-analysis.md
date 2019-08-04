@@ -13,7 +13,7 @@ image_preview = "fundus-image-analysis.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["fundus-image-analysis"]
+tags = ["deep-learning", "retinal-imaging", "medical-imaging"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
