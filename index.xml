@@ -19,11 +19,11 @@
       <description>&lt;p&gt;Our paper entitled &amp;ldquo;Improving realism in patient specific Ultrasound simulation using CycleGANs&amp;rdquo; has been accepted for publication in the International Journal of Computer Assisted Radiology and Surgery (IJCARS)!
 In this article we present a hybrid approach towards US simulation that combines ray-casting techniques with CycleGANs. The key idea is to use these generative models to alleviate the drawback of current available simulation techniques. In particular, traditional ray-casting based solutions for US simulation usually fail to model complex features such as artifacts or attenuations that are typical from this imaging modality. To overcome this difficulty, we propose to train a CycleGAN using unpaired real US scans and ray-casting based simulations. The model is then applied on simulated images to get more realistic representations. We experimentally evaluated our approach in a user study with a cohort of more than 20 participants, observing that a ResNet based generator is able to significantly improved the appeareance of the images.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;We will need more US experts to further validate our approach&lt;/em&gt;, so if you are willing to help us please contact Santiago Vitale as svitale@conicet.gov.ar.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;We will need more US experts to further validate our approach&lt;/em&gt;, so if you are willing to help us please contact Santiago Vitale as &lt;a href=&#34;mailto:svitale@conicet.gov.ar&#34; target=&#34;_blank&#34;&gt;svitale@conicet.gov.ar&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;This work was part of a collaboration with Santiago Vitale and Ignacio Larrabide, from Pladema / CONICET, and Emmanuel Iarussi, from UTN and also from CONICET.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;headers/cars-pipeline.png&#34; alt=&#34;Brief description of our pipeline&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;img/headers/cars-pipeline.png&#34; alt=&#34;Brief description of our pipeline&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -49,7 +49,7 @@ Drusen segmentation in OCT is a challenging task. In general, it is posed either
 
 &lt;p&gt;This paper is part of Rhona Asgari&amp;rsquo;s PhD thesis, supervised by Hrvoje Bogunović at OPTIMA.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;headers/miccai2019header.png&#34; alt=&#34;Brief description of our pipeline&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;img/headers/miccai2019header.png&#34; alt=&#34;Brief description of our pipeline&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
