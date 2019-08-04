@@ -12,6 +12,6 @@ In this article we present one of the first attempts to characterize the hemodyn
 
 We have good news for you, btw! Jointly with the manuscript, we will also release our code... and data In particular, we have built LES-AV, a set of 22 fundus photographs taken from the Leuven Eye Study. The images include not only manual annotations of the retinal vessels, but also their classification into arteries and veins.
 
-This work was part of a collaboration with João Barbosa Breda, Karel van Keer, Matthew B. Blascko, Pablo J. Blanco and Carlos A. Bulant. This is also part of the work that I made after defending my thesis in Argentina, and before moving to Vienna to join OPTIMA. So, yeah, it is cool to see CONICET again in the MICCAI proceedings :)
+This work was part of a collaboration with João Barbosa Breda, Karel van Keer, Matthew B. Blaschko, Pablo J. Blanco and Carlos A. Bulant. This is also part of the work that I made after defending my thesis in Argentina, and before moving to Vienna to join OPTIMA. So, yeah, it is cool to see CONICET again in the MICCAI proceedings :)
 
 ![Brief description of our pipeline](/img/miccai2018header.png)

@@ -11,6 +11,23 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Our paper was accepted for IJCARS!</title>
+      <link>https://ignaciorlando.github.io/post/news-2019-07-30/</link>
+      <pubDate>Tue, 30 Jul 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/news-2019-07-30/</guid>
+      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Improving realism in patient specific Ultrasound simulation using CycleGANs&amp;rdquo; has been accepted for publication in the International Journal of Computer Assisted Radiology and Surgery (IJCARS)!
+In this article we present a hybrid approach towards US simulation that combines ray-casting techniques with CycleGANs. The key idea is to use these generative models to alleviate the drawback of current available simulation techniques. In particular, traditional ray-casting based solutions for US simulation usually fail to model complex features such as artifacts or attenuations that are typical from this imaging modality. To overcome this difficulty, we propose to train a CycleGAN using unpaired real US scans and ray-casting based simulations. The model is then applied on simulated images to get more realistic representations. We experimentally evaluated our approach in a user study with a cohort of more than 20 participants, observing that a ResNet based generator is able to significantly improved the appeareance of the images.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We will need more US experts to further validate our approach&lt;/em&gt;, so if you are willing to help us please contact Santiago Vitale as svitale@conicet.gov.ar.&lt;/p&gt;
+
+&lt;p&gt;This work was part of a collaboration with Santiago Vitale and Ignacio Larrabide, from Pladema / CONICET, and Emmanuel Iarussi, from UTN and also from CONICET.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;headers/cars-pipeline.png&#34; alt=&#34;Brief description of our pipeline&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Multiclass segmentation as multitask learning for drusen segmentation in retinal optical coherence tomography</title>
       <link>https://ignaciorlando.github.io/publication/miccai-drusen/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
@@ -144,7 +161,7 @@ In this article we present one of the first attempts to characterize the hemodyn
 
 &lt;p&gt;We have good news for you, btw! Jointly with the manuscript, we will also release our code&amp;hellip; and data In particular, we have built LES-AV, a set of 22 fundus photographs taken from the Leuven Eye Study. The images include not only manual annotations of the retinal vessels, but also their classification into arteries and veins.&lt;/p&gt;
 
-&lt;p&gt;This work was part of a collaboration with João Barbosa Breda, Karel van Keer, Matthew B. Blascko, Pablo J. Blanco and Carlos A. Bulant. This is also part of the work that I made after defending my thesis in Argentina, and before moving to Vienna to join OPTIMA. So, yeah, it is cool to see CONICET again in the MICCAI proceedings :)&lt;/p&gt;
+&lt;p&gt;This work was part of a collaboration with João Barbosa Breda, Karel van Keer, Matthew B. Blaschko, Pablo J. Blanco and Carlos A. Bulant. This is also part of the work that I made after defending my thesis in Argentina, and before moving to Vienna to join OPTIMA. So, yeah, it is cool to see CONICET again in the MICCAI proceedings :)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/miccai2018header.png&#34; alt=&#34;Brief description of our pipeline&#34; /&gt;&lt;/p&gt;
 </description>
@@ -171,18 +188,6 @@ In this article we present one of the first attempts to characterize the hemodyn
       <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/meduniwien.jpg&#34; alt=&#34;The entrance to the Medical University of Vienna&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m glad to tell you, guys, that since next week I will be formally part of the &lt;a href=&#34;https://optima.meduniwien.ac.at/&#34; target=&#34;_blank&#34;&gt;Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA)&lt;/a&gt;, a multidisciplinary research team that belongs to the Department of Ophthalmology and Optometry of the Medical University of Vienna (Austria). I&amp;rsquo;m joining the laboratory as a Postdoctoral Research Associate, working on automated OCT image analysis using deep learning techniques. My research will be funded by the project WWTF AugUniWien / FA746A0249. I&amp;rsquo;m really looking forward to start to work with this amazing team!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Automated retinal OCT analysis</title>
-      <link>https://ignaciorlando.github.io/project/oct-image-analysis/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/project/oct-image-analysis/</guid>
-      <description>&lt;p&gt;Optical coherence tomography (OCT) is a 3D non-invasive imaging technique that allows to inspect the retina at a micrometric resolution.
-It is widely applied in ophthalmology for diagnosis and treatment planning of several diseases, including diabetic macular edema, retinal vein occlusion and age-related macular degeneration.
-In this project we are focused in introducing automated techniques for precision medicine based in this imaging modality. To this end, we develop methods for characterizing the status of the photoreceptors and to segment lesions and other abnormalities.&lt;/p&gt;
 </description>
     </item>
     
