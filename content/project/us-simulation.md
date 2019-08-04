@@ -28,4 +28,4 @@ caption = "Ultrasound simulation"
 
 +++
 
-Ultrasound (US) ia fast, low cost imaging technique that is widely use in emergency rooms. As part of this project, we are developing an automated system for US simulation, that allows to produce realistic US scans from segmented CT volumes of real patients.
+Ultrasound (US) is a fast, low cost imaging technique that is widely use in emergency rooms. As part of this project, we are developing an automated system for US simulation, that allows to produce realistic US scans from segmented CT volumes of real patients.
