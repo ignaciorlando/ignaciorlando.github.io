@@ -40,6 +40,16 @@ Embed your slides or video here using [shortcodes](https://gcushen.github.io/hug
     </item>
     
     <item>
+      <title>Ultrasound simulation</title>
+      <link>https://ignaciorlando.github.io/project/us-simulation/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/project/us-simulation/</guid>
+      <description>&lt;p&gt;Ultrasound (US) ia fast, low cost imaging technique that is widely use in emergency rooms. As part of this project, we are developing an automated system for US simulation, that allows to produce realistic US scans from segmented CT volumes of real patients.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Two papers accepted for ISBI 2019!</title>
       <link>https://ignaciorlando.github.io/post/news-2018-12-18-isbi/</link>
       <pubDate>Tue, 18 Dec 2018 12:00:00 +0000</pubDate>
@@ -165,22 +175,14 @@ In this article we present one of the first attempts to characterize the hemodyn
     </item>
     
     <item>
-      <title>Towards a glaucoma risk index based on simulated hemodynamics from fundus images</title>
-      <link>https://ignaciorlando.github.io/publication/miccai-hemodynamics/</link>
+      <title>Automated retinal OCT analysis</title>
+      <link>https://ignaciorlando.github.io/project/oct-image-analysis/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ignaciorlando.github.io/publication/miccai-hemodynamics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Retinal blood vessel segmentation in high resolution fundus photographs using automated parameter estimation</title>
-      <link>https://ignaciorlando.github.io/talk/sipaim2017/</link>
-      <pubDate>Fri, 06 Oct 2017 15:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/talk/sipaim2017/</guid>
-      <description>&lt;!--- and
-Embed your slides or video here using [shortcodes](https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.---&gt;
+      <guid>https://ignaciorlando.github.io/project/oct-image-analysis/</guid>
+      <description>&lt;p&gt;Optical coherence tomography (OCT) is a 3D non-invasive imaging technique that allows to inspect the retina at a micrometric resolution.
+It is widely applied in ophthalmology for diagnosis and treatment planning of several diseases, including diabetic macular edema, retinal vein occlusion and age-related macular degeneration.
+In this project we are focused in introducing automated techniques for precision medicine based in this imaging modality. To this end, we develop methods for characterizing the status of the photoreceptors and to segment lesions and other abnormalities.&lt;/p&gt;
 </description>
     </item>
     
