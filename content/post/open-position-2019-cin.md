@@ -32,7 +32,7 @@ Mucha suerte!
 
 ## Requisitos mínimos, preselección y fechas
 
-Los requisitos mínimos de la convocatoria podés encontrarlos en este link. En resumen, necesitás:
+Los requisitos mínimos de la convocatoria podés encontrarlos [en este link](http://evc.cin.edu.ar/attachments/article/11/B-%20REGLAMENTO%20BECAS%20EVC%202019.pdf). En resumen, necesitás:
 
 * No ser mayor de 30 años al 31 de diciembre de 2019.
 * Tener un promedio con aplazos mayor a 6 puntos.
@@ -43,6 +43,8 @@ Si además tenés algo de experiencia programando en Python o algunas ideas bás
 Aunque la convocatoria en sí no exige una preselección, analizaremos los perfiles de todos/as los/as candidatos/as que se postulen para asegurarnos que la persona seleccionada tenga muchas chances de quedar.
 
 **La fecha límite para participar de la preselección es el __1ero de octubre de 2019__. Cumplido ese plazo, tenemos tiempo hasta el __4 de octubre de 2019__ para presentar toda la documentación y presentarnos a la beca.**
+
+Por fechas de resultados y más, [consultá el calendario oficial](http://evc.cin.edu.ar/attachments/article/11/cronograma%20evc%202019.pdf).
 
 
 ---
