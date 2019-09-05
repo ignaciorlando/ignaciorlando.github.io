@@ -17,6 +17,12 @@ weight = 1
     "Computer Vision"
   ]
 
+# List of previous affiliations
+[affiliations]
+  affiliations = [
+    "2018-2019: OPTIMA / Medical University of Vienna"
+  ]
+
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "PhD in Computational and Industrial Mathematics"
