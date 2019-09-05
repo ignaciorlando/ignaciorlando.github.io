@@ -10,7 +10,7 @@ summary = """Estamos entrevistando candidatos para aplicar a las becas de estím
 ![Flyer](/img/headers/open-position-2019-cin-header.png)
 
 
-
+---
 
 ## Resumen
 
@@ -26,6 +26,8 @@ Más abajo vas a encontrar más detalles sobre la convocatoria, el proyecto y el
 
 Mucha suerte!
 
+
+---
 
 
 ## Requisitos mínimos, preselección y fechas
@@ -43,6 +45,7 @@ Aunque la convocatoria en sí no exige una preselección, analizaremos los perfi
 **La fecha límite para participar de la preselección es el __1ero de octubre de 2019__. Cumplido ese plazo, tenemos tiempo hasta el __4 de octubre de 2019__ para presentar toda la documentación y presentarnos a la beca.**
 
 
+---
 
 
 ## El proyecto
@@ -64,6 +67,7 @@ Si querés saber más, mandame un mail a jiorlando@conicet.gov.ar y nos juntamos
 * Orlando, J. I., Prokofyeva, E., & Blaschko, M. B. (2016). [A discriminatively trained fully connected conditional random field model for blood vessel segmentation in fundus images](https://ieeexplore.ieee.org/document/7420682). IEEE transactions on Biomedical Engineering, 64(1), 16-27.
 
 
+---
 
 
 ## PLADEMA
