@@ -7,4 +7,5 @@ math = true
 summary = """Estamos entrevistando candidatos para aplicar a las becas de estímulo a las vocaciones científicas EVC 2020 del CIN (Consejo Universitario Nacional)."""
 +++
 
-sdfsdfsfds
+![Flyer](/img/headers/open-position-2019-cin-header.png)
+
