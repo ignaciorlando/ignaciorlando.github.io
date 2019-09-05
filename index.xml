@@ -89,6 +89,29 @@
     </item>
     
     <item>
+      <title>Moving back to Argentina</title>
+      <link>https://ignaciorlando.github.io/post/news-2019-09-01/</link>
+      <pubDate>Sun, 01 Sep 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/news-2019-09-01/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/news-2019-09-11.png&#34; alt=&#34;Farewell to all those friends I&#39;m leaving back in Vienna!&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In September 13th I&amp;rsquo;ll be landing in Argentina to be once again part of PLADEMA, this time as an Assistant Researcher funded by CONICET.
+I&amp;rsquo;ll be joining again Yatiris, a group within PLADEMA developing cutting edge technologies for medical image analysis using computer vision, machine learning and
+pattern recognition techniques. I&amp;rsquo;ll be responsible of coordinating all the deep learning initiatives, while continuing my own line of research in computer-assisted
+ophthalmology.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s hard to say goodbye to OPTIMA and such an amazing group of talents and good people. My time in Vienna was so exciting, full of research
+projects from which I learned a lot.
+I would like to thank Prof. Schmidt-Erfurth for trusting in me for this position, and also to Bianca Gerendas, Hrvoje Bogunović, Sebastian Waldstein
+and Martin Ehler for their continuous support. I would also like to thank all of my colleagues in the lab, specially Philipp, Dominik, Antoine,
+Wolf, Rhona, David, Thomas and Sophie. Some of them have turned into really good friends of mine that I will miss a lot being abroad!&lt;/p&gt;
+
+&lt;p&gt;That being said, I&amp;rsquo;m glad to move back to Argentina to give back to the country at least a little bit in proportion to what it did to me since I was born there :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Our paper was accepted for IJCARS!</title>
       <link>https://ignaciorlando.github.io/post/news-2019-07-30/</link>
       <pubDate>Tue, 30 Jul 2019 12:00:00 +0000</pubDate>
@@ -242,23 +265,6 @@ taught at the Faculty of Exact Sciences. Thanks Enzo for the invitation!&lt;/p&g
 &lt;p&gt;We kindly invite you to participate in the &lt;a href=&#34;https://refuge.grand-challenge.org/&#34; target=&#34;_blank&#34;&gt;REFUGE challenge&lt;/a&gt; on glaucoma detection in fundus images, as part of the &lt;a href=&#34;https://sites.google.com/site/mwomia2018/&#34; target=&#34;_blank&#34;&gt;Ophthalmic Medical Image Analysis (OMIA) workshop&lt;/a&gt; at &lt;a href=&#34;https://www.miccai2018.org/&#34; target=&#34;_blank&#34;&gt;MICCAI 2018&lt;/a&gt; in Granada (Spain).&lt;/p&gt;
 
 &lt;p&gt;The deadline for submitting your results on the validation set either for glaucoma detection, optic disc/cup segmentation and/or fovea detection is this Friday 28th!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Our paper was accepted for MICCAI 2018!</title>
-      <link>https://ignaciorlando.github.io/post/news-2018-05-25-miccai/</link>
-      <pubDate>Fri, 25 May 2018 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/post/news-2018-05-25-miccai/</guid>
-      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&amp;rdquo; has been accepted for presentation in MICCAI 2018!
-In this article we present one of the first attempts to characterize the hemodynamics of the retinal arterioles og glaucomatous patients. To this end, we have used a 0D model for simulating the blood flow in patient specific segmentations of the arteries, and proposed a novel dictionary-learning based strategy for summarizing all the hemodynamic outcomes into a fixed length feature vector. By means of this approach we want to perform clinical studies on large populations to understand the hemodynamics of glaucomatous patients!&lt;/p&gt;
-
-&lt;p&gt;We have good news for you, btw! Jointly with the manuscript, we will also release our code&amp;hellip; and data In particular, we have built LES-AV, a set of 22 fundus photographs taken from the Leuven Eye Study. The images include not only manual annotations of the retinal vessels, but also their classification into arteries and veins.&lt;/p&gt;
-
-&lt;p&gt;This work was part of a collaboration with João Barbosa Breda, Karel van Keer, Matthew B. Blaschko, Pablo J. Blanco and Carlos A. Bulant. This is also part of the work that I made after defending my thesis in Argentina, and before moving to Vienna to join OPTIMA. So, yeah, it is cool to see CONICET again in the MICCAI proceedings :)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/miccai2018header.png&#34; alt=&#34;Brief description of our pipeline&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
