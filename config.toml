@@ -20,15 +20,15 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "José Ignacio Orlando"
-  role = "Postdoctoral Research Associate"
-  organization = "OPTIMA / Medical University of Vienna"
+  role = "Assistant Researcher"
+  organization = "CONICET / PLADEMA-UNICEN"
   organization_url = ""
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "jose.orlando@meduniwien.ac.at"
-  address = "Spitalgasse 23, Office 88.02.206"
+  address = "Paraje Arroyo Seco S/N"
   office_hours = "Email me for appointments!"
-  phone = "+43 1 40400 67600"
+  phone = "+54 249 438-5690"
   skype = "jio980"
   telegram = ""
 
@@ -126,7 +126,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:jose.orlando@meduniwien.ac.at"
+    link = "mailto:jiorlando@conicet.gov.ar"
 
   [[params.social]]
     icon = "twitter"
