@@ -1,6 +1,6 @@
 +++
 date = "2019-09-03T12:00:00"
-draft = true
+draft = false
 tags = ["open-positions", "español"]
 title = "Convocatoria para Estudiantes Avanzados de Ingeniería - EVC-CIN 2020"
 math = true

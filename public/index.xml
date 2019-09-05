@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Convocatoria para Estudiantes Avanzados de Ingeniería - EVC-CIN 2020</title>
+      <link>https://ignaciorlando.github.io/post/open-position-2019-cin/</link>
+      <pubDate>Tue, 03 Sep 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/open-position-2019-cin/</guid>
+      <description>&lt;p&gt;sdfsdfsfds&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Our paper was accepted for IJCARS!</title>
       <link>https://ignaciorlando.github.io/post/news-2019-07-30/</link>
       <pubDate>Tue, 30 Jul 2019 12:00:00 +0000</pubDate>
@@ -181,18 +191,6 @@ In this article we present one of the first attempts to characterize the hemodyn
 &lt;p&gt;This work was part of a collaboration with João Barbosa Breda, Karel van Keer, Matthew B. Blaschko, Pablo J. Blanco and Carlos A. Bulant. This is also part of the work that I made after defending my thesis in Argentina, and before moving to Vienna to join OPTIMA. So, yeah, it is cool to see CONICET again in the MICCAI proceedings :)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/miccai2018header.png&#34; alt=&#34;Brief description of our pipeline&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NVIDIA Hardware Grant</title>
-      <link>https://ignaciorlando.github.io/post/news-2018-02-14-nvidia/</link>
-      <pubDate>Wed, 14 Feb 2018 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/post/news-2018-02-14-nvidia/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/titanxp.jpg&#34; alt=&#34;My Titan XP GPU&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My application for the &lt;a href=&#34;https://developer.nvidia.com/academic_gpu_seeding&#34; target=&#34;_blank&#34;&gt;NVIDIA GPU Grant&lt;/a&gt; was accepted! As part of this grant, I will receive a &lt;a href=&#34;https://www.nvidia.com/en-us/titan/titan-xp/&#34; target=&#34;_blank&#34;&gt;NVIDIA Titan XP GPU&lt;/a&gt; to perform my research on deep learning techniques for OCT image analysis. I would really like to thank the NVIDIA Corporation for providing me with this cutting-edge hardware that will certainly help me to improve the efficiency of my methods.&lt;/p&gt;
 </description>
     </item>
     
