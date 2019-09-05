@@ -11,12 +11,70 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Convocatoria para Estudiantes Avanzados de Ingeniería - EVC-CIN 2020</title>
+      <title>Convocatoria para Estudiantes Avanzados de Ingeniería - EVC-CIN 2019</title>
       <link>https://ignaciorlando.github.io/post/open-position-2019-cin/</link>
       <pubDate>Tue, 03 Sep 2019 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/open-position-2019-cin/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/headers/open-position-2019-cin-header.png&#34; alt=&#34;Flyer&#34; /&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/headers/open-position-2019-cin-header.png&#34; alt=&#34;Flyer&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;resumen&#34;&gt;Resumen&lt;/h2&gt;
+
+&lt;p&gt;Estamos entrevistando estudiantes avanzados de Ingeniería de Sistemas para aplicar a las &lt;a href=&#34;http://evc.cin.edu.ar/&#34; target=&#34;_blank&#34;&gt;Becas de Estímulo a las Vocaciones Científicas (EVC) del Consejo Universitario Nacional (CIN)&lt;/a&gt;. Estas becas te permiten trabajar 12 horas semanales durante 12 meses en un proyecto de investigación específico, con la ayuda de un/a director/a. Los resultados de tu trabajo podés usarlos después como tesis de grado, o como un punto de apoyo para más adelante hacer un postgrado.&lt;/p&gt;
+
+&lt;p&gt;Dado que estas becas son muy competitivas (se dan unas 1500 para todo el país), estamos haciendo una preselección de candidatos, para asegurarnos que el/la postulante que se presente tenga muchas más chances de quedar.&lt;/p&gt;
+
+&lt;p&gt;El proyecto en el que trabajarías si saliera la beca se enfoca en desarrollar métodos basados en deep learning (aprendizaje profundo) para la caracterización de los vasos sanguíneos de la retina, usando como entrada fotografías de fondo de ojo. Queremos poder tener un algoritmo preciso que pueda segmentar el árbol vascular y clasificar cada uno de sus segmentos en arteria o vena.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Si el proyecto te interesa y te entusiasma hacer investigación en un área como esta, mandame &lt;strong&gt;antes del 1ero de octubre de 2019&lt;/strong&gt; un mail con el asunto &amp;ldquo;EVC-CIN 2019&amp;rdquo; y tu CV como adjunto a &lt;a href=&#34;mailto:jiorlando@conicet.gov.ar&#34; target=&#34;_blank&#34;&gt;jiorlando@conicet.gov.ar&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Más abajo vas a encontrar más detalles sobre la convocatoria, el proyecto y el grupo de investigación.&lt;/p&gt;
+
+&lt;p&gt;Mucha suerte!&lt;/p&gt;
+
+&lt;h2 id=&#34;requisitos-mínimos-preselección-y-fechas&#34;&gt;Requisitos mínimos, preselección y fechas&lt;/h2&gt;
+
+&lt;p&gt;Los requisitos mínimos de la convocatoria podés encontrarlos en este link. En resumen, necesitás:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No ser mayor de 30 años al 31 de diciembre de 2019.&lt;/li&gt;
+&lt;li&gt;Tener un promedio con aplazos mayor a 6 puntos.&lt;/li&gt;
+&lt;li&gt;Tener aprobados con finales más del 50% de las materias de la carrera (tené en cuenta que esto también incluye a las optativas).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si además tenés algo de experiencia programando en Python o algunas ideas básicas de machine learning o deep learning, es un plus más para nosotros, aunque no es excluyente. Sí nos parece importante que el/la candidato/a sea alguien proactivo/a y que lo/a entusiasme mucho la investigación.&lt;/p&gt;
+
+&lt;p&gt;Aunque la convocatoria en sí no exige una preselección, analizaremos los perfiles de todos/as los/as candidatos/as que se postulen para asegurarnos que la persona seleccionada tenga muchas chances de quedar.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;La fecha límite para participar de la preselección es el &lt;strong&gt;1ero de octubre de 2019&lt;/strong&gt;. Cumplido ese plazo, tenemos tiempo hasta el &lt;strong&gt;4 de octubre de 2019&lt;/strong&gt; para presentar toda la documentación y presentarnos a la beca.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;el-proyecto&#34;&gt;El proyecto&lt;/h2&gt;
+
+&lt;p&gt;Muchas enfermedades tanto visuales como sistémicas se manifiestan a través de alteraciones en la distribución o morfología del árbol vascular de la retina. Las &lt;a href=&#34;https://en.wikipedia.org/wiki/Fundus_photography&#34; target=&#34;_blank&#34;&gt;fotografías de fondo de ojo&lt;/a&gt; son una modalidad de imagen médica que permite estudiar de manera no-invasiva la retina y sus diferentes regiones anatómicas, incluyendo los vasos sanguíneos.&lt;/p&gt;
+
+&lt;p&gt;La idea central del proyecto es utilizar &lt;a href=&#34;https://en.wikipedia.org/wiki/Convolutional_neural_network&#34; target=&#34;_blank&#34;&gt;redes neuronales convolucionales (convolutional neural networks)&lt;/a&gt; para procesar fotografías de fondo de ojo y extraer información de interés sobre la morfología vascular. En particular, queremos poder desarrollar un método lo suficientemente robusto como para simultaneamente &lt;a href=&#34;https://ieeexplore.ieee.org/document/7420682&#34; target=&#34;_blank&#34;&gt;segmentar&lt;/a&gt; y &lt;a href=&#34;https://limo.libis.be/primo-explore/fulldisplay?docid=LIRIAS2811989&amp;amp;context=L&amp;amp;vid=Lirias&amp;amp;search_scope=Lirias&amp;amp;tab=default_tab&amp;amp;lang=en_US&#34; target=&#34;_blank&#34;&gt;clasificar&lt;/a&gt; cada uno de los vasos sanguíneos en arteria o vena. Contar con esta herramienta nos permitirá más adelante estudiar de forma mucho más eficiente grandes volúmenes de imágenes, y poder realizar &lt;a href=&#34;https://arxiv.org/pdf/1805.10273.pdf&#34; target=&#34;_blank&#34;&gt;simulaciones hemodinámicas&lt;/a&gt; para comprender si ciertos parámetros obtenidos de dichas simulaciones se relacionan o no con la presencia de algunas enfermedades.&lt;/p&gt;
+
+&lt;p&gt;El proyecto estará supervisado por mí. Durante el transcurso de la beca vamos a utilizar el lenguaje de programación Python y la librería para deep learning Pytorch para desarrollar los métodos propuestos, además de placas gráficas de NVIDIA para correr los experimentos. Además, la iniciativa involucra aprender conceptos muy interesantes de análisis de imagen, visión computacional y machine learning, y embarrarnos un toque con una matemática no muy áspera :)&lt;/p&gt;
+
+&lt;p&gt;Si querés saber más, mandame un mail a jiorlando@conicet.gov.ar y nos juntamos a conversar un poco más del tema. También podés encontrar más información sobre temas relacionados en algunas de nuestras publicaciones más recientes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Orlando, J. I., Breda, J. B., Van Keer, K., Blaschko, M. B., Blanco, P. J., &amp;amp; Bulant, C. A. (2018, September). &lt;a href=&#34;https://arxiv.org/abs/1805.10273&#34; target=&#34;_blank&#34;&gt;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&lt;/a&gt;. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 65-73). Springer, Cham.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Orlando, J. I., Prokofyeva, E., del Fresno, M., &amp;amp; Blaschko, M. B. (2018). &lt;a href=&#34;https://arxiv.org/abs/1706.03008&#34; target=&#34;_blank&#34;&gt;An ensemble deep learning based approach for red lesion detection in fundus images&lt;/a&gt;. Computer methods and programs in biomedicine, 153, 115-127.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Orlando, J. I., Van Keer, K., Barbosa Breda, J., Manterola, H. L., Blaschko, M. B., &amp;amp; Clausse, A. (2017). &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/29044550&#34; target=&#34;_blank&#34;&gt;Proliferative diabetic retinopathy characterization based on fractal features: Evaluation on a publicly available dataset&lt;/a&gt;. Medical physics, 44(12), 6425-6434.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Orlando, J. I., Prokofyeva, E., &amp;amp; Blaschko, M. B. (2016). &lt;a href=&#34;https://ieeexplore.ieee.org/document/7420682&#34; target=&#34;_blank&#34;&gt;A discriminatively trained fully connected conditional random field model for blood vessel segmentation in fundus images&lt;/a&gt;. IEEE transactions on Biomedical Engineering, 64(1), 16-27.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;pladema&#34;&gt;PLADEMA&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.pladema.net/&#34; target=&#34;_blank&#34;&gt;PLADEMA&lt;/a&gt; es un instituto de investigación de referencia a nivel nacional en materia de análisis de imagen médica. Ubicados en el Campus Universitario de la UNICEN, contamos con numerosos investigadores responsables distribuidos en varios grupos de investigación que se enfocan en diversas áreas, yendo desde la computación gráfica y la simulación hasta el análisis de redes de energía y sistemas de transporte.&lt;/p&gt;
+
+&lt;p&gt;Como parte de este proyecto te incorporarías a Yatiris, el grupo de análisis de imágenes médicas. Además de un excelente clima de laburo y unos muy buenos cebadores de mates, contamos con acceso a recursos de cómputo suficientes para que puedas trabajar sin inconvenientes y hacer los experimentos necesarios. Contamos además con acceso a bases de datos públicas de imágenes de la retina, y contacto con instituciones de salud en Argentina, Bélgica y Austria como para acceder a datos extra de ser necesario. Como tu potencial director, te puedo ofrecer toda la mano que necesites (incluso codeando! amo codear, jeje) y algunos años de experiencia ya laburando con este tipo de imágenes.&lt;/p&gt;
 </description>
     </item>
     
