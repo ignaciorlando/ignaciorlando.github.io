@@ -112,6 +112,15 @@ Wolf, Rhona, David, Thomas and Sophie. Some of them have turned into really good
     </item>
     
     <item>
+      <title>On Orthogonal Projections for Dimension Reduction and Applications in Augmented Target Loss Functions for Learning Problems</title>
+      <link>https://ignaciorlando.github.io/publication/jmiv-orthogonal/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/jmiv-orthogonal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Our paper was accepted for IJCARS!</title>
       <link>https://ignaciorlando.github.io/post/news-2019-07-30/</link>
       <pubDate>Tue, 30 Jul 2019 12:00:00 +0000</pubDate>
@@ -251,20 +260,6 @@ Embed your slides or video here using [shortcodes](https://gcushen.github.io/hug
 &lt;p&gt;In December 7th I gave a lecture on machine learning for ophthalmic image analysis at the University of Buenos Aires (UBA, Argentina).
 This talk was part of the closure event of the &amp;ldquo;Deep Learning for Medical Image Analysis&amp;rdquo; course that &lt;a href=&#34;https://eferrante.github.io/&#34; target=&#34;_blank&#34;&gt;Enzo Ferrante&lt;/a&gt;
 taught at the Faculty of Exact Sciences. Thanks Enzo for the invitation!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REFUGE: Retinal Fundus Glaucoma Challenge</title>
-      <link>https://ignaciorlando.github.io/post/news-2018-07-24-refuge/</link>
-      <pubDate>Tue, 24 Jul 2018 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/post/news-2018-07-24-refuge/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/headers/logo_refuge_header.png&#34; alt=&#34;REFUGE&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We kindly invite you to participate in the &lt;a href=&#34;https://refuge.grand-challenge.org/&#34; target=&#34;_blank&#34;&gt;REFUGE challenge&lt;/a&gt; on glaucoma detection in fundus images, as part of the &lt;a href=&#34;https://sites.google.com/site/mwomia2018/&#34; target=&#34;_blank&#34;&gt;Ophthalmic Medical Image Analysis (OMIA) workshop&lt;/a&gt; at &lt;a href=&#34;https://www.miccai2018.org/&#34; target=&#34;_blank&#34;&gt;MICCAI 2018&lt;/a&gt; in Granada (Spain).&lt;/p&gt;
-
-&lt;p&gt;The deadline for submitting your results on the validation set either for glaucoma detection, optic disc/cup segmentation and/or fovea detection is this Friday 28th!&lt;/p&gt;
 </description>
     </item>
     
