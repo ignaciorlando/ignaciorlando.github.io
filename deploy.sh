@@ -10,7 +10,7 @@ cd ..
 
 cd ignaciorlando.github.io
 
-cp -av /home/ignaciorlando/Documents/ignaciorlando.github.io/public/* .
+cp -av /Users/ignaciorlando/Documents/ignaciorlando.github.io/public/* .
 
 
 # Add changes to git.

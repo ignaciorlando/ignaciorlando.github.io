@@ -11,6 +11,29 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Presentation @ IMAGE AI in Leuven (Belgium)</title>
+      <link>https://ignaciorlando.github.io/post/news-2019-12-12/</link>
+      <pubDate>Thu, 12 Dec 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/news-2019-12-12/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/headers/presentation_image_ai.jpg&#34; alt=&#34;&amp;quot;What&#39;s next in AI for glaucoma screening? The REFUGE challenge outcomes&amp;quot;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In December 12th I participated (remotely) as a lecturer at &lt;a href=&#34;https://www.eugs.org/newsletter/newsletter-2019-11/IMAGE_AI.htm&#34; target=&#34;_blank&#34;&gt;IMAGE AI&lt;/a&gt;, an international meeting on artificial intelligence and its application to glaucoma, organized by the European Glaucoma Society in collaboration with researchers from UZ Leuven and VITO. I was invited to present the results of the challenge REFUGE, in whose organization I participated during my postdoc in Austria. &lt;a href=&#34;https://ignaciorlando.github.io/data/ImageAI2019_alternative.pptx&#34; target=&#34;_blank&#34;&gt;The slides can be found here&lt;/a&gt;. This work is a collaboration between Yanwu Xu, Hrvoje Bogunović, Huazhu Fu, Xiualn Zhang, Fei Li and the REFUGE team.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s next in AI for glaucoma screening? The REFUGE challenge outcomes</title>
+      <link>https://ignaciorlando.github.io/talk/imageia2019/</link>
+      <pubDate>Sat, 07 Dec 2019 09:30:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/talk/imageia2019/</guid>
+      <description>&lt;!--- and
+Embed your slides or video here using [shortcodes](https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.---&gt;
+</description>
+    </item>
+    
+    <item>
       <title>An amplified-target loss approach for photoreceptor layer segmentation in pathological OCT scans</title>
       <link>https://ignaciorlando.github.io/publication/omia-photoreceptors/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
@@ -235,24 +258,6 @@ Embed your slides or video here using [shortcodes](https://gcushen.github.io/hug
       <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/publication/ijcars-us-simulation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>U2-Net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans</title>
-      <link>https://ignaciorlando.github.io/publication/isbi-uncertainty/</link>
-      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/publication/isbi-uncertainty/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Using CycleGANs for effectively reducing image variability across OCT devices and improving retinal fluid segmentation</title>
-      <link>https://ignaciorlando.github.io/publication/isbi-cyclegan/</link>
-      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/publication/isbi-cyclegan/</guid>
       <description></description>
     </item>
     
