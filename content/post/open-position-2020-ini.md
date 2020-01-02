@@ -1,6 +1,6 @@
 +++
 date = "2020-01-01T12:00:00"
-draft = true
+draft = false
 tags = ["open-positions", "español"]
 title = "Convocatoria para Estudiantes Avanzados de Ingeniería - Becas INI 2020"
 math = true
