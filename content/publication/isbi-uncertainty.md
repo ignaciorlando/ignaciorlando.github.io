@@ -13,7 +13,7 @@ url_code = ""
 url_dataset = ""
 url_pdf = "https://arxiv.org/pdf/1901.07929.pdf"
 url_project = ""
-url_slides = "https://ignaciorlando.github.io/static/isbi-2019-presentation.pdf"
+url_slides = "https://ignaciorlando.github.io/static/pdf/isbi-2019-presentation.pdf"
 url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
