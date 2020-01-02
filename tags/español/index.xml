@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
-    <lastBuildDate>Tue, 03 Sep 2019 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ignaciorlando.github.io/tags/espa%C3%B1ol/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Convocatoria para Estudiantes Avanzados de Ingeniería - Becas INI 2020</title>
+      <link>https://ignaciorlando.github.io/post/open-position-2020-ini/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/open-position-2020-ini/</guid>
+      <description>Resumen Estamos entrevistando estudiantes avanzados de Ingeniería de Sistemas para aplicar a las Becas de Ingreso a la Investigación (INI) 2020&amp;frasl;2021 de la Secretaría de Ciencia, Arte y Tecnología (SECAT) de la UNICEN. Estas becas te aseguran una remuneración de $4500 mensuales que por trabajar 10 horas semanales durante 1 año en un proyecto de investigación específico, con la ayuda de un/a director/a. Los resultados de tu trabajo podés usarlos después como tesis de grado e incluso como prácticas profesionales supervisadas (PPS).</description>
+    </item>
     
     <item>
       <title>Convocatoria para Estudiantes Avanzados de Ingeniería - EVC-CIN 2019</title>

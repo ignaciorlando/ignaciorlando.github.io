@@ -11,7 +11,7 @@ selected = true
 math = true
 
 url_pdf = ""
-url_slides = "https://ignaciorlando.github.io/data/ImageAI2019.pdf"
+url_slides = "https://ignaciorlando.github.io/static/ImageAI2019.pdf"
 url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
