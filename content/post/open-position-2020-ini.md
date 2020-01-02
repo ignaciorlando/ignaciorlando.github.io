@@ -7,7 +7,7 @@ math = true
 summary = """Estamos entrevistando candidatos para aplicar a las becas de ingreso a la investigación de la Secretaría de Ciencia, Arte y Tecnología de la UNICEN."""
 +++
 
-![Flyer](/img/headers/open-position-2010-cin-header.png)
+![Flyer](/img/headers/open-position-2020-ini-header.png)
 
 
 ---
