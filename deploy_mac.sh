@@ -29,4 +29,5 @@ git push origin master
 # Come Back
 cd ..
 
-rm -rf data/*
+rm -rf data
+mkdir data
