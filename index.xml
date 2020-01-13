@@ -134,6 +134,15 @@ Embed your slides or video here using [shortcodes](https://gcushen.github.io/hug
     </item>
     
     <item>
+      <title>REFUGE Challenge: A Unified Framework for Evaluating Automated Methods for Glaucoma Assessment from Fundus Photographs</title>
+      <link>https://ignaciorlando.github.io/publication/media-refuge/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/media-refuge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Convocatoria para Estudiantes Avanzados de Ingeniería - EVC-CIN 2019</title>
       <link>https://ignaciorlando.github.io/post/open-position-2019-cin/</link>
       <pubDate>Tue, 03 Sep 2019 12:00:00 +0000</pubDate>
@@ -313,24 +322,6 @@ Embed your slides or video here using [shortcodes](https://gcushen.github.io/hug
       
       <guid>https://ignaciorlando.github.io/project/us-simulation/</guid>
       <description>&lt;p&gt;Ultrasound (US) is a fast, low cost imaging technique that is widely use in emergency rooms. As part of this project, we are developing an automated system for US simulation, that allows to produce realistic US scans from segmented CT volumes of real patients.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Two papers accepted for ISBI 2019!</title>
-      <link>https://ignaciorlando.github.io/post/news-2018-12-18-isbi/</link>
-      <pubDate>Tue, 18 Dec 2018 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/post/news-2018-12-18-isbi/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/headers/ISBI_2019_banner_web-960.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Excellent news to finish an amazing year of work at &lt;a href=&#34;https://optima.meduniwien.ac.at&#34; target=&#34;_blank&#34;&gt;OPTIMA&lt;/a&gt;! We got two papers accepted for presentation at ISBI 2019 :)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&amp;ldquo;U2-Net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans&amp;rdquo;&lt;/strong&gt; describes a novel U-shaped architecture for photoreceptor layer segmentation in OCT scans. We modified the basic U-Net with LeakyReLUs, batch normalization and dropout to improve the original segmentation performance. Additionally, we used epistemic uncertainty estimation based on Monte Carlo sampling with dropout on test time to provide qualitative feedback about potential errors of the network. We compared our performance with other baseline approaches and we got state of the art performance for this segmentation task! This study was possible thanks to the support of my co-authors: &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/philipp-seeboeck/&#34; target=&#34;_blank&#34;&gt;Phillip Seeböck&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/hrvoje-bogunovic/&#34; target=&#34;_blank&#34;&gt;Hrvoje Bogunović&lt;/a&gt; (who helped me with the technical details), &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/sophie-klimscha/&#34; target=&#34;_blank&#34;&gt;Sophie Klimscha&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/christoph-grechenig/&#34; target=&#34;_blank&#34;&gt;Christoph Grechenig&lt;/a&gt; (who coordinated the manual annotation procedure for us, thank you guys!), and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/sebastian-waldstein/&#34; target=&#34;_blank&#34;&gt;Sebastian Waldstein&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/bianca-s-gerendas/&#34; target=&#34;_blank&#34;&gt;Bianca S. Gerendas&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/ursula-schmidt-erfurth/&#34; target=&#34;_blank&#34;&gt;Ursula Schmidt-Erfurth&lt;/a&gt; (who supervised the study). Thanks a lot!&lt;/p&gt;
-
-&lt;p&gt;The second papers is &lt;strong&gt;&amp;ldquo;Using CycleGANs for effectively reducing image variability across OCT devices and improving retinal fluid segmentation&amp;rdquo;&lt;/strong&gt;, and it is a joint research lead both by &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/philipp-seeboeck/&#34; target=&#34;_blank&#34;&gt;Phillip Seeböck&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/david-romo-bucheli/&#34; target=&#34;_blank&#34;&gt;David Romo-Bucheli&lt;/a&gt;. They introduced the idea of using a CycleGAN to reduce the covariate shift between different OCT devices and allows the transfer of existing segmentation models. I&amp;rsquo;ve colaborated with them developing part of the segmentation model. The other co-authors are &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/sebastian-waldstein/&#34; target=&#34;_blank&#34;&gt;Sebastian Waldstein&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/hrvoje-bogunovic/&#34; target=&#34;_blank&#34;&gt;Hrvoje Bogunović&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/bianca-s-gerendas/&#34; target=&#34;_blank&#34;&gt;Bianca S. Gerendas&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/georg-langs/&#34; target=&#34;_blank&#34;&gt;Georg Langs&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/ursula-schmidt-erfurth/&#34; target=&#34;_blank&#34;&gt;Ursula Schmidt-Erfurth&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We kindly acknowledge the funding agencies supporting this research, including the Christian Doppler Research Association, the Austrian Federal Ministry for Digital and Economic Affairs and the National Foundation for Research, Technology and Development and the Austrian Science Fund, towards the projects FWF I2714-B31 and WWTF AugUniWien / FA746A0249. We also thank the NVIDIA Corporation for donating Titan X and Titan XP GPUs for our experiments.&lt;/p&gt;
 </description>
     </item>
     
