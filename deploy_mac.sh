@@ -1,7 +1,5 @@
 #!/bin/bash
 
-rm -rf /data/*
-
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
@@ -30,3 +28,5 @@ git push origin master
 
 # Come Back
 cd ..
+
+rm -rf data/*
