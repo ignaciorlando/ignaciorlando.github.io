@@ -40,24 +40,6 @@
     </item>
     
     <item>
-      <title>Espaniol</title>
-      <link>https://ignaciorlando.github.io/tags/espaniol/</link>
-      <pubDate>Tue, 01 Jan 2019 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/tags/espaniol/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Español</title>
-      <link>https://ignaciorlando.github.io/tags/espa%C3%B1ol/</link>
-      <pubDate>Wed, 01 Jan 2020 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/tags/espa%C3%B1ol/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Medical Imaging</title>
       <link>https://ignaciorlando.github.io/tags/medical-imaging/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -90,6 +72,15 @@
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/tags/retinal-imaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spanish</title>
+      <link>https://ignaciorlando.github.io/tags/spanish/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/tags/spanish/</guid>
       <description></description>
     </item>
     

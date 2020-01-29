@@ -1,7 +1,7 @@
 +++
 date = "2020-01-01T12:00:00"
 draft = false
-tags = ["open-positions", "español"]
+tags = ["open-positions", "spanish"]
 title = "Convocatoria para Estudiantes Avanzados de Ingeniería - Becas INI 2020"
 math = true
 summary = """Estamos entrevistando candidatos para aplicar a las becas de ingreso a la investigación de la Secretaría de Ciencia, Arte y Tecnología de la UNICEN."""

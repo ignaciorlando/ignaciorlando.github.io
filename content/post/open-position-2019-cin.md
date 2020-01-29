@@ -1,7 +1,7 @@
 +++
 date = "2019-09-03T12:00:00"
 draft = false
-tags = ["open-positions", "español"]
+tags = ["open-positions", "spanish"]
 title = "Convocatoria para Estudiantes Avanzados de Ingeniería - EVC-CIN 2019"
 math = true
 summary = """Estamos entrevistando candidatos para aplicar a las becas de estímulo a las vocaciones científicas EVC 2019 del CIN (Consejo Universitario Nacional)."""

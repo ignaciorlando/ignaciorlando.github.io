@@ -282,18 +282,6 @@
   </url>
   
   <url>
-    <loc>https://ignaciorlando.github.io/tags/espaniol/</loc>
-    <lastmod>2019-01-01T12:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ignaciorlando.github.io/tags/espa%C3%B1ol/</loc>
-    <lastmod>2020-01-01T12:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ignaciorlando.github.io/home/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -342,6 +330,12 @@
   <url>
     <loc>https://ignaciorlando.github.io/tags/retinal-imaging/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ignaciorlando.github.io/tags/spanish/</loc>
+    <lastmod>2020-01-01T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
