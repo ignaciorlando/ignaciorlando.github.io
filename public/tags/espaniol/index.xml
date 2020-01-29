@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Espaniol on José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/tags/espaniol/</link>
+    <description>Recent content in Espaniol on José Ignacio Orlando</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ignaciorlando.github.io/tags/espaniol/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Convocatoria para Postulantes a Becas Doctorales CONICET 2020 y CIC-PBA 2020</title>
+      <link>https://ignaciorlando.github.io/post/open-position-2020-conicet/</link>
+      <pubDate>Tue, 01 Jan 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/open-position-2020-conicet/</guid>
+      <description>Resumen Estamos buscando aspirantes para postular a las becas doctorales de CONICET y/o CIC-PBA 2020, para incorporarse en un proyecto enfocado en el desarrollo de métodos basados en deep learning para analizar automáticamente imágenes de la retina y ayudar a los médicos a obtener mejores diagnósticos de algunas enfermedades visuales.
+Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como Ingeniería de Sistemas, de Software o de Informática, o Licenciatura en Informática o Ciencias de la Computación, y afines.</description>
+    </item>
+    
+  </channel>
+</rss>
