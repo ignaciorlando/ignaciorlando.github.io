@@ -11,6 +11,98 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Convocatoria para Postulantes a Becas Doctorales CONICET 2020 y CIC-PBA 2020</title>
+      <link>https://ignaciorlando.github.io/post/open-position-2020-conicet/</link>
+      <pubDate>Tue, 28 Jan 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/open-position-2020-conicet/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/headers/open-position-2020-conicet-header.png&#34; alt=&#34;Flyer&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;resumen&#34;&gt;Resumen&lt;/h2&gt;
+
+&lt;p&gt;Estamos buscando aspirantes para postular a las becas doctorales de CONICET y/o CIC-PBA 2020, para incorporarse en un proyecto enfocado en el desarrollo de métodos basados en deep learning para analizar automáticamente imágenes de la retina y ayudar a los médicos a obtener mejores diagnósticos de algunas enfermedades visuales.&lt;/p&gt;
+
+&lt;p&gt;Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como Ingeniería de Sistemas, de Software o de Informática, o Licenciatura en Informática o Ciencias de la Computación, y afines.&lt;/p&gt;
+
+&lt;p&gt;La idea es que hagas tu tesis doctoral con nosotros, en nuestro Grupo de Análisis de Imágenes Médicas, &lt;a href=&#34;https://yatiris.github.io/&#34; target=&#34;_blank&#34;&gt;Yatiris&lt;/a&gt;, parte del &lt;a href=&#34;http://www.pladema.net/&#34; target=&#34;_blank&#34;&gt;Instituto PLADEMA&lt;/a&gt;, de triple dependencia &lt;a href=&#34;http://exa.unicen.edu.ar/&#34; target=&#34;_blank&#34;&gt;Facultad de Ciencias Exactas de la UNICEN&lt;/a&gt; (Tandil) / &lt;a href=&#34;https://www.gba.gob.ar/cic/&#34; target=&#34;_blank&#34;&gt;CIC-PBA&lt;/a&gt; / &lt;a href=&#34;https://www.argentina.gob.ar/cnea&#34; target=&#34;_blank&#34;&gt;CNEA&lt;/a&gt;. El postgrado es el &lt;a href=&#34;https://www.exa.unicen.edu.ar/es/estudios/posgrado/doctorado-matematica-computacional-e-industrial&#34; target=&#34;_blank&#34;&gt;Doctorado en Matemática Computacional e Industrial&lt;/a&gt; de la Facultad de Ciencias Exactas de la UNICEN (Categoría B CONEAU), que brinda el marco ideal para desarrollar una tesis en inteligencia artificial.&lt;/p&gt;
+
+&lt;p&gt;Como postulante, aplicarías al llamado de &lt;a href=&#34;https://convocatorias.conicet.gov.ar/becas/&#34; target=&#34;_blank&#34;&gt;becas doctorales de CONICET 2020&lt;/a&gt; (alrededor de junio/julio de este año) y, en simultáneo, al de &lt;a href=&#34;https://www.gba.gob.ar/cic/becas_doctorales&#34; target=&#34;_blank&#34;&gt;CIC-PBA 2020&lt;/a&gt; (alrededor de octubre de este año). Ambas becas son incompatibles entre sí, por lo que si salen ambas tendrías que optar por una de las dos. Sin embargo, la idea es presentarte en las dos convocatorias para que tengas más chances :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Si el proyecto te interesa y te entusiasma hacer investigación en un área como esta, mandame un mail con el asunto &amp;ldquo;Postulación Becas Doctorales CONICET 2020 - [Apellido]&amp;rdquo;, tu CV (con detalle de materias cursadas, calificaciones sin omitir aplazos, experiencia en investigación, asistencia a congresos, publicaciones y demás) y una breve carta de motivación (2 páginas) como adjunto a &lt;a href=&#34;mailto:jiorlando@pladema.exa.unicen.edu.ar&#34; target=&#34;_blank&#34;&gt;jiorlando@pladema.exa.unicen.edu.ar&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Una vez que recibamos tu correo, te mandaremos un mail para coordinar una entrevista (presencial si estás en Tandil, o por teleconferencia si estás en otra ciudad), para conocerte un poco más. Más abajo vas a encontrar más detalles sobre la convocatoria, el proyecto y el grupo de investigación.&lt;/p&gt;
+
+&lt;p&gt;Mucha suerte!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;requisitos-mínimos&#34;&gt;Requisitos mínimos&lt;/h2&gt;
+
+&lt;p&gt;Los requisitos que te pedimos para aplicar son los siguientes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ser graduadx de una de las carreras mencionadas previamente o estudiante avanzado con menos de 7 finales adeudados.&lt;/li&gt;
+&lt;li&gt;Tener un promedio (con aplazos) mayor a al histórico de tu carrera (podés averiguarlo en Secretaría Académica o de Alumnos de tu facultad)&lt;/li&gt;
+&lt;li&gt;Conocimientos avanzados de programación y probabilidades y estadística.&lt;/li&gt;
+&lt;li&gt;Tener motivación y entusiasmo para realizar tareas de investigación de manera interdisciplinaria, colaborando con médicos/as, informáticos/as y matemáticos/as.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si tenés algo de experiencia programando en Python y/o utilizando modelos de machine learning o deep learning, es un re plus para nosotros, aunque no es excluyente. Sí nos parece importante que seas proactivo/a y que te entusiasme mucho investigar. También tener un buen nivel de inglés suma, ya que contemplamos colaborar con otros grupos del exterior a mediados del doctorado.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;el-proyecto&#34;&gt;El proyecto&lt;/h2&gt;
+
+&lt;p&gt;El plan de trabajo contempla introducir nuevos enfoques basados en deep learning y procesamiento de imágenes de la retina para facilitar el diagnóstico de enfermedades visuales. Nos proponemos por un lado resolver problemáticas asociadas al análisis de imágenes médicas, y por el otro proponer algoritmos novedosos capaces de mejorar los que existen actualmente. En particular nos enfocaremos en tres enfermedades que son hoy días las principales causas de ceguera prevenible a nivel mundial: la retinopatía diabética, el glaucoma y la degeneración macular asociada a la edad (DMAE). Queremos que los algoritmos que desarrollemos sean capaces de mejorar el diagnóstico de las enfermedades a partir de fotografías de fondo de ojo y/o tomografías de coherencia óptica, para llevar el tratamiento a un mayor número de pacientes.&lt;/p&gt;
+
+&lt;p&gt;En &lt;a href=&#34;https://www.sightsavers.org/protecting-sight/diabetic-retinopathy/?gclid=CjwKCAiA1L_xBRA2EiwAgcLKAwCOb6NgCEyUj_FeDUR3-R9leebOAiv1WBR2FdZWGPEgY9aGbifDSRoCxdMQAvD_BwE&#34; target=&#34;_blank&#34;&gt;retinopatía diabética&lt;/a&gt;, queremos desarrollar algoritmos para detectar de manera temprana lesiones típicas de la enfermedad en &lt;a href=&#34;https://en.wikipedia.org/wiki/Fundus_photography&#34; target=&#34;_blank&#34;&gt;fotografías de fondo de ojo&lt;/a&gt;, controlar la calidad de las imágenes y explorar la geometría de los vasos sanguíneos. Google hizo algo parecido en la India, como se ve &lt;a href=&#34;https://youtu.be/V5aZjsWM2wo?t=955&#34; target=&#34;_blank&#34;&gt;en este video tremendo narrado por Iron Man&lt;/a&gt;. Nosotros queremos hacer algo parecido acá, con nuestros propios métodos, 100% argento, para que no haya que comprarle a Google una solución: a fin de cuentas, tenemos todo lo necesario para hacerlo nosotros! Colaboraremos para eso con el &lt;a href=&#34;http://www.hospitalelcruce.org/index.php/servicios/81-servicios/3735-oftalmologia&#34; target=&#34;_blank&#34;&gt;Hospital El Cruce&lt;/a&gt; de Florencio Varela, que tiene su propia &lt;a href=&#34;https://www.hospitalelcruce.org/index.php/noticiasprincipal/4251-programa-de-las-naciones-unidas-elogio-proyecto-de-teleoftalmologia-en-red-implementado-desde-el-hospital-el-cruce&#34; target=&#34;_blank&#34;&gt;red de telemedicina oftalmológica&lt;/a&gt;. En el marco de un proyecto conjunto que estamos iniciando con ellos, buscaremos que los algoritmos que desarrolles durante tu tesis se puedan incorporar en esa red, para facilitar el diagnóstico de la enfermedad.&lt;/p&gt;
+
+&lt;p&gt;De manera paralela, queremos también proponer soluciones para glaucoma y DMAE. En glaucoma, contemplamos colaborar con médicos/as de Bélgica, Portugal y Argentina. Intentaremos introducir enfoques nuevos que permitan extraer información del disco y la copa óptica a partir de fotografías de fondo de ojo. La idea es poder utilizar luego estos algoritmos para descubrir nuevos biomarcadores que ellos/as puedan utilizar para su investigación en el área, al mismo tiempo de ayudarlos a mejorar el diagnóstico. Finalmente, en DMAE buscaremos cuantificar lesiones asociadas utilizando tomografías de coherencia óptica. Como parte de este proyecto existe la posibilidad de colaborar con la Universidad de Medicina de Viena, e incluso realizar pasantías allí.&lt;/p&gt;
+
+&lt;p&gt;Durante el doctorado vas a trabajar supervisado/a por mí, que trabajo con este tipo de métodos e imágenes hace ya algún tiempo. Durante el transcurso de la beca vas a formarte en el uso de herramientas para deep learning (Python, Pytorch, Visdom, Tensorboard), aprender banda de conceptos de inteligencia artificial, escribir varios papers y hacer alguna que otra pasantía en laboratorios amigos en Bélgica, Austria o Buenos Aires. La iniciativa involucra por supuesto aprender también conceptos de análisis de imagen, visión computacional y machine learning, y embarrarnos un toque con una matemática no muy áspera pero que siempre viene bien aprender :)&lt;/p&gt;
+
+&lt;p&gt;Si querés saber más, mandame un mail a jiorlando@pladema.exa.unicen.edu.ar y nos juntamos o hacemos una teleconferencia para conversar un poco más del tema. También podés encontrar más información sobre temas relacionados en algunas de nuestras publicaciones más recientes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Orlando, J. I., Fu, H., Breda, J. B., van Keer, K., Bathula, D. R., Diaz-Pinto, A., &amp;hellip; &amp;amp; Lee, J. (2020). &lt;a href=&#34;https://arxiv.org/pdf/1910.03667.pdf&#34; target=&#34;_blank&#34;&gt;REFUGE Challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs&lt;/a&gt;. Medical image analysis, 59, 101570.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Orlando, J. I., Seeböck, P., Bogunović, H., Klimscha, S., Grechenig, C., Waldstein, S., &amp;hellip; &amp;amp; Schmidt-Erfurth, U. (2019, April). &lt;a href=&#34;https://arxiv.org/pdf/1901.07929.pdf&#34; target=&#34;_blank&#34;&gt;U2-net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans&lt;/a&gt;. In 2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019) (pp. 1441-1445). IEEE.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Orlando, J. I., Breda, J. B., Van Keer, K., Blaschko, M. B., Blanco, P. J., &amp;amp; Bulant, C. A. (2018, September). &lt;a href=&#34;https://arxiv.org/abs/1805.10273&#34; target=&#34;_blank&#34;&gt;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&lt;/a&gt;. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 65-73). Springer, Cham.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Orlando, J. I., Prokofyeva, E., del Fresno, M., &amp;amp; Blaschko, M. B. (2018). &lt;a href=&#34;https://arxiv.org/abs/1706.03008&#34; target=&#34;_blank&#34;&gt;An ensemble deep learning based approach for red lesion detection in fundus images&lt;/a&gt;. Computer methods and programs in biomedicine, 153, 115-127.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Orlando, J. I., Van Keer, K., Barbosa Breda, J., Manterola, H. L., Blaschko, M. B., &amp;amp; Clausse, A. (2017). &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/29044550&#34; target=&#34;_blank&#34;&gt;Proliferative diabetic retinopathy characterization based on fractal features: Evaluation on a publicly available dataset&lt;/a&gt;. Medical physics, 44(12), 6425-6434.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;las-becas&#34;&gt;Las becas&lt;/h3&gt;
+
+&lt;p&gt;Las becas doctorales de CONICET se otorgan por 5 años, y corresponden a un estipendio que se te paga mensualmente para que realices un doctorado en una universidad nacional. Recientemente, [las becas han recibido un incremento significativo en número y monto, &lt;a href=&#34;https://www.lanacion.com.ar/sociedad/el-gobierno-aumento-45000-pesos-becas-investigacion-nid2324647&#34; target=&#34;_blank&#34;&gt;ascendiendo a junio de 2020 a $45.430 mensuales&lt;/a&gt;. Así mismo, son compatibles con un cargo de docencia simple en una universidad, lo que adiciona alrededor de $7000 o más, dependiendo de tu antigüedad como docente. Además, incluye obra social (&lt;a href=&#34;https://www.accordsalud.com.ar/&#34; target=&#34;_blank&#34;&gt;Accord Salud&lt;/a&gt;, el plan privado de Unión Personal) y 30 días de vacaciones al año. Un requisito esencial para empezar a percibirla es que estés graduado/a al 31 de marzo de 2021. De no haber conseguido graduarte en ese plazo, la beca se pierde, con lo cual tené en mente eso a la hora de presentarte.&lt;/p&gt;
+
+&lt;p&gt;Las becas de formación doctoral de la CIC-PBA se otorgan por 12 meses, pero pueden prorrogarse a solicitud del o la becario/a hasta 3 períodos consecutivos de 12 meses c/u. Como requisito, además de estar graduado/a, te piden ser menor a 30 años de edad. A medida que las becas se prorrogan, el monto se incrementa, aunque por lo general permanece por debajo del monto de las becas de CONICET. Podés encontrar &lt;a href=&#34;http://www.cic.gba.gob.ar/wp-content/uploads/2017/01/Legislacion-Reglamento-Becas-Doctorales-873-16-1.pdf&#34; target=&#34;_blank&#34;&gt;más información sobre estas becas acá&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;De ser seleccionado/a para la beca de CONICET, comenzarías tus actividades el 1ero de Abril de 2021, con financiamiento por 5 años. Si fueses seleccionado para la de CIC-PBA, la idea es solicitar 2 prórrogas, y cuando comiences el 3er año de doctorado presentarte a las becas de finalización de doctorado de CONICET (que son equivalentes a las doctorales de CONICET pero que se otorgan por 2 años). De esa forma, te aseguraríamos 5 años de formación.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;yatiris-y-pladema&#34;&gt;Yatiris y PLADEMA&lt;/h2&gt;
+
+&lt;p&gt;Como parte de este proyecto te incorporarías a &lt;a href=&#34;https://yatiris.github.io&#34; target=&#34;_blank&#34;&gt;Yatiris&lt;/a&gt;, el Grupo de Análisis de Imágenes Médicas de &lt;a href=&#34;http://www.pladema.net/&#34; target=&#34;_blank&#34;&gt;PLADEMA&lt;/a&gt;.
+PLADEMA es un instituto de investigación de referencia a nivel nacional en materia de informática aplicada. Ubicados en el hermoso &lt;a href=&#34;https://www.google.com/search?q=campus+unicen+tandil&amp;amp;safe=off&amp;amp;sxsrf=ACYBGNT7AhMgECyRDhzingYKvSE35rJx4g:1580303675614&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwjL9eL58ajnAhX3H7kGHWpmB0MQ_AUoAXoECBIQAw&amp;amp;biw=1920&amp;amp;bih=976&#34; target=&#34;_blank&#34;&gt;Campus Universitario de la UNICEN&lt;/a&gt;, contamos con numerosos investigadores responsables distribuidos en varios grupos de investigación que se enfocan en diversas áreas, yendo desde la computación gráfica y la simulación hasta el análisis de redes de energía y sistemas de transporte.&lt;/p&gt;
+
+&lt;p&gt;Yatiris funciona en el &lt;a href=&#34;https://www.exa.unicen.edu.ar/es/noticia/pladema-amplio-su-edificio-e-incremento-su-capacidad-trabajo&#34; target=&#34;_blank&#34;&gt;nuevo edificio del Instituto PLADEMA&lt;/a&gt;, también ubicado en el Campus Universitario. Además de un excelente clima de laburo y unos muy buenos cebadores de mates, contamos con acceso a recursos de cómputo suficientes para que puedas trabajar sin inconvenientes y hacer los experimentos necesarios. Contamos además con acceso a bases de datos de imágenes de la retina tanto nuestras como del Hospital El Cruce, y contacto con instituciones de salud en Argentina, Bélgica, Portugal y Austria como para acceder a datos extras.&lt;/p&gt;
+
+&lt;p&gt;Te esperamos!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Convocatoria para Estudiantes Avanzados de Ingeniería - Becas INI 2020</title>
       <link>https://ignaciorlando.github.io/post/open-position-2020-ini/</link>
       <pubDate>Wed, 01 Jan 2020 12:00:00 +0000</pubDate>
@@ -312,98 +404,6 @@ Drusen segmentation in OCT is a challenging task. In general, it is posed either
       <guid>https://ignaciorlando.github.io/talk/isbi2019/</guid>
       <description>&lt;!--- and
 Embed your slides or video here using [shortcodes](https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.---&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Convocatoria para Postulantes a Becas Doctorales CONICET 2020 y CIC-PBA 2020</title>
-      <link>https://ignaciorlando.github.io/post/open-position-2020-conicet/</link>
-      <pubDate>Tue, 01 Jan 2019 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/post/open-position-2020-conicet/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://ignaciorlando.github.io/img/headers/open-position-2020-conicet-header.png&#34; alt=&#34;Flyer&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;resumen&#34;&gt;Resumen&lt;/h2&gt;
-
-&lt;p&gt;Estamos buscando aspirantes para postular a las becas doctorales de CONICET y/o CIC-PBA 2020, para incorporarse en un proyecto enfocado en el desarrollo de métodos basados en deep learning para analizar automáticamente imágenes de la retina y ayudar a los médicos a obtener mejores diagnósticos de algunas enfermedades visuales.&lt;/p&gt;
-
-&lt;p&gt;Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como Ingeniería de Sistemas, de Software o de Informática, o Licenciatura en Informática o Ciencias de la Computación, y afines.&lt;/p&gt;
-
-&lt;p&gt;La idea es que hagas tu tesis doctoral con nosotros, en nuestro Grupo de Análisis de Imágenes Médicas, &lt;a href=&#34;https://yatiris.github.io/&#34; target=&#34;_blank&#34;&gt;Yatiris&lt;/a&gt;, parte del &lt;a href=&#34;http://www.pladema.net/&#34; target=&#34;_blank&#34;&gt;Instituto PLADEMA&lt;/a&gt;, de triple dependencia &lt;a href=&#34;http://exa.unicen.edu.ar/&#34; target=&#34;_blank&#34;&gt;Facultad de Ciencias Exactas de la UNICEN&lt;/a&gt; (Tandil) / &lt;a href=&#34;https://www.gba.gob.ar/cic/&#34; target=&#34;_blank&#34;&gt;CIC-PBA&lt;/a&gt; / &lt;a href=&#34;https://www.argentina.gob.ar/cnea&#34; target=&#34;_blank&#34;&gt;CNEA&lt;/a&gt;. El postgrado es el &lt;a href=&#34;https://www.exa.unicen.edu.ar/es/estudios/posgrado/doctorado-matematica-computacional-e-industrial&#34; target=&#34;_blank&#34;&gt;Doctorado en Matemática Computacional e Industrial&lt;/a&gt; de la Facultad de Ciencias Exactas de la UNICEN (Categoría B CONEAU), que brinda el marco ideal para desarrollar una tesis en inteligencia artificial.&lt;/p&gt;
-
-&lt;p&gt;Como postulante, aplicarías al llamado de &lt;a href=&#34;https://convocatorias.conicet.gov.ar/becas/&#34; target=&#34;_blank&#34;&gt;becas doctorales de CONICET 2020&lt;/a&gt; (alrededor de junio/julio de este año) y, en simultáneo, al de &lt;a href=&#34;https://www.gba.gob.ar/cic/becas_doctorales&#34; target=&#34;_blank&#34;&gt;CIC-PBA 2020&lt;/a&gt; (alrededor de octubre de este año). Ambas becas son incompatibles entre sí, por lo que si salen ambas tendrías que optar por una de las dos. Sin embargo, la idea es presentarte en las dos convocatorias para que tengas más chances :)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Si el proyecto te interesa y te entusiasma hacer investigación en un área como esta, mandame un mail con el asunto &amp;ldquo;Postulación Becas Doctorales CONICET 2020 - [Apellido]&amp;rdquo;, tu CV (con detalle de materias cursadas, calificaciones sin omitir aplazos, experiencia en investigación, asistencia a congresos, publicaciones y demás) y una breve carta de motivación (2 páginas) como adjunto a &lt;a href=&#34;mailto:jiorlando@pladema.exa.unicen.edu.ar&#34; target=&#34;_blank&#34;&gt;jiorlando@pladema.exa.unicen.edu.ar&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Una vez que recibamos tu correo, te mandaremos un mail para coordinar una entrevista (presencial si estás en Tandil, o por teleconferencia si estás en otra ciudad), para conocerte un poco más. Más abajo vas a encontrar más detalles sobre la convocatoria, el proyecto y el grupo de investigación.&lt;/p&gt;
-
-&lt;p&gt;Mucha suerte!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;requisitos-mínimos&#34;&gt;Requisitos mínimos&lt;/h2&gt;
-
-&lt;p&gt;Los requisitos que te pedimos para aplicar son los siguientes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ser graduadx de una de las carreras mencionadas previamente o estudiante avanzado con menos de 7 finales adeudados.&lt;/li&gt;
-&lt;li&gt;Tener un promedio (con aplazos) mayor a al histórico de tu carrera (podés averiguarlo en Secretaría Académica o de Alumnos de tu facultad)&lt;/li&gt;
-&lt;li&gt;Conocimientos avanzados de programación y probabilidades y estadística.&lt;/li&gt;
-&lt;li&gt;Tener motivación y entusiasmo para realizar tareas de investigación de manera interdisciplinaria, colaborando con médicos/as, informáticos/as y matemáticos/as.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Si tenés algo de experiencia programando en Python y/o utilizando modelos de machine learning o deep learning, es un re plus para nosotros, aunque no es excluyente. Sí nos parece importante que seas proactivo/a y que te entusiasme mucho investigar. También tener un buen nivel de inglés suma, ya que contemplamos colaborar con otros grupos del exterior a mediados del doctorado.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;el-proyecto&#34;&gt;El proyecto&lt;/h2&gt;
-
-&lt;p&gt;El plan de trabajo contempla introducir nuevos enfoques basados en deep learning y procesamiento de imágenes de la retina para facilitar el diagnóstico de enfermedades visuales. Nos proponemos por un lado resolver problemáticas asociadas al análisis de imágenes médicas, y por el otro proponer algoritmos novedosos capaces de mejorar los que existen actualmente. En particular nos enfocaremos en tres enfermedades que son hoy días las principales causas de ceguera prevenible a nivel mundial: la retinopatía diabética, el glaucoma y la degeneración macular asociada a la edad (DMAE). Queremos que los algoritmos que desarrollemos sean capaces de mejorar el diagnóstico de las enfermedades a partir de fotografías de fondo de ojo y/o tomografías de coherencia óptica, para llevar el tratamiento a un mayor número de pacientes.&lt;/p&gt;
-
-&lt;p&gt;En &lt;a href=&#34;https://www.sightsavers.org/protecting-sight/diabetic-retinopathy/?gclid=CjwKCAiA1L_xBRA2EiwAgcLKAwCOb6NgCEyUj_FeDUR3-R9leebOAiv1WBR2FdZWGPEgY9aGbifDSRoCxdMQAvD_BwE&#34; target=&#34;_blank&#34;&gt;retinopatía diabética&lt;/a&gt;, queremos desarrollar algoritmos para detectar de manera temprana lesiones típicas de la enfermedad en &lt;a href=&#34;https://en.wikipedia.org/wiki/Fundus_photography&#34; target=&#34;_blank&#34;&gt;fotografías de fondo de ojo&lt;/a&gt;, controlar la calidad de las imágenes y explorar la geometría de los vasos sanguíneos. Google hizo algo parecido en la India, como se ve &lt;a href=&#34;https://youtu.be/V5aZjsWM2wo?t=955&#34; target=&#34;_blank&#34;&gt;en este video tremendo narrado por Iron Man&lt;/a&gt;. Nosotros queremos hacer algo parecido acá, con nuestros propios métodos, 100% argento, para que no haya que comprarle a Google una solución: a fin de cuentas, tenemos todo lo necesario para hacerlo nosotros! Colaboraremos para eso con el &lt;a href=&#34;http://www.hospitalelcruce.org/index.php/servicios/81-servicios/3735-oftalmologia&#34; target=&#34;_blank&#34;&gt;Hospital El Cruce&lt;/a&gt; de Florencio Varela, que tiene su propia &lt;a href=&#34;https://www.hospitalelcruce.org/index.php/noticiasprincipal/4251-programa-de-las-naciones-unidas-elogio-proyecto-de-teleoftalmologia-en-red-implementado-desde-el-hospital-el-cruce&#34; target=&#34;_blank&#34;&gt;red de telemedicina oftalmológica&lt;/a&gt;. En el marco de un proyecto conjunto que estamos iniciando con ellos, buscaremos que los algoritmos que desarrolles durante tu tesis se puedan incorporar en esa red, para facilitar el diagnóstico de la enfermedad.&lt;/p&gt;
-
-&lt;p&gt;De manera paralela, queremos también proponer soluciones para glaucoma y DMAE. En glaucoma, contemplamos colaborar con médicos/as de Bélgica, Portugal y Argentina. Intentaremos introducir enfoques nuevos que permitan extraer información del disco y la copa óptica a partir de fotografías de fondo de ojo. La idea es poder utilizar luego estos algoritmos para descubrir nuevos biomarcadores que ellos/as puedan utilizar para su investigación en el área, al mismo tiempo de ayudarlos a mejorar el diagnóstico. Finalmente, en DMAE buscaremos cuantificar lesiones asociadas utilizando tomografías de coherencia óptica. Como parte de este proyecto existe la posibilidad de colaborar con la Universidad de Medicina de Viena, e incluso realizar pasantías allí.&lt;/p&gt;
-
-&lt;p&gt;Durante el doctorado vas a trabajar supervisado/a por mí, que trabajo con este tipo de métodos e imágenes hace ya algún tiempo. Durante el transcurso de la beca vas a formarte en el uso de herramientas para deep learning (Python, Pytorch, Visdom, Tensorboard), aprender banda de conceptos de inteligencia artificial, escribir varios papers y hacer alguna que otra pasantía en laboratorios amigos en Bélgica, Austria o Buenos Aires. La iniciativa involucra por supuesto aprender también conceptos de análisis de imagen, visión computacional y machine learning, y embarrarnos un toque con una matemática no muy áspera pero que siempre viene bien aprender :)&lt;/p&gt;
-
-&lt;p&gt;Si querés saber más, mandame un mail a jiorlando@pladema.exa.unicen.edu.ar y nos juntamos o hacemos una teleconferencia para conversar un poco más del tema. También podés encontrar más información sobre temas relacionados en algunas de nuestras publicaciones más recientes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Orlando, J. I., Fu, H., Breda, J. B., van Keer, K., Bathula, D. R., Diaz-Pinto, A., &amp;hellip; &amp;amp; Lee, J. (2020). &lt;a href=&#34;https://arxiv.org/pdf/1910.03667.pdf&#34; target=&#34;_blank&#34;&gt;REFUGE Challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs&lt;/a&gt;. Medical image analysis, 59, 101570.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Orlando, J. I., Seeböck, P., Bogunović, H., Klimscha, S., Grechenig, C., Waldstein, S., &amp;hellip; &amp;amp; Schmidt-Erfurth, U. (2019, April). &lt;a href=&#34;https://arxiv.org/pdf/1901.07929.pdf&#34; target=&#34;_blank&#34;&gt;U2-net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans&lt;/a&gt;. In 2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019) (pp. 1441-1445). IEEE.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Orlando, J. I., Breda, J. B., Van Keer, K., Blaschko, M. B., Blanco, P. J., &amp;amp; Bulant, C. A. (2018, September). &lt;a href=&#34;https://arxiv.org/abs/1805.10273&#34; target=&#34;_blank&#34;&gt;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&lt;/a&gt;. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 65-73). Springer, Cham.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Orlando, J. I., Prokofyeva, E., del Fresno, M., &amp;amp; Blaschko, M. B. (2018). &lt;a href=&#34;https://arxiv.org/abs/1706.03008&#34; target=&#34;_blank&#34;&gt;An ensemble deep learning based approach for red lesion detection in fundus images&lt;/a&gt;. Computer methods and programs in biomedicine, 153, 115-127.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Orlando, J. I., Van Keer, K., Barbosa Breda, J., Manterola, H. L., Blaschko, M. B., &amp;amp; Clausse, A. (2017). &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/29044550&#34; target=&#34;_blank&#34;&gt;Proliferative diabetic retinopathy characterization based on fractal features: Evaluation on a publicly available dataset&lt;/a&gt;. Medical physics, 44(12), 6425-6434.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;las-becas&#34;&gt;Las becas&lt;/h3&gt;
-
-&lt;p&gt;Las becas doctorales de CONICET se otorgan por 5 años, y corresponden a un estipendio que se te paga mensualmente para que realices un doctorado en una universidad nacional. Recientemente, [las becas han recibido un incremento significativo en número y monto, &lt;a href=&#34;https://www.lanacion.com.ar/sociedad/el-gobierno-aumento-45000-pesos-becas-investigacion-nid2324647&#34; target=&#34;_blank&#34;&gt;ascendiendo a junio de 2020 a $45.430 mensuales&lt;/a&gt;. Así mismo, son compatibles con un cargo de docencia simple en una universidad, lo que adiciona alrededor de $7000 o más, dependiendo de tu antigüedad como docente. Además, incluye obra social (&lt;a href=&#34;https://www.accordsalud.com.ar/&#34; target=&#34;_blank&#34;&gt;Accord Salud&lt;/a&gt;, el plan privado de Unión Personal) y 30 días de vacaciones al año. Un requisito esencial para empezar a percibirla es que estés graduado/a al 31 de marzo de 2021. De no haber conseguido graduarte en ese plazo, la beca se pierde, con lo cual tené en mente eso a la hora de presentarte.&lt;/p&gt;
-
-&lt;p&gt;Las becas de formación doctoral de la CIC-PBA se otorgan por 12 meses, pero pueden prorrogarse a solicitud del o la becario/a hasta 3 períodos consecutivos de 12 meses c/u. Como requisito, además de estar graduado/a, te piden ser menor a 30 años de edad. A medida que las becas se prorrogan, el monto se incrementa, aunque por lo general permanece por debajo del monto de las becas de CONICET. Podés encontrar &lt;a href=&#34;http://www.cic.gba.gob.ar/wp-content/uploads/2017/01/Legislacion-Reglamento-Becas-Doctorales-873-16-1.pdf&#34; target=&#34;_blank&#34;&gt;más información sobre estas becas acá&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;De ser seleccionado/a para la beca de CONICET, comenzarías tus actividades el 1ero de Abril de 2021, con financiamiento por 5 años. Si fueses seleccionado para la de CIC-PBA, la idea es solicitar 2 prórrogas, y cuando comiences el 3er año de doctorado presentarte a las becas de finalización de doctorado de CONICET (que son equivalentes a las doctorales de CONICET pero que se otorgan por 2 años). De esa forma, te aseguraríamos 5 años de formación.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;yatiris-y-pladema&#34;&gt;Yatiris y PLADEMA&lt;/h2&gt;
-
-&lt;p&gt;Como parte de este proyecto te incorporarías a &lt;a href=&#34;https://yatiris.github.io&#34; target=&#34;_blank&#34;&gt;Yatiris&lt;/a&gt;, el Grupo de Análisis de Imágenes Médicas de &lt;a href=&#34;http://www.pladema.net/&#34; target=&#34;_blank&#34;&gt;PLADEMA&lt;/a&gt;.
-PLADEMA es un instituto de investigación de referencia a nivel nacional en materia de informática aplicada. Ubicados en el hermoso &lt;a href=&#34;https://www.google.com/search?q=campus+unicen+tandil&amp;amp;safe=off&amp;amp;sxsrf=ACYBGNT7AhMgECyRDhzingYKvSE35rJx4g:1580303675614&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwjL9eL58ajnAhX3H7kGHWpmB0MQ_AUoAXoECBIQAw&amp;amp;biw=1920&amp;amp;bih=976&#34; target=&#34;_blank&#34;&gt;Campus Universitario de la UNICEN&lt;/a&gt;, contamos con numerosos investigadores responsables distribuidos en varios grupos de investigación que se enfocan en diversas áreas, yendo desde la computación gráfica y la simulación hasta el análisis de redes de energía y sistemas de transporte.&lt;/p&gt;
-
-&lt;p&gt;Yatiris funciona en el &lt;a href=&#34;https://www.exa.unicen.edu.ar/es/noticia/pladema-amplio-su-edificio-e-incremento-su-capacidad-trabajo&#34; target=&#34;_blank&#34;&gt;nuevo edificio del Instituto PLADEMA&lt;/a&gt;, también ubicado en el Campus Universitario. Además de un excelente clima de laburo y unos muy buenos cebadores de mates, contamos con acceso a recursos de cómputo suficientes para que puedas trabajar sin inconvenientes y hacer los experimentos necesarios. Contamos además con acceso a bases de datos de imágenes de la retina tanto nuestras como del Hospital El Cruce, y contacto con instituciones de salud en Argentina, Bélgica, Portugal y Austria como para acceder a datos extras.&lt;/p&gt;
-
-&lt;p&gt;Te esperamos!&lt;/p&gt;
 </description>
     </item>
     
