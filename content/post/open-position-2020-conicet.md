@@ -1,5 +1,5 @@
 +++
-date = "2020-01-28T12:00:00"
+date = "2019-01-28T12:00:00"
 draft = false
 tags = ["open-positions", "español"]
 title = "Convocatoria para Postulantes a Becas Doctorales CONICET 2020 y CIC-PBA 2020"

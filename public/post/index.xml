@@ -13,16 +13,6 @@
     
     
     <item>
-      <title>Convocatoria para Postulantes a Becas Doctorales CONICET 2020 y CIC-PBA 2020</title>
-      <link>https://ignaciorlando.github.io/post/_open-position-2020-conicet/</link>
-      <pubDate>Tue, 28 Jan 2020 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/post/_open-position-2020-conicet/</guid>
-      <description>Resumen Estamos buscando aspirantes para postular a las becas doctorales de CONICET y/o CIC-PBA 2020, para incorporarse en un proyecto enfocado en el desarrollo de métodos basados en deep learning para analizar automáticamente imágenes de la retina y ayudar a los médicos a obtener mejores diagnósticos de algunas enfermedades visuales.
-Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como Ingeniería de Sistemas, de Software o de Informática, o Licenciatura en Informática o Ciencias de la Computación, y afines.</description>
-    </item>
-    
-    <item>
       <title>Convocatoria para Estudiantes Avanzados de Ingeniería - Becas INI 2020</title>
       <link>https://ignaciorlando.github.io/post/open-position-2020-ini/</link>
       <pubDate>Wed, 01 Jan 2020 12:00:00 +0000</pubDate>
@@ -74,6 +64,16 @@ Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como I
       
       <guid>https://ignaciorlando.github.io/post/news-2019-06-05/</guid>
       <description>Our paper entitled &amp;ldquo;Multiclass segmentation as multitask learning for drusen segmentation in retinal optical coherence tomography&amp;rdquo; has been accepted for publication at MICCAI 2019! Drusen segmentation in OCT is a challenging task. In general, it is posed either as a binary segmentation problem (drusen vs. everything else) or as a layer segmentation problem (by detecting the outer boundary of the RPE and the Bruch&amp;rsquo;s membrane). Each approach has its advantages and disadvantages: binary segmentation might be prone to false positives in areas that are not anatomically plausible, while layer segmentation might fail under the presence of large drusenoid deposits.</description>
+    </item>
+    
+    <item>
+      <title>Convocatoria para Postulantes a Becas Doctorales CONICET 2020 y CIC-PBA 2020</title>
+      <link>https://ignaciorlando.github.io/post/open-position-2020-conicet/</link>
+      <pubDate>Mon, 28 Jan 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/post/open-position-2020-conicet/</guid>
+      <description>Resumen Estamos buscando aspirantes para postular a las becas doctorales de CONICET y/o CIC-PBA 2020, para incorporarse en un proyecto enfocado en el desarrollo de métodos basados en deep learning para analizar automáticamente imágenes de la retina y ayudar a los médicos a obtener mejores diagnósticos de algunas enfermedades visuales.
+Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como Ingeniería de Sistemas, de Software o de Informática, o Licenciatura en Informática o Ciencias de la Computación, y afines.</description>
     </item>
     
     <item>
