@@ -43,7 +43,7 @@ defaultContentLanguageInSubdir = false
   #   If false, you can enable it locally on a per page basis.
   math = true
 
-  disableKinds = [“taxonomy”, “taxonomyTerm”]
+  disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Highlight.js options
   #   highlight
