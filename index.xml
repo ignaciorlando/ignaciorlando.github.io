@@ -185,6 +185,15 @@ Si de todas formas no quedás en la preselección, te vamos a tener en cuenta pa
     </item>
     
     <item>
+      <title>Reducing image variability across OCT devices with unsupervised unpaired learning for improved segmentation of retina</title>
+      <link>https://ignaciorlando.github.io/publication/boe-cyclegan/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/boe-cyclegan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Presentation @ IMAGE AI in Leuven (Belgium)</title>
       <link>https://ignaciorlando.github.io/post/news-2019-12-12/</link>
       <pubDate>Thu, 12 Dec 2019 12:00:00 +0000</pubDate>
@@ -394,17 +403,6 @@ Drusen segmentation in OCT is a challenging task. In general, it is posed either
       
       <guid>https://ignaciorlando.github.io/publication/tmi-anomaly/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>U2-Net: A Bayesian U-Net Model with Epistemic Uncertainty Feedback for Photoreceptor Layer Segmentation in Pathological OCT Scans</title>
-      <link>https://ignaciorlando.github.io/talk/isbi2019/</link>
-      <pubDate>Wed, 10 Apr 2019 15:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/talk/isbi2019/</guid>
-      <description>&lt;!--- and
-Embed your slides or video here using [shortcodes](https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.---&gt;
-</description>
     </item>
     
   </channel>
