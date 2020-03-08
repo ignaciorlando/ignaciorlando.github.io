@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Recent publications</title>
-      <link>https://ignaciorlando.github.io/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/home/publications_selected/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Publications</title>
       <link>https://ignaciorlando.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
@@ -72,8 +63,9 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/home/teaching/</guid>
-      <description>I have been a Teaching Assistant in the following courses at UNICEN (Argentina):
- Workshop on Medical Image Analysis (2014-2018) Workshop on Computational Mathematics (2015-2018) Information Theory (2013-2016) Software Development Methodologies (2010-2012)  </description>
+      <description>In 2020 I&amp;rsquo;ll be teaching in the following courses at UNICEN (Argentina):
+ Information Theory (Software Engineering) Machine Learning (BSc. in Artificial Intelligence) Computer Vision (BSc. in Artificial Intelligence)  I have been also a Teaching Assistant in other courses:
+ Workshop on Medical Image Analysis (Software Engineering, 2014-2018) Workshop on Computational Mathematics (Software Engineering, 2015-2018) Software Development Methodologies (Software Engineering, 2010-2012)  </description>
     </item>
     
     <item>
