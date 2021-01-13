@@ -27,12 +27,12 @@
     </item>
     
     <item>
-      <title>Automated fundus image analysis</title>
-      <link>https://ignaciorlando.github.io/project/fundus-image-analysis/</link>
+      <title>retinar: AI for diabetic retinopathy screening</title>
+      <link>https://ignaciorlando.github.io/project/retinar/</link>
       <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ignaciorlando.github.io/project/fundus-image-analysis/</guid>
-      <description>We develop automated tools based on machine learning for automated fundus image analysis</description>
+      <guid>https://ignaciorlando.github.io/project/retinar/</guid>
+      <description>Artificial intelligence and distributed telemedicine for computer-aided diagnosis of diabetic retinopathy.</description>
     </item>
     
   </channel>
