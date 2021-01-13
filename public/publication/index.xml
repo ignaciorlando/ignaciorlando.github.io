@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on José Ignacio Orlando</title>
@@ -7,10 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://ignaciorlando.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AGE Challenge: Angle Closure Glaucoma Evaluation in Anterior Segment Optical Coherence Tomography</title>
+      <link>https://ignaciorlando.github.io/publication/media-age/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/media-age/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://ignaciorlando.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine learning for filtering out false positive grey matter atrophies in single subject voxel based morphometry: A simulation based study</title>
+      <link>https://ignaciorlando.github.io/publication/jns-ssvbm/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/jns-ssvbm/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Automated lumen segmentation using multi-frame convolutional neural networks in intravascular ultrasound datasets</title>
+      <link>https://ignaciorlando.github.io/publication/ehj-ivus/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/ehj-ivus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Quantification of Photoreceptor alteration in macular disease using Optical Coherence Tomography and Deep Learning</title>
+      <link>https://ignaciorlando.github.io/publication/sr-photoreceptors/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/publication/sr-photoreceptors/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Reducing image variability across OCT devices with unsupervised unpaired learning for improved segmentation of retina</title>

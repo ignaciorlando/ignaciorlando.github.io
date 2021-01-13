@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on José Ignacio Orlando</title>
@@ -7,40 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ignaciorlando.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 28 Jan 2020 12:00:00 +0000</lastBuildDate><atom:link href="https://ignaciorlando.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://ignaciorlando.github.io/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://ignaciorlando.github.io/tags/deep-learning/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>https://ignaciorlando.github.io/tags/english/</link>
-      <pubDate>Thu, 12 Dec 2019 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/tags/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Español</title>
+      <title>español</title>
       <link>https://ignaciorlando.github.io/tags/espa%C3%B1ol/</link>
       <pubDate>Tue, 28 Jan 2020 12:00:00 +0000</pubDate>
       
@@ -49,25 +18,7 @@
     </item>
     
     <item>
-      <title>Medical Imaging</title>
-      <link>https://ignaciorlando.github.io/tags/medical-imaging/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/tags/medical-imaging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>News</title>
-      <link>https://ignaciorlando.github.io/tags/news/</link>
-      <pubDate>Thu, 12 Dec 2019 12:00:00 +0000</pubDate>
-      
-      <guid>https://ignaciorlando.github.io/tags/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Positions</title>
+      <title>open-positions</title>
       <link>https://ignaciorlando.github.io/tags/open-positions/</link>
       <pubDate>Tue, 28 Jan 2020 12:00:00 +0000</pubDate>
       
@@ -76,7 +27,52 @@
     </item>
     
     <item>
-      <title>Retinal Imaging</title>
+      <title>spanish</title>
+      <link>https://ignaciorlando.github.io/tags/spanish/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/tags/spanish/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>english</title>
+      <link>https://ignaciorlando.github.io/tags/english/</link>
+      <pubDate>Thu, 12 Dec 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/tags/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>https://ignaciorlando.github.io/tags/news/</link>
+      <pubDate>Thu, 12 Dec 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep-learning</title>
+      <link>https://ignaciorlando.github.io/tags/deep-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medical-imaging</title>
+      <link>https://ignaciorlando.github.io/tags/medical-imaging/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ignaciorlando.github.io/tags/medical-imaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retinal-imaging</title>
       <link>https://ignaciorlando.github.io/tags/retinal-imaging/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
@@ -85,12 +81,12 @@
     </item>
     
     <item>
-      <title>Spanish</title>
-      <link>https://ignaciorlando.github.io/tags/spanish/</link>
-      <pubDate>Wed, 01 Jan 2020 12:00:00 +0000</pubDate>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>https://ignaciorlando.github.io/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ignaciorlando.github.io/tags/spanish/</guid>
-      <description></description>
+      <guid>https://ignaciorlando.github.io/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
   </channel>

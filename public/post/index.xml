@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on José Ignacio Orlando</title>
@@ -7,19 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ignaciorlando.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://ignaciorlando.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convocatoria para Postulantes a Becas Doctorales CONICET 2020 y CIC-PBA 2020</title>
       <link>https://ignaciorlando.github.io/post/open-position-2020-conicet/</link>
       <pubDate>Tue, 28 Jan 2020 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/open-position-2020-conicet/</guid>
-      <description>Resumen Estamos buscando aspirantes para postular a las becas doctorales de CONICET y/o CIC-PBA 2020, para incorporarse a RetinAR, un proyecto enfocado en el desarrollo de métodos basados en deep learning para analizar automáticamente imágenes de la retina y ayudar a los médicos a obtener mejores diagnósticos de retinopatía diabética.
-Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como Ingeniería de Sistemas, de Software o de Informática, o Licenciatura en Informática o Ciencias de la Computación, y afines.</description>
+      <description>Abrimos una convocatoria para postulantes a Becas CONICET 2020 y CIC-PBA 2020.</description>
     </item>
     
     <item>
@@ -28,7 +23,7 @@ Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como I
       <pubDate>Wed, 01 Jan 2020 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/open-position-2020-ini/</guid>
-      <description>Resumen Estamos entrevistando estudiantes avanzados de Ingeniería de Sistemas para aplicar a las Becas de Ingreso a la Investigación (INI) 2020&amp;frasl;2021 de la Secretaría de Ciencia, Arte y Tecnología (SECAT) de la UNICEN. Estas becas te aseguran una remuneración de $4500 mensuales que por trabajar 10 horas semanales durante 1 año en un proyecto de investigación específico, con la ayuda de un/a director/a. Los resultados de tu trabajo podés usarlos después como tesis de grado e incluso como prácticas profesionales supervisadas (PPS).</description>
+      <description>Estamos entrevistando candidatos para aplicar a las becas de ingreso a la investigación de la Secretaría de Ciencia, Arte y Tecnología de la UNICEN.</description>
     </item>
     
     <item>
@@ -37,7 +32,7 @@ Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como I
       <pubDate>Thu, 12 Dec 2019 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2019-12-12/</guid>
-      <description>In December 12th I participated (remotely) as a lecturer at IMAGE AI, an international meeting on artificial intelligence and its application to glaucoma, organized by the European Glaucoma Society in collaboration with researchers from UZ Leuven and VITO. I was invited to present the results of the challenge REFUGE, in whose organization I participated during my postdoc in Austria. The slides can be found here. This work is a collaboration between Yanwu Xu, Hrvoje Bogunović, Huazhu Fu, Xiualn Zhang, Fei Li and the REFUGE team.</description>
+      <description>I will present some of the key conlusions of the REFUGE challenge at IMAGE AI.</description>
     </item>
     
     <item>
@@ -46,7 +41,7 @@ Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como I
       <pubDate>Tue, 03 Sep 2019 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/open-position-2019-cin/</guid>
-      <description>Resumen Estamos entrevistando estudiantes avanzados de Ingeniería de Sistemas para aplicar a las Becas de Estímulo a las Vocaciones Científicas (EVC) del Consejo Universitario Nacional (CIN). Estas becas te permiten trabajar 12 horas semanales durante 12 meses en un proyecto de investigación específico, con la ayuda de un/a director/a. Los resultados de tu trabajo podés usarlos después como tesis de grado, o como un punto de apoyo para más adelante hacer un postgrado.</description>
+      <description>Estamos entrevistando candidatos para aplicar a las becas de estímulo a las vocaciones científicas EVC 2019 del CIN (Consejo Universitario Nacional).</description>
     </item>
     
     <item>
@@ -55,7 +50,7 @@ Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como I
       <pubDate>Sun, 01 Sep 2019 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2019-09-01/</guid>
-      <description>In September 13th I&amp;rsquo;ll be landing in Argentina to be once again part of PLADEMA, this time as an Assistant Researcher funded by CONICET. I&amp;rsquo;ll be joining again Yatiris, a group within PLADEMA developing cutting edge technologies for medical image analysis using computer vision, machine learning and pattern recognition techniques. I&amp;rsquo;ll be responsible of coordinating all the deep learning initiatives, while continuing my own line of research in computer-assisted ophthalmology.</description>
+      <description>I&amp;rsquo;m moving back to Argentina to join again PLADEMA as a CONICET funded Assistant Researcher.</description>
     </item>
     
     <item>
@@ -64,7 +59,7 @@ Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como I
       <pubDate>Tue, 30 Jul 2019 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2019-07-30/</guid>
-      <description>Our paper entitled &amp;ldquo;Improving realism in patient specific Ultrasound simulation using CycleGANs&amp;rdquo; has been accepted for publication in the International Journal of Computer Assisted Radiology and Surgery (IJCARS)! In this article we present a hybrid approach towards US simulation that combines ray-casting techniques with CycleGANs. The key idea is to use these generative models to alleviate the drawback of current available simulation techniques. In particular, traditional ray-casting based solutions for US simulation usually fail to model complex features such as artifacts or attenuations that are typical from this imaging modality.</description>
+      <description>Our paper with Santiago Vitale, Emmanuel Iarussi and Ignacio Larrabide on US simulation using CycleGANs was accepted for publication at the International Journal of Computer Assisted Radiology and Surgery.</description>
     </item>
     
     <item>
@@ -73,7 +68,7 @@ Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como I
       <pubDate>Wed, 05 Jun 2019 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2019-06-05/</guid>
-      <description>Our paper entitled &amp;ldquo;Multiclass segmentation as multitask learning for drusen segmentation in retinal optical coherence tomography&amp;rdquo; has been accepted for publication at MICCAI 2019! Drusen segmentation in OCT is a challenging task. In general, it is posed either as a binary segmentation problem (drusen vs. everything else) or as a layer segmentation problem (by detecting the outer boundary of the RPE and the Bruch&amp;rsquo;s membrane). Each approach has its advantages and disadvantages: binary segmentation might be prone to false positives in areas that are not anatomically plausible, while layer segmentation might fail under the presence of large drusenoid deposits.</description>
+      <description>Our paper with Rhona Asgari on simultaneous outer retinal layers and drusen segmentation was accepted at MICCAI 2019!</description>
     </item>
     
     <item>
@@ -82,8 +77,7 @@ Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como I
       <pubDate>Tue, 18 Dec 2018 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2018-12-18-isbi/</guid>
-      <description>Excellent news to finish an amazing year of work at OPTIMA! We got two papers accepted for presentation at ISBI 2019 :)
-&amp;ldquo;U2-Net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans&amp;rdquo; describes a novel U-shaped architecture for photoreceptor layer segmentation in OCT scans. We modified the basic U-Net with LeakyReLUs, batch normalization and dropout to improve the original segmentation performance. Additionally, we used epistemic uncertainty estimation based on Monte Carlo sampling with dropout on test time to provide qualitative feedback about potential errors of the network.</description>
+      <description>Our two papers on automated retinal OCT image analysis using deep learning have been accepted for presentation at ISBI 2019.</description>
     </item>
     
     <item>
@@ -92,7 +86,7 @@ Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como I
       <pubDate>Fri, 07 Dec 2018 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2018-12-07-uba-presentation/</guid>
-      <description>In December 7th I gave a lecture on machine learning for ophthalmic image analysis at the University of Buenos Aires (UBA, Argentina). This talk was part of the closure event of the &amp;ldquo;Deep Learning for Medical Image Analysis&amp;rdquo; course that Enzo Ferrante taught at the Faculty of Exact Sciences. Thanks Enzo for the invitation!</description>
+      <description>I presented our work on machine learning for ophthalmic image analysis at University of Buenos Aires.</description>
     </item>
     
     <item>
@@ -101,8 +95,7 @@ Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como I
       <pubDate>Tue, 24 Jul 2018 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2018-07-24-refuge/</guid>
-      <description>We kindly invite you to participate in the REFUGE challenge on glaucoma detection in fundus images, as part of the Ophthalmic Medical Image Analysis (OMIA) workshop at MICCAI 2018 in Granada (Spain).
-The deadline for submitting your results on the validation set either for glaucoma detection, optic disc/cup segmentation and/or fovea detection is this Friday 28th!</description>
+      <description>REFUGE as part of OMIA, at MICCAI 2018</description>
     </item>
     
     <item>
@@ -111,7 +104,7 @@ The deadline for submitting your results on the validation set either for glauco
       <pubDate>Fri, 25 May 2018 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2018-05-25-miccai/</guid>
-      <description>Our paper entitled &amp;ldquo;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&amp;rdquo; has been accepted for presentation in MICCAI 2018! In this article we present one of the first attempts to characterize the hemodynamics of the retinal arterioles og glaucomatous patients. To this end, we have used a 0D model for simulating the blood flow in patient specific segmentations of the arteries, and proposed a novel dictionary-learning based strategy for summarizing all the hemodynamic outcomes into a fixed length feature vector.</description>
+      <description>Our paper with João Barbosa Breda, Karel van Keer, Matthew B. Blascko, Pablo J. Blanco and Carlos A. Bulant has been accepted for presentation in MICCAI 2018.</description>
     </item>
     
     <item>
@@ -120,7 +113,7 @@ The deadline for submitting your results on the validation set either for glauco
       <pubDate>Wed, 14 Feb 2018 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2018-02-14-nvidia/</guid>
-      <description>My application for the NVIDIA GPU Grant was accepted! As part of this grant, I will receive a NVIDIA Titan XP GPU to perform my research on deep learning techniques for OCT image analysis. I would really like to thank the NVIDIA Corporation for providing me with this cutting-edge hardware that will certainly help me to improve the efficiency of my methods.</description>
+      <description>My application to the NVIDIA Hardware Grant was successful!</description>
     </item>
     
     <item>
@@ -129,7 +122,7 @@ The deadline for submitting your results on the validation set either for glauco
       <pubDate>Mon, 01 Jan 2018 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2018-01-01-optima/</guid>
-      <description>I&amp;rsquo;m glad to tell you, guys, that since next week I will be formally part of the Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA), a multidisciplinary research team that belongs to the Department of Ophthalmology and Optometry of the Medical University of Vienna (Austria). I&amp;rsquo;m joining the laboratory as a Postdoctoral Research Associate, working on automated OCT image analysis using deep learning techniques. My research will be funded by the project WWTF AugUniWien / FA746A0249.</description>
+      <description>Joining OPTIMA.</description>
     </item>
     
     <item>
@@ -138,8 +131,7 @@ The deadline for submitting your results on the validation set either for glauco
       <pubDate>Fri, 22 Sep 2017 12:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2017-09-22-phd-defense/</guid>
-      <description>Yesterday, September 21th 2017, I have officially defended my PhD thesis!! It was entitled &amp;ldquo;Machine learning for ophthalmic screening and diagnostics from fundus images&amp;rdquo;. You can find its English version here, and the Spanish version here. Most of the code of each of the contributions is available on my github profile. Feel free to clone the repositories and experiment with them!
-I would like to thank my supervisors, Matthew and Mariana, for guiding me through all this years.</description>
+      <description>In September 11 I&amp;rsquo;ve defended my PhD thesis.</description>
     </item>
     
     <item>
@@ -148,7 +140,7 @@ I would like to thank my supervisors, Matthew and Mariana, for guiding me throug
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/post/news-2019-03-24-isbi/</guid>
-      <description>Our paper on photoreceptor segmentation in retinal OCT scans was accepted for oral presentation at ISBI 2019.</description>
+      <description>Our U2-Net paper was accepted for oral presentation at ISBI 2019.</description>
     </item>
     
   </channel>
