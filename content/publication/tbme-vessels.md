@@ -18,8 +18,8 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/tbme-vessels.jpg"
-caption = "From left to right: original RGB image from HRF, preprocessing, ground truth segmentation, local neighborhood based approach, our results"
+image = ""
+caption = ""
 
 
 +++

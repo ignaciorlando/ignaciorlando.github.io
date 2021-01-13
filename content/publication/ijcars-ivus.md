@@ -20,7 +20,7 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/ijcars-ivus.jpg"
-caption = "Left: IVUS scan in polar coordinates. Right: lumen/no lumen characterization using our method."
+image = ""
+caption = ""
 
 +++

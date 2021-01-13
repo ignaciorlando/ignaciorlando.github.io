@@ -23,7 +23,7 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/miccai2018header.png"
-caption = "Our pipeline for retinal hemodynamics characterization for glaucoma assessment."
+image = ""
+caption = ""
 
 +++

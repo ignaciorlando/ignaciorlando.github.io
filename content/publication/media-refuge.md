@@ -18,7 +18,7 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/media-2019.png"
+image = ""
 caption = ""
 
 

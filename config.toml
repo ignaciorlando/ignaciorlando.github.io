@@ -128,7 +128,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:jiorlando@conicet.gov.ar"
+    link = "mailto:jiorlando@pladema.unicen.edu.ar"
 
   [[params.social]]
     icon = "twitter"

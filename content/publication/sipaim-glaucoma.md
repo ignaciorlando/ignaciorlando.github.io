@@ -20,7 +20,7 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/sipaim-glaucoma.jpg"
-caption = "Preprocessing strategies evaluated for feeding OverFeat and VGG-16 pre-trained networks."
+image = ""
+caption = ""
 
 +++

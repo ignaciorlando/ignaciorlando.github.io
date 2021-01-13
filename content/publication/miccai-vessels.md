@@ -23,7 +23,7 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/miccai-vessels.jpg"
-caption = "From left to right: original RGB images from DRIVE, ground truth segmentations by a first and a second human observer, our results"
+image = ""
+caption = ""
 
 +++

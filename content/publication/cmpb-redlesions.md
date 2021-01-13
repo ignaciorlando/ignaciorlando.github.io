@@ -18,8 +18,8 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/cmpb-redlesions.png"
-caption = "From left to right: preprocessed fundus photographs of a DR patient, ground truth labelling of the red lesions, lesions detected by our method, detail."
+image = ""
+caption = ""
 
 
 +++

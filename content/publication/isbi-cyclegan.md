@@ -18,7 +18,7 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/ISBI_2019_banner_web-960.jpg"
+image = ""
 caption = ""
 
 

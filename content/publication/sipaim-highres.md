@@ -20,7 +20,7 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/sipaim-highres.png"
-caption = "Improvements in the segmentation results obtained by integrating our approach for adjusting feature parameters."
+image = ""
+caption = ""
 
 +++

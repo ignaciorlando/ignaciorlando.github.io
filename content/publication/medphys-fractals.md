@@ -18,8 +18,8 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/medphys-fractals.png"
-caption = "From left to right: green band of a fundus picture of a patient with proliferative DR, raw vessel segmentation, segmentation after removing spurious segments, skeletonization."
+image = ""
+caption = ""
 
 
 +++

@@ -20,7 +20,7 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/miccai2019header.png"
-caption = "Different approaches for multiclass segmentation. Our approach uses decoders with connections to better exploit the interaction between features of sandwiched layers."
+image = ""
+caption = ""
 
 +++
