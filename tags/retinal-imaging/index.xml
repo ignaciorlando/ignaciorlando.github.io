@@ -1,24 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Retinal Imaging on José Ignacio Orlando</title>
+    <title>retinal-imaging on José Ignacio Orlando</title>
     <link>https://ignaciorlando.github.io/tags/retinal-imaging/</link>
-    <description>Recent content in Retinal Imaging on José Ignacio Orlando</description>
+    <description>Recent content in retinal-imaging on José Ignacio Orlando</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ignaciorlando.github.io/tags/retinal-imaging/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ignaciorlando.github.io/tags/retinal-imaging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automated retinal OCT analysis</title>
       <link>https://ignaciorlando.github.io/project/oct-image-analysis/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/project/oct-image-analysis/</guid>
-      <description>Optical coherence tomography (OCT) is a 3D non-invasive imaging technique that allows to inspect the retina at a micrometric resolution. It is widely applied in ophthalmology for diagnosis and treatment planning of several diseases, including diabetic macular edema, retinal vein occlusion and age-related macular degeneration. In this project we are focused in introducing automated techniques for precision medicine based in this imaging modality. To this end, we develop methods for characterizing the status of the photoreceptors and to segment lesions and other abnormalities.</description>
+      <description>We develop automated tools for retinal OCT image analysis.</description>
     </item>
     
     <item>
@@ -27,7 +23,7 @@
       <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/project/fundus-image-analysis/</guid>
-      <description>Fundus photography is a low cost medical imaging technique that allows to assess the retina non-invasively. As part of this project we develop automated tools based on deep learning and image processing techniques to aid clinicians in low cost screening of retinal diseases such as diabetic retinopathy, glaucoma and age-related macular degeneration. We have created methods for automatically segmenting red lesions in diabetic retinopathy cases and for characterizing the hemodynamics of the retinal arteroles.</description>
+      <description>We develop automated tools based on machine learning for automated fundus image analysis</description>
     </item>
     
   </channel>

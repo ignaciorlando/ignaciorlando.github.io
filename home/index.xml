@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on José Ignacio Orlando</title>
@@ -7,18 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 José Ignacio Orlando</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ignaciorlando.github.io/home/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://ignaciorlando.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://ignaciorlando.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ignaciorlando.github.io/home/about/</guid>
-      <description>Biography Hi there! I&amp;rsquo;m José Ignacio Orlando, but you can call me Nacho :) I&amp;rsquo;m currently an Assistant Researcher from CONICET, working as part of Yatiris lab at the PLADEMA Institute (UNICEN - CIC-PBA - CNEA, Tandil, Argentina). Apart from PLADEMA (where I did my PhD from 2013 to 2017), my previous affiliations include the Center for Learning and Visual Computing in Paris, France (2013, 6 months working as an intern funded by INRIA), ESAT-PSI in KU Leuven, Belgium (2016, 1 month working as a visiting scholar) and the Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA) from the Medical University of Vienna, Austria (2018-2019, almost 2 years working as a postdoctoral researcher).</description>
+      <description>Biography Hi there! I&amp;rsquo;m José Ignacio Orlando, but everyone call me Nacho :)
+I&amp;rsquo;m an Assistant Researcher at CONICET, working as part of Yatiris lab at Pladema Institute in Tandil, Argentina.
+My main research interests include machine learning and computer vision techniques for medical imaging applications, mostly centered in ophthalmology.
+Apart from PLADEMA (where I did my PhD from 2013 to 2017), my previous affiliations include the Center for Learning and Visual Computing in Paris, France (2013, 6 months working as an intern funded by INRIA), ESAT-PSI in KU Leuven, Belgium (2016, 1 month working as a visiting scholar) and the Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA) from the Medical University of Vienna, Austria (2018-2019, almost 2 years working as a postdoctoral researcher).</description>
     </item>
     
     <item>

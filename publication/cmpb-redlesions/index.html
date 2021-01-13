@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.49" />
+  <meta name="generator" content="Hugo 0.80.0" />
   <meta name="author" content="José Ignacio Orlando">
   <meta name="description" content="Assistant Researcher">
 
@@ -140,11 +140,6 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
-<div class="article-header">
-  <img src="/img/headers/cmpb-redlesions.png" class="article-banner" itemprop="image">
-  <span class="article-header-caption">From left to right: preprocessed fundus photographs of a DR patient, ground truth labelling of the red lesions, lesions detected by our method, detail.</span>
-</div>
-
 
 
   <div class="container pub-title">
@@ -168,7 +163,7 @@
   <h3>Abstract</h3>
   <p class="pub-abstract" itemprop="text">Background and objectives: Diabetic retinopathy (DR) is one of the leading causes of preventable blindness in the world. Its earliest sign are red lesions, a general term that groups both microaneurysms (MAs) and hemorrhages (HEs). In daily clinical practice, these lesions are manually detected by physicians using fundus photographs. However, this task is tedious and time consuming, and requires an intensive effort due to the small size of the lesions and their lack of contrast. Computer-assisted diagnosis of DR based on red lesion detection is being actively explored due to its improvement effects both in clinicians consistency and accuracy. Moreover, it provides comprehensive feedback that is easy to assess by the physicians. Several methods for detecting red lesions have been proposed in the literature, most of them based on characterizing lesion candidates using hand crafted features, and classifying them into true or false positive detections. Deep learning based approaches, by contrast, are scarce in this domain due to the high expense of annotating the lesions manually. Methods: In this paper we propose a novel method for red lesion detection based on combining both deep learned and domain knowledge. Features learned by a convolutional neural network (CNN) are augmented by incorporating hand crafted features. Such ensemble vector of descriptors is used afterwards to identify true lesion candidates using a Random Forest classifier. Results: We empirically observed that combining both sources of information significantly improve results with respect to using each approach separately. Furthermore, our method reported the highest performance on a per-lesion basis on DIARETDB1 and e-ophtha, and for screening and need for referral on MESSIDOR compared to a second human expert. Conclusions: Results highlight the fact that integrating manually engineered approaches with deep learned features is relevant to improve results when the networks are trained from lesion-level annotated data.</p>
 
-  
+   
   <div class="row">
     <div class="col-sm-1"></div>
     <div class="col-sm-10">
@@ -280,7 +275,7 @@
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017 José Ignacio Orlando &middot; 
+      © 2017 José Ignacio Orlando &middot; 
 
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
