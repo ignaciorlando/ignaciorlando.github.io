@@ -28,14 +28,10 @@ weight = 1
   institution = "UNICEN (Argentina)"
   year = 2013
 
-[[education.courses]]
-  course = "BSc in Informatics"
-  institution = "EET Nº 1 (Argentina)"
-  year = 2006
-
 +++
 
 # Biography
+
 Hi there! I'm José Ignacio Orlando, but everyone call me Nacho :)
 
 I'm an Assistant Researcher at [CONICET](http://www.conicet.gov.ar/?lan=en), working as part of [Yatiris lab](http://yatiris.github.io/) at [Pladema Institute](http://www.pladema.net/) in Tandil, Argentina.
