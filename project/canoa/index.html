@@ -1,0 +1,1833 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="José Ignacio Orlando">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Computation and discovery of glaucoma biomarkers from color fundus photographs">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ignaciorlando.github.io/project/canoa/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#1565c0">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.9d711cebf380679328885aff8188d64e.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  
+  <link rel="manifest" href="/index.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://ignaciorlando.github.io/project/canoa/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="José Ignacio Orlando">
+  <meta property="og:url" content="https://ignaciorlando.github.io/project/canoa/">
+  <meta property="og:title" content="Towards a better understanding of glaucoma through fundus photography | José Ignacio Orlando">
+  <meta property="og:description" content="Computation and discovery of glaucoma biomarkers from color fundus photographs"><meta property="og:image" content="https://ignaciorlando.github.io/project/canoa/featured.png">
+  <meta property="twitter:image" content="https://ignaciorlando.github.io/project/canoa/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-11-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-11-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ignaciorlando.github.io/project/canoa/"
+  },
+  "headline": "Towards a better understanding of glaucoma through fundus photography",
+  
+  "image": [
+    "https://ignaciorlando.github.io/project/canoa/featured.png"
+  ],
+  
+  "datePublished": "2019-11-01T00:00:00Z",
+  "dateModified": "2019-11-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "José Ignacio Orlando"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "José Ignacio Orlando",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Computation and discovery of glaucoma biomarkers from color fundus photographs"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Towards a better understanding of glaucoma through fundus photography | José Ignacio Orlando</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7d92a95e871a711a5c03f82410d0fe5d.js"></script>
+
+  
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/media/cv_orlando_en.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+
+      
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Towards a better understanding of glaucoma through fundus photography</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 1, 2019
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 229px;">
+  <div style="position: relative">
+    <img src="/project/canoa/featured_hu62a81bbeec3fc434050d90d52cdc9e82_732173_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Glaucoma is one of the leading causes of preventable blindness. Known as &ldquo;the silent thief of sight&rdquo;, it is asymptomatic until it produces a permanent and irreversible damage of the retinal nerve fiber layer. A gold standard imaging technique to identify the disease is still missing: currently, glaucoma is diagnosed using multiple studies, including microperimetry, optical coherence tomography and color fundus phography. As a consequence, detecting it at an early stage through screening campaigns is still prohibitive.</p>
+<p>In this project we aim to improve the usage of color fundus photography in the context of glaucoma screening. To this end, our purpose is to introduce novel deep learning based approaches to discover novel biomarkers on these images. By means of our techniques, clinicians will be able to diagnose glaucoma with higher sensitivity and specificity using this low-cost imaging technique.</p>
+<p>PI: José Ignacio Orlando, PhD</p>
+<p>Collaborators:</p>
+<ul>
+<li>Mercedes Leguía, MD - Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.</li>
+<li>Ignacio Larrabide, PhD - CONICET / PLADEMA-UNICEN, Tandil, Argentina.</li>
+<li>Emmanuel Iarussi, PhD - CONICET / UTN-FRBA, CABA, Argentina.</li>
+<li>Carlos A. Bulant, PhD - CONICET / PLADEMA-UNICEN, Tandil, Argentina.</li>
+<li>Karel van Keer, MD PhD - UZ Leuven, Leuven, Belgium.</li>
+<li>João Barbosa Breda, MD PhD - University of Porto, Porto, Portugal; KU Leuven, Leuven, Belgium.</li>
+<li>Lautaro Gramuglia, Undergraduate student - Facultad de Ciencias Exactas, UNICEN.</li>
+</ul>
+<p>Supported by:</p>
+<ul>
+<li>INI 2020 Scholarship (&ldquo;Artery/vein segmentation in color fundus pictures using deep learning: applications to simulation of retinal hemodynamics&rdquo;). Convocatoria Beca INI de Ingreso a la Investigación (Programa de Fortalecimiento a la Ciencia y la Tecnología en las Universidades Nacionales). Becario: Tomás Castilla.</li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/glaucoma/">glaucoma</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://ignaciorlando.github.io/project/canoa/&amp;text=Towards%20a%20better%20understanding%20of%20glaucoma%20through%20fundus%20photography" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://ignaciorlando.github.io/project/canoa/&amp;t=Towards%20a%20better%20understanding%20of%20glaucoma%20through%20fundus%20photography" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Towards%20a%20better%20understanding%20of%20glaucoma%20through%20fundus%20photography&amp;body=https://ignaciorlando.github.io/project/canoa/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://ignaciorlando.github.io/project/canoa/&amp;title=Towards%20a%20better%20understanding%20of%20glaucoma%20through%20fundus%20photography" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Towards%20a%20better%20understanding%20of%20glaucoma%20through%20fundus%20photography%20https://ignaciorlando.github.io/project/canoa/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://ignaciorlando.github.io/project/canoa/&amp;title=Towards%20a%20better%20understanding%20of%20glaucoma%20through%20fundus%20photography" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://ignaciorlando.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu2fb8a92a1508e66be474ef7ff82cfb81_248737_270x270_fill_q75_lanczos_center.jpg" alt="José Ignacio Orlando"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://ignaciorlando.github.io/">José Ignacio Orlando</a></h5>
+      <h6 class="card-subtitle">Assistant Researcher</h6>
+      <p class="card-text">My research interests include machine learning and computer vision techniques for medical imaging applications, mostly centered in ophthalmology.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiorlando@pladema.exa.unicen.edu.ar" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ignaciorlando" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=2N3oD28AAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ignaciorlando" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/media/cv_orlando_en.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/2020-media-age/">AGE Challenge: Angle Closure Glaucoma Evaluation in Anterior Segment Optical Coherence Tomography</a></li>
+      
+      <li><a href="/talk/whats-next-in-ai-for-glaucoma-screening-the-refuge-challenge-outcomes/">What&#39;s next in AI for glaucoma screening? The REFUGE challenge outcomes</a></li>
+      
+      <li><a href="/publication/2019-media-refuge/">REFUGE challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs</a></li>
+      
+      <li><a href="/post/2019-open-position-cin/">Convocatoria para Estudiantes Avanzados de Ingeniería - EVC-CIN 2019</a></li>
+      
+      <li><a href="/talk/u2-net-a-bayesian-u-net-model-with-epistemic-uncertainty-feedback-for-photoreceptor-layer-segmentation-in-pathological-oct-scans/">U2-Net: A Bayesian U-Net Model with Epistemic Uncertainty Feedback for Photoreceptor Layer Segmentation in Pathological OCT Scans</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+        <h2>Posts</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/2020-open-position-ini/" >Convocatoria para Estudiantes Avanzados de Ingeniería - Becas INI 2020</a>
+    </div>
+
+    
+    <a href="/post/2020-open-position-ini/"  class="summary-link">
+      <div class="article-style">
+        Estamos entrevistando candidatos para aplicar a las becas de ingreso a la investigación de la Secretaría de Ciencia, Arte y Tecnología de la UNICEN.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      José Ignacio Orlando</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 1, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/open-position/">open-position</a>, <a href="/category/spanish/">spanish</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/post/2020-open-position-ini/" >
+      <img src="/post/2020-open-position-ini/featured_hub009d7325faefb4732dc5c10380d2c8d_1937501_8f9943c53470dda8c916237c072040c3.png" data-src="/post/2020-open-position-ini/featured_hub009d7325faefb4732dc5c10380d2c8d_1937501_150x0_resize_lanczos_2.png" alt="Convocatoria para Estudiantes Avanzados de Ingeniería - Becas INI 2020" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/2019-open-position-cin/" >Convocatoria para Estudiantes Avanzados de Ingeniería - EVC-CIN 2019</a>
+    </div>
+
+    
+    <a href="/post/2019-open-position-cin/"  class="summary-link">
+      <div class="article-style">
+        Estamos entrevistando candidatos para aplicar a las becas de estímulo a las vocaciones científicas EVC 2019 del CIN (Consejo Universitario Nacional).
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      José Ignacio Orlando</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 3, 2019
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/open-position/">open-position</a>, <a href="/category/spanish/">spanish</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/post/2019-open-position-cin/" >
+      <img src="/post/2019-open-position-cin/featured_hu09b8821bef92804014792dd0937a6b33_268226_660fd6ebc63c1255d0c052198bbf2975.png" data-src="/post/2019-open-position-cin/featured_hu09b8821bef92804014792dd0937a6b33_268226_150x0_resize_lanczos_2.png" alt="Convocatoria para Estudiantes Avanzados de Ingeniería - EVC-CIN 2019" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/2018-12-07-uba-presentation/" >Retinal imaging talk at FCEN / UBA (Argentina)</a>
+    </div>
+
+    
+    <a href="/post/2018-12-07-uba-presentation/"  class="summary-link">
+      <div class="article-style">
+        I presented my work on machine learning for ophthalmic image analysis at University of Buenos Aires in Buenos Aires, Argentina.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      José Ignacio Orlando</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 7, 2018
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/news/">news</a>, <a href="/category/english/">english</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/post/2018-12-07-uba-presentation/" >
+      <img src="/post/2018-12-07-uba-presentation/featured_hue4945316799e78b8e5a491f797fd24df_108952_73175a43bf628a7aa85e8d9825b7fea4.jpg" data-src="/post/2018-12-07-uba-presentation/featured_hue4945316799e78b8e5a491f797fd24df_108952_150x0_resize_q75_lanczos.jpg" alt="Retinal imaging talk at FCEN / UBA (Argentina)" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/2018-07-24-refuge/" >REFUGE: Retinal Fundus Glaucoma Challenge</a>
+    </div>
+
+    
+    <a href="/post/2018-07-24-refuge/"  class="summary-link">
+      <div class="article-style">
+        I&rsquo;m joining Yanwu Xu, Huazhu Fu and Hrvoje Bogunović as an organizer of REFUGE, the first retinal fundus glaucoma challenge at MICCAI 2018 in Granada, Spain.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      José Ignacio Orlando</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 24, 2018
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/news/">news</a>, <a href="/category/english/">english</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/post/2018-07-24-refuge/" >
+      <img src="/post/2018-07-24-refuge/featured_hua979c58769b6887cfc2300ebec4ab6f2_54191_42e1804c3a16414aa3e287bf11d58740.png" data-src="/post/2018-07-24-refuge/featured_hua979c58769b6887cfc2300ebec4ab6f2_54191_150x0_resize_lanczos_2.png" alt="REFUGE: Retinal Fundus Glaucoma Challenge" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/2018-05-25-miccai/" >New paper at MICCAI 2018!</a>
+    </div>
+
+    
+    <a href="/post/2018-05-25-miccai/"  class="summary-link">
+      <div class="article-style">
+        Our paper with João Barbosa Breda, Karel van Keer, Matthew B. Blascko, Pablo J. Blanco and Carlos A. Bulant has been accepted for presentation at MICCAI 2018 in Granada, Spain.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      José Ignacio Orlando</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 25, 2018
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/news/">news</a>, <a href="/category/english/">english</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/post/2018-05-25-miccai/" >
+      <img src="/post/2018-05-25-miccai/featured_hu8dffdc03d9c1c82e02ae551f9b8d5c05_453693_c3492505754e0018d2670ff77ec5a7a3.png" data-src="/post/2018-05-25-miccai/featured_hu8dffdc03d9c1c82e02ae551f9b8d5c05_453693_150x0_resize_lanczos_2.png" alt="New paper at MICCAI 2018!" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2021 José Ignacio Orlando
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.411ee0e3bd321f916b05360048d2c01f.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

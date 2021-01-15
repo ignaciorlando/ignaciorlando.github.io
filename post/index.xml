@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/post/</link>
+      <atom:link href="https://ignaciorlando.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Tue, 28 Jan 2020 12:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>https://ignaciorlando.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Convocatoria para Postulantes a Becas Doctorales CONICET 2020 y CIC-PBA 2020</title>
+      <link>https://ignaciorlando.github.io/post/2020-open-position-conicet/</link>
+      <pubDate>Tue, 28 Jan 2020 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2020-open-position-conicet/</guid>
+      <description>&lt;h2 id=&#34;resumen&#34;&gt;Resumen&lt;/h2&gt;
+&lt;p&gt;Estamos buscando aspirantes para postular a las becas doctorales de CONICET y/o CIC-PBA 2020, para incorporarse a RetinAR, un proyecto enfocado en el desarrollo de métodos basados en deep learning para analizar automáticamente imágenes de la retina y ayudar a los médicos a obtener mejores diagnósticos de retinopatía diabética.&lt;/p&gt;
+&lt;p&gt;Buscamos graduados/as o alumnos/as avanzados/as de carreras informáticas como Ingeniería de Sistemas, de Software o de Informática, o Licenciatura en Informática o Ciencias de la Computación, y afines.&lt;/p&gt;
+&lt;p&gt;La idea es que hagas tu tesis doctoral con nosotros, en nuestro Grupo de Análisis de Imágenes Médicas, &lt;a href=&#34;https://yatiris.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yatiris&lt;/a&gt;, parte del &lt;a href=&#34;http://www.pladema.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Instituto PLADEMA&lt;/a&gt;, de triple dependencia &lt;a href=&#34;http://exa.unicen.edu.ar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Facultad de Ciencias Exactas de la UNICEN&lt;/a&gt; (Tandil) / &lt;a href=&#34;https://www.gba.gob.ar/cic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC-PBA&lt;/a&gt; / &lt;a href=&#34;https://www.argentina.gob.ar/cnea&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CNEA&lt;/a&gt;. El postgrado es el &lt;a href=&#34;https://www.exa.unicen.edu.ar/es/estudios/posgrado/doctorado-matematica-computacional-e-industrial&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Doctorado en Matemática Computacional e Industrial&lt;/a&gt; de la Facultad de Ciencias Exactas de la UNICEN (Categoría B CONEAU), que brinda el marco ideal para desarrollar una tesis en inteligencia artificial.&lt;/p&gt;
+&lt;p&gt;Como postulante, aplicarías al llamado de &lt;a href=&#34;https://convocatorias.conicet.gov.ar/becas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;becas doctorales de CONICET 2020&lt;/a&gt; (&lt;strong&gt;deadline 7 de agosto de 2020&lt;/strong&gt;) y, en simultáneo, al de &lt;a href=&#34;https://www.gba.gob.ar/cic/becas_doctorales&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC-PBA 2020&lt;/a&gt; (&lt;strong&gt;deadline 30 de agosto de 2020&lt;/strong&gt;). Ambas becas son incompatibles entre sí, por lo que si salen ambas tendrías que optar por una de las dos. Sin embargo, la idea es presentarte en las dos convocatorias para que tengas más chances :)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Si el proyecto te interesa y te entusiasma hacer investigación en un área como esta, mandame un mail con el asunto &amp;ldquo;Postulación Becas Doctorales CONICET 2020 - [Apellido]&amp;rdquo;, tu CV (con detalle de materias cursadas, calificaciones sin omitir aplazos, experiencia en investigación, asistencia a congresos, publicaciones y demás) y una breve carta de motivación (2 páginas) como adjunto a &lt;a href=&#34;mailto:jiorlando@pladema.exa.unicen.edu.ar&#34;&gt;jiorlando@pladema.exa.unicen.edu.ar&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Una vez que recibamos tu correo, te mandaremos un mail para coordinar una entrevista por teleconferencia, para conocerte un poco más. Más abajo vas a encontrar más detalles sobre la convocatoria, el proyecto y el grupo de investigación.&lt;/p&gt;
+&lt;p&gt;Mucha suerte!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;requisitos-mínimos&#34;&gt;Requisitos mínimos&lt;/h2&gt;
+&lt;p&gt;Dado que las becas doctorales son muy competitivas, te pedimos que tengas en cuenta los siguientes requisitos mínimos antes de aplicar. No son nuestros, los imponen las propias convocatorias, y de no cumplirlos puede que sea más difícil que la consigas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ser graduadx de una de las carreras mencionadas previamente o estudiante avanzado con menos de 4 o 5 finales adeudados a la fecha (o con perspectivas de poder rendirlos de aquí al 31 de marzo del 2021).&lt;/li&gt;
+&lt;li&gt;Tener un promedio (con aplazos) mayor a al histórico de tu carrera (podés averiguarlo en Secretaría Académica o de Alumnos de tu facultad)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nosotros en particular te pedimos que tengas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conocimientos avanzados de programación y probabilidades y estadística.&lt;/li&gt;
+&lt;li&gt;Mucho interés en trabajar temas de machine learning&lt;/li&gt;
+&lt;li&gt;Motivación y entusiasmo para realizar tareas de investigación de manera interdisciplinaria, colaborando con médicos/as, informáticos/as y matemáticos/as, asistiendo a conferencias internacionales a presentar tus trabajos y escribir artículos científicos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si tenés algo de experiencia programando en Python y/o utilizando modelos de machine learning o deep learning, es un re plus para nosotros, aunque no es excluyente. Sí nos parece importante que seas proactivo/a y que te entusiasme mucho investigar. También tener un buen nivel de inglés suma, ya que contemplamos colaborar con otros grupos del exterior durante los últimos años del doctorado.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;el-proyecto&#34;&gt;El proyecto&lt;/h2&gt;
+&lt;p&gt;El plan de trabajo contempla introducir nuevos enfoques basados en deep learning y procesamiento de imágenes de la retina para facilitar el diagnóstico de la &lt;a href=&#34;https://www.sightsavers.org/protecting-sight/diabetic-retinopathy/?gclid=CjwKCAiA1L_xBRA2EiwAgcLKAwCOb6NgCEyUj_FeDUR3-R9leebOAiv1WBR2FdZWGPEgY9aGbifDSRoCxdMQAvD_BwE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retinopatía diabética&lt;/a&gt;. Nos proponemos por un lado resolver problemáticas asociadas al análisis de imágenes médicas, y por el otro proponer algoritmos novedosos capaces de mejorar los que existen actualmente. En particular nos enfocaremos en brindar soluciones aplicadas que puedan integrarse en RetinAR, una plataforma de inteligencia artificial que incorporaremos a la red de telemedicina oftalmológica del Hospital El Cruce de Florencio Varela (Buenos Aires, Argentina), para mejorar su eficiencia y poder llevar un mejor diagnóstico temprano de la retinopatía diabética a un mayor número de pacientes. Trabajaremos mayoritariamente con &lt;a href=&#34;https://en.wikipedia.org/wiki/Fundus_photography&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fotografías de fondo de ojo&lt;/a&gt; y &lt;a href=&#34;https://en.wikipedia.org/wiki/Optical_coherence_tomography&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tomografías de coherencia óptica&lt;/a&gt;, que son las imágenes que más se usan en estas enfermedades.&lt;/p&gt;
+&lt;p&gt;En particular, queremos desarrollar algoritmos para detectar probabilísticamente la enfermedad, medir el grado de incerteza de los algoritmos, hallar lesiones típicas de la enfermedad, controlar la calidad de las imágenes para descartar estudios que no puedan ser analizados y explorar nuevos biomarcadores a partir de la geometría de los vasos sanguíneos. Google hizo algo parecido en la India, como se ve &lt;a href=&#34;https://youtu.be/V5aZjsWM2wo?t=955&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;en este video tremendo narrado por Iron Man&lt;/a&gt;. Queremos hacer algo parecido acá, con nuestros propios métodos, 100% argento, para que no haya que comprarle a Google una solución: a fin de cuentas, tenemos todo lo necesario para hacerlo nosotros! Colaboraremos para eso con el &lt;a href=&#34;http://www.hospitalelcruce.org/index.php/servicios/81-servicios/3735-oftalmologia&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hospital El Cruce&lt;/a&gt; de Florencio Varela, que tiene su propia &lt;a href=&#34;https://www.hospitalelcruce.org/index.php/noticiasprincipal/4251-programa-de-las-naciones-unidas-elogio-proyecto-de-teleoftalmologia-en-red-implementado-desde-el-hospital-el-cruce&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;red de telemedicina oftalmológica&lt;/a&gt;. En el marco de RetinAR, un proyecto conjunto que estamos iniciando con ellos, buscaremos que los algoritmos que desarrolles durante tu tesis se puedan incorporar en esa red, para facilitar el diagnóstico de la enfermedad.&lt;/p&gt;
+&lt;p&gt;Durante el doctorado vas a trabajar supervisado/a por mí, que trabajo con este tipo de métodos e imágenes hace ya algún tiempo. Durante el transcurso de la beca vas a formarte en el uso de herramientas para deep learning (Python, Pytorch, Visdom, Tensorboard), aprender banda de conceptos de inteligencia artificial, escribir varios papers y hacer alguna que otra pasantía en laboratorios amigos en USA, Bélgica, Austria o Buenos Aires. La iniciativa involucra por supuesto aprender también conceptos de análisis de imagen, visión computacional y machine learning, y embarrarnos un toque con una matemática no muy áspera pero que siempre viene bien aprender :)&lt;/p&gt;
+&lt;p&gt;Si querés saber más, mandame un mail a &lt;a href=&#34;mailto:jiorlando@pladema.exa.unicen.edu.ar&#34;&gt;jiorlando@pladema.exa.unicen.edu.ar&lt;/a&gt; y nos juntamos o hacemos una teleconferencia para conversar un poco más del tema. También podés encontrar más información sobre temas relacionados en algunas de nuestras publicaciones más recientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Fu, H., Breda, J. B., van Keer, K., Bathula, D. R., Diaz-Pinto, A., &amp;hellip; &amp;amp; Lee, J. (2020). &lt;a href=&#34;https://arxiv.org/pdf/1910.03667.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;REFUGE Challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs&lt;/a&gt;. Medical image analysis, 59, 101570.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Seeböck, P., Bogunović, H., Klimscha, S., Grechenig, C., Waldstein, S., &amp;hellip; &amp;amp; Schmidt-Erfurth, U. (2019, April). &lt;a href=&#34;https://arxiv.org/pdf/1901.07929.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;U2-net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans&lt;/a&gt;. In 2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019) (pp. 1441-1445). IEEE.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Breda, J. B., Van Keer, K., Blaschko, M. B., Blanco, P. J., &amp;amp; Bulant, C. A. (2018, September). &lt;a href=&#34;https://arxiv.org/abs/1805.10273&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&lt;/a&gt;. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 65-73). Springer, Cham.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Prokofyeva, E., del Fresno, M., &amp;amp; Blaschko, M. B. (2018). &lt;a href=&#34;https://arxiv.org/abs/1706.03008&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;An ensemble deep learning based approach for red lesion detection in fundus images&lt;/a&gt;. Computer methods and programs in biomedicine, 153, 115-127.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Van Keer, K., Barbosa Breda, J., Manterola, H. L., Blaschko, M. B., &amp;amp; Clausse, A. (2017). &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/29044550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Proliferative diabetic retinopathy characterization based on fractal features: Evaluation on a publicly available dataset&lt;/a&gt;. Medical physics, 44(12), 6425-6434.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;las-becas&#34;&gt;Las becas&lt;/h3&gt;
+&lt;p&gt;Las becas doctorales de CONICET se otorgan por 5 años, y corresponden a un estipendio que se te paga mensualmente para que realices un doctorado en una universidad nacional. Recientemente, [las becas han recibido un incremento significativo en número y monto, &lt;a href=&#34;https://www.lanacion.com.ar/sociedad/el-gobierno-aumento-45000-pesos-becas-investigacion-nid2324647&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ascendiendo a junio de 2020 a $45.430 mensuales&lt;/a&gt;. Así mismo, son compatibles con un cargo de docencia simple en una universidad, lo que adiciona alrededor de $7000 o más, dependiendo de tu antigüedad como docente. Además, incluye obra social (&lt;a href=&#34;https://www.accordsalud.com.ar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Accord Salud&lt;/a&gt;, el plan privado de Unión Personal) y 30 días de vacaciones al año. Un requisito esencial para empezar a percibirla es que estés graduado/a al 31 de marzo de 2021. De no haber conseguido graduarte en ese plazo, la beca se pierde, con lo cual tené en mente eso a la hora de presentarte.&lt;/p&gt;
+&lt;p&gt;Las becas de formación doctoral de la CIC-PBA se otorgan por 12 meses, pero pueden prorrogarse a solicitud del o la becario/a hasta 3 períodos consecutivos de 12 meses c/u. Como requisito, además de estar graduado/a, te piden ser menor a 30 años de edad. A medida que las becas se prorrogan, el monto se incrementa, aunque por lo general permanece por debajo del monto de las becas de CONICET. El monto inicial asciende hoy día a 29.000 durante los primeros 2 años, y sube a 35.000 en los últimos años. Podés encontrar &lt;a href=&#34;http://www.cic.gba.gob.ar/wp-content/uploads/2017/01/Legislacion-Reglamento-Becas-Doctorales-873-16-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;más información sobre estas becas acá&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;De ser seleccionado/a para la beca de CONICET, comenzarías tus actividades el 1ero de Abril de 2021, con financiamiento por 5 años. Si fueses seleccionado para la de CIC-PBA, la idea es solicitar 2 prórrogas, y cuando comiences el 3er año de doctorado presentarte a las becas de finalización de doctorado de CONICET (que son equivalentes a las doctorales de CONICET pero que se otorgan por 2 años). De esa forma, te aseguraríamos 5 años de formación, en las mejores condiciones posibles!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;yatiris-y-pladema&#34;&gt;Yatiris y PLADEMA&lt;/h2&gt;
+&lt;p&gt;Como parte de este proyecto te incorporarías a &lt;a href=&#34;https://yatiris.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yatiris&lt;/a&gt;, el Grupo de Análisis de Imágenes Médicas de &lt;a href=&#34;http://www.pladema.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PLADEMA&lt;/a&gt;.
+PLADEMA es un instituto de investigación de referencia a nivel nacional en materia de informática aplicada. Ubicados en el hermoso &lt;a href=&#34;https://www.google.com/search?q=campus&amp;#43;unicen&amp;#43;tandil&amp;amp;safe=off&amp;amp;sxsrf=ACYBGNT7AhMgECyRDhzingYKvSE35rJx4g:1580303675614&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwjL9eL58ajnAhX3H7kGHWpmB0MQ_AUoAXoECBIQAw&amp;amp;biw=1920&amp;amp;bih=976&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Campus Universitario de la UNICEN&lt;/a&gt;, contamos con numerosos investigadores responsables distribuidos en varios grupos de investigación que se enfocan en diversas áreas, yendo desde la computación gráfica y la simulación hasta el análisis de redes de energía y sistemas de transporte.&lt;/p&gt;
+&lt;p&gt;Yatiris funciona en el &lt;a href=&#34;https://www.exa.unicen.edu.ar/es/noticia/pladema-amplio-su-edificio-e-incremento-su-capacidad-trabajo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nuevo edificio del Instituto PLADEMA&lt;/a&gt;, también ubicado en el Campus Universitario. Además de un excelente clima de laburo y unos muy buenos cebadores de mates, contamos con acceso a recursos de cómputo suficientes para que puedas trabajar sin inconvenientes y hacer los experimentos necesarios. Actualmente tenemos 2 servidores con 4 GPUs NVIDIA capaces de entrenar algoritmos de deep learning, y estamos cerrando en los próximos meses la compra de un nuevo servidor con 2 nuevas placas gráficas. Contamos además con acceso a bases de datos de imágenes de la retina tanto nuestras como del Hospital El Cruce, y contacto con instituciones de salud en Argentina, Bélgica, Portugal, USA y Austria como para acceder a datos extras.&lt;/p&gt;
+&lt;p&gt;Te esperamos!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Convocatoria para Estudiantes Avanzados de Ingeniería - Becas INI 2020</title>
+      <link>https://ignaciorlando.github.io/post/2020-open-position-ini/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2020-open-position-ini/</guid>
+      <description>&lt;h2 id=&#34;resumen&#34;&gt;Resumen&lt;/h2&gt;
+&lt;p&gt;Estamos entrevistando estudiantes avanzados de Ingeniería de Sistemas para aplicar a las &lt;a href=&#34;http://secat.unicen.edu.ar/wp-content/uploads/2019/12/Convocatoria_INI_2019v2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Becas de Ingreso a la Investigación (INI) 2020/2021 de la Secretaría de Ciencia, Arte y Tecnología (SECAT) de la UNICEN&lt;/a&gt;. Estas becas te aseguran una remuneración de $4500 mensuales que por trabajar 10 horas semanales durante 1 año en un proyecto de investigación específico, con la ayuda de un/a director/a. Los resultados de tu trabajo podés usarlos después como tesis de grado e incluso como prácticas profesionales supervisadas (PPS). Si te interesa, además podemos continuarlo en el marco de un postgrado.&lt;/p&gt;
+&lt;p&gt;Las becas son muy competitivas: se dan unas 30 para toda la universidad. La SECAT arma un orden de mérito único con todos los candidatos de toda la universidad, y otorga las becas a los primeros 30. Por este motivo estamos haciendo una preselección de postulantes, para asegurarnos que la persona que se presente tenga muchas más chances de quedar.&lt;/p&gt;
+&lt;p&gt;El proyecto en el que trabajarías si saliera la beca se enfoca en desarrollar métodos basados en inteligencia artificial (en particular, redes neuronales convolucionales) para estudiar automáticamente imágenes de la retina (fotografías de fondo de ojo). Queremos poder tener un algoritmo preciso que pueda determinar la existencia de lesiones asociadas a la retinopatía diabética, y que posteriormente pueda utilizarse en una plataforma inteligente de telemedicina oftalmológica que estamos desarrollando con el Hospital El Cruce de Florencio Varela.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Si el proyecto te interesa y te entusiasma hacer investigación en un área como esta, mandame &lt;strong&gt;antes del 1ero de marzo de 2020&lt;/strong&gt; un mail con el asunto &amp;ldquo;INI 2020&amp;rdquo; y tu CV como adjunto a &lt;a href=&#34;mailto:jiorlando@pladema.exa.unicen.edu.ar&#34;&gt;jiorlando@pladema.exa.unicen.edu.ar&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Una vez que recibamos tu correo, te mandaremos un mail para coordinar una entrevista en PLADEMA, para conocerte un poco más. Más abajo vas a encontrar más detalles sobre la convocatoria, el proyecto y el grupo de investigación.&lt;/p&gt;
+&lt;p&gt;Mucha suerte!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;requisitos-mínimos-preselección-y-fechas&#34;&gt;Requisitos mínimos, preselección y fechas&lt;/h2&gt;
+&lt;p&gt;Los requisitos mínimos de la convocatoria podés encontrarlos &lt;a href=&#34;http://secat.unicen.edu.ar/wp-content/uploads/2019/12/Convocatoria_INI_2019v2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;en este link&lt;/a&gt;. En resumen, necesitás:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ser alumno/a avanzado/a de Ingeniería de Sistemas, con más del 50% de las materias aprobadas (con final, incluyendo optativas!)&lt;/li&gt;
+&lt;li&gt;Tener un promedio (con aplazos) mayor a al histórico de la carrera (que a junio de 2019 era de 7.15)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si además tenés algo de experiencia programando en Python o algunas ideas básicas de machine learning o deep learning, es un plus más para nosotros, aunque no es excluyente. Sí nos parece importante que el/la candidato/a sea alguien proactivo/a y que lo/a entusiasme mucho la investigación, y que maneje un poco de inglés (al menos escribiendo).&lt;/p&gt;
+&lt;p&gt;Aunque la convocatoria en sí no exige una preselección, analizaremos los perfiles de todos/as los/as candidatos/as que se postulen para asegurarnos que la persona seleccionada tenga muchas chances de quedar.
+Si de todas formas no quedás en la preselección, te vamos a tener en cuenta para otras becas que aparezcan, y por supuesto [https://www.exa.unicen.edu.ar/es/piexa/banco-tesis](podés hacer la tesis con nosotros en cualquiera de los temas que tenemos disponibles en el banco de tesis de la facu) (en el combo box &amp;ldquo;A cargo de:&amp;rdquo; seleccioná &amp;ldquo;Dr. José Ignacio Orlando&amp;rdquo;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;La fecha límite para participar de la preselección es el __1ero de marzo de 2020. Cumplido ese plazo, tenemos tiempo hasta el &lt;strong&gt;25 de marzo de 2020&lt;/strong&gt; para completar toda la documentación y presentarnos a la beca.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Si te presentamos, los resultados de la beca van a estar publicados el 30 de abril de 2020. Para más info, &lt;a href=&#34;hhttp://secat.unicen.edu.ar/wp-content/uploads/2019/12/Convocatoria_INI_2019v2.pdf&#34;&gt;consultá el detalle de la convocatoria&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;el-proyecto&#34;&gt;El proyecto&lt;/h2&gt;
+&lt;p&gt;La retinopatía diabética es una de las consecuencias típicas de la diabetes. Se trata de una enfermedad asintomática que es hoy día una de las principales causas de ceguera evitable a nivel mundial. Las &lt;a href=&#34;https://en.wikipedia.org/wiki/Fundus_photography&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fotografías de fondo de ojo&lt;/a&gt; son la modalidad de imagen médica más barata para estudiar de manera no-invasiva la retina y detectar los signos más tempranos de la enfermedad para arrancar a tiempo el tratamiento. El Hospital El Cruce de Florencio Varela tiene una red de telemedicina oftalmológica mediante la cual técnicos (no médicos) le toman imágenes en distintos puntos de la provincia de Buenos Aires a pacientes de riesgo. Las imágenes se mandan al hospital, donde los olftalmólogos las analizan y responden con un informe y una recomendación sobre ir o no a consultar un oftalmólogo.&lt;/p&gt;
+&lt;p&gt;Este tipo de redes tiene dos problemas: por un lado, necesitás tener muchos médicos cuando el número de imágenes que hay que estudiar empieza a crecer; y por el otro, detectar los signos más tempranos de la retinopatía diabética es un bardo, porque son unos puntitos rojos (microaneurismas) que se confunden mucho con el fondo de la imagen. Es decir, necesitás mucho tiempo por imagen, y por ende muchos médicos cuando el número de imágenes crece.&lt;/p&gt;
+&lt;p&gt;La idea central del proyecto es utilizar &lt;a href=&#34;https://en.wikipedia.org/wiki/Convolutional_neural_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;redes neuronales convolucionales (convolutional neural networks)&lt;/a&gt; para procesar fotografías de fondo de ojo y &lt;a href=&#34;https://arxiv.org/pdf/1706.03008.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;determinar automáticamente el riesgo de que el paciente tenga retinopatía diabética&lt;/a&gt;. En particular, queremos poder desarrollar un método lo suficientemente robusto como para asignar un valor de probabilidad a la imagen que indique si el paciente tiene o no retinopatía diabética, y que además brinde información respecto a dónde están las lesiones tenidas en cuneta por la red.&lt;/p&gt;
+&lt;p&gt;Google hizo algo parecido en la India, como se ve &lt;a href=&#34;https://youtu.be/V5aZjsWM2wo?t=955&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;en este video tremendo narrado por Iron Man&lt;/a&gt;. Nosotros queremos hacer algo parecido acá, con nuestros propios métodos, 100% argento, para que no haya que comprarle a Google una solución: a fin de cuentas, tenemos todo lo necesario para hacerlo nosotros! Contar con esta herramienta facilitaría mucho el trabajo de los médicos del Hospital El Cruce, y estaríamos resolviendo un problema enorme a nivel local, regional y mundial!&lt;/p&gt;
+&lt;p&gt;El proyecto estará supervisado por mí. Durante el transcurso de la beca vamos a utilizar el lenguaje de programación Python y la librería para deep learning Pytorch para desarrollar los métodos propuestos, además de placas gráficas de NVIDIA para correr los experimentos. Además, la iniciativa involucra aprender conceptos muy interesantes de análisis de imagen, visión computacional y machine learning, y embarrarnos un toque con una matemática no muy áspera pero que siempre viene bien aprender :)&lt;/p&gt;
+&lt;p&gt;Si querés saber más, mandame un mail a &lt;a href=&#34;mailto:jiorlando@pladema.exa.unicen.edu.ar&#34;&gt;jiorlando@pladema.exa.unicen.edu.ar&lt;/a&gt; y nos juntamos a conversar un poco más del tema. También podés encontrar más información sobre temas relacionados en algunas de nuestras publicaciones más recientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Breda, J. B., Van Keer, K., Blaschko, M. B., Blanco, P. J., &amp;amp; Bulant, C. A. (2018, September). &lt;a href=&#34;https://arxiv.org/abs/1805.10273&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&lt;/a&gt;. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 65-73). Springer, Cham.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Prokofyeva, E., del Fresno, M., &amp;amp; Blaschko, M. B. (2018). &lt;a href=&#34;https://arxiv.org/abs/1706.03008&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;An ensemble deep learning based approach for red lesion detection in fundus images&lt;/a&gt;. Computer methods and programs in biomedicine, 153, 115-127.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Van Keer, K., Barbosa Breda, J., Manterola, H. L., Blaschko, M. B., &amp;amp; Clausse, A. (2017). &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/29044550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Proliferative diabetic retinopathy characterization based on fractal features: Evaluation on a publicly available dataset&lt;/a&gt;. Medical physics, 44(12), 6425-6434.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Prokofyeva, E., &amp;amp; Blaschko, M. B. (2016). &lt;a href=&#34;https://ieeexplore.ieee.org/document/7420682&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A discriminatively trained fully connected conditional random field model for blood vessel segmentation in fundus images&lt;/a&gt;. IEEE transactions on Biomedical Engineering, 64(1), 16-27.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;pladema&#34;&gt;PLADEMA&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.pladema.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PLADEMA&lt;/a&gt; es un instituto de investigación de referencia a nivel nacional en materia de análisis de imagen médica. Ubicados en el Campus Universitario de la UNICEN, contamos con numerosos investigadores responsables distribuidos en varios grupos de investigación que se enfocan en diversas áreas, yendo desde la computación gráfica y la simulación hasta el análisis de redes de energía y sistemas de transporte.&lt;/p&gt;
+&lt;p&gt;Como parte de este proyecto te incorporarías a &lt;a href=&#34;https://yatiris.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yatiris&lt;/a&gt;, el grupo de análisis de imágenes médicas. Además de un excelente clima de laburo y unos muy buenos cebadores de mates, contamos con acceso a recursos de cómputo suficientes para que puedas trabajar sin inconvenientes y hacer los experimentos necesarios. Contamos además con acceso a bases de datos de imágenes de la retina tanto nuestras como del Hospital El Cruce, y contacto con instituciones de salud en Argentina, Bélgica y Austria como para acceder a datos extra de ser necesario. Como tu potencial director, te puedo ofrecer toda la mano que necesites (incluso codeando! amo codear, jeje) y algunos años de experiencia ya laburando con este tipo de imágenes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presentation at IMAGE AI in Leuven, Belgium</title>
+      <link>https://ignaciorlando.github.io/post/2019-12-12-imageai/</link>
+      <pubDate>Thu, 12 Dec 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-12-12-imageai/</guid>
+      <description>&lt;p&gt;In December 12th I participated (remotely) as a lecturer at &lt;a href=&#34;https://www.eugs.org/newsletter/newsletter-2019-11/IMAGE_AI.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IMAGE AI&lt;/a&gt;, an international meeting on artificial intelligence and its application to glaucoma, organized by the European Glaucoma Society in collaboration with researchers from UZ Leuven and VITO. I was invited to present the results of the challenge REFUGE, in whose organization I participated during my postdoc in Austria. &lt;a href=&#34;https://ignaciorlando.github.io/static/pptx/ImageAI2019_alternative.pptx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The slides can be found here&lt;/a&gt;. This work is a collaboration between Yanwu Xu, Hrvoje Bogunović, Huazhu Fu, Xiualn Zhang, Fei Li and the REFUGE team.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Convocatoria para Estudiantes Avanzados de Ingeniería - EVC-CIN 2019</title>
+      <link>https://ignaciorlando.github.io/post/2019-open-position-cin/</link>
+      <pubDate>Tue, 03 Sep 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-open-position-cin/</guid>
+      <description>&lt;h2 id=&#34;resumen&#34;&gt;Resumen&lt;/h2&gt;
+&lt;p&gt;Estamos entrevistando estudiantes avanzados de Ingeniería de Sistemas para aplicar a las &lt;a href=&#34;http://evc.cin.edu.ar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Becas de Estímulo a las Vocaciones Científicas (EVC) del Consejo Universitario Nacional (CIN)&lt;/a&gt;. Estas becas te permiten trabajar 12 horas semanales durante 12 meses en un proyecto de investigación específico, con la ayuda de un/a director/a. Los resultados de tu trabajo podés usarlos después como tesis de grado, o como un punto de apoyo para más adelante hacer un postgrado.&lt;/p&gt;
+&lt;p&gt;Dado que estas becas son muy competitivas (se dan unas 1500 para todo el país), estamos haciendo una preselección de candidatos, para asegurarnos que el/la postulante que se presente tenga muchas más chances de quedar.&lt;/p&gt;
+&lt;p&gt;El proyecto en el que trabajarías si saliera la beca se enfoca en desarrollar métodos basados en deep learning (aprendizaje profundo) para la caracterización de los vasos sanguíneos de la retina, usando como entrada fotografías de fondo de ojo. Queremos poder tener un algoritmo preciso que pueda segmentar el árbol vascular y clasificar cada uno de sus segmentos en arteria o vena.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Si el proyecto te interesa y te entusiasma hacer investigación en un área como esta, mandame &lt;strong&gt;antes del 1ero de octubre de 2019&lt;/strong&gt; un mail con el asunto &amp;ldquo;EVC-CIN 2019&amp;rdquo; y tu CV como adjunto a &lt;a href=&#34;mailto:jiorlando@conicet.gov.ar&#34;&gt;jiorlando@conicet.gov.ar&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Más abajo vas a encontrar más detalles sobre la convocatoria, el proyecto y el grupo de investigación.&lt;/p&gt;
+&lt;p&gt;Mucha suerte!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;requisitos-mínimos-preselección-y-fechas&#34;&gt;Requisitos mínimos, preselección y fechas&lt;/h2&gt;
+&lt;p&gt;Los requisitos mínimos de la convocatoria podés encontrarlos &lt;a href=&#34;http://evc.cin.edu.ar/attachments/article/11/B-%20REGLAMENTO%20BECAS%20EVC%202019.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;en este link&lt;/a&gt;. En resumen, necesitás:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No ser mayor de 30 años al 31 de diciembre de 2019.&lt;/li&gt;
+&lt;li&gt;Tener un promedio con aplazos mayor a 6 puntos.&lt;/li&gt;
+&lt;li&gt;Tener aprobados con finales más del 50% de las materias de la carrera (tené en cuenta que esto también incluye a las optativas).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si además tenés algo de experiencia programando en Python o algunas ideas básicas de machine learning o deep learning, es un plus más para nosotros, aunque no es excluyente. Sí nos parece importante que el/la candidato/a sea alguien proactivo/a y que lo/a entusiasme mucho la investigación.&lt;/p&gt;
+&lt;p&gt;Aunque la convocatoria en sí no exige una preselección, analizaremos los perfiles de todos/as los/as candidatos/as que se postulen para asegurarnos que la persona seleccionada tenga muchas chances de quedar.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;La fecha límite para participar de la preselección es el &lt;strong&gt;1ero de octubre de 2019&lt;/strong&gt;. Cumplido ese plazo, tenemos tiempo hasta el &lt;strong&gt;4 de octubre de 2019&lt;/strong&gt; para presentar toda la documentación y presentarnos a la beca.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Por fechas de resultados y más, &lt;a href=&#34;http://evc.cin.edu.ar/attachments/article/11/cronograma%20evc%202019.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;consultá el calendario oficial&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;el-proyecto&#34;&gt;El proyecto&lt;/h2&gt;
+&lt;p&gt;Muchas enfermedades tanto visuales como sistémicas se manifiestan a través de alteraciones en la distribución o morfología del árbol vascular de la retina. Las &lt;a href=&#34;https://en.wikipedia.org/wiki/Fundus_photography&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fotografías de fondo de ojo&lt;/a&gt; son una modalidad de imagen médica que permite estudiar de manera no-invasiva la retina y sus diferentes regiones anatómicas, incluyendo los vasos sanguíneos.&lt;/p&gt;
+&lt;p&gt;La idea central del proyecto es utilizar &lt;a href=&#34;https://en.wikipedia.org/wiki/Convolutional_neural_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;redes neuronales convolucionales (convolutional neural networks)&lt;/a&gt; para procesar fotografías de fondo de ojo y extraer información de interés sobre la morfología vascular. En particular, queremos poder desarrollar un método lo suficientemente robusto como para simultaneamente &lt;a href=&#34;https://ieeexplore.ieee.org/document/7420682&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;segmentar&lt;/a&gt; y &lt;a href=&#34;https://limo.libis.be/primo-explore/fulldisplay?docid=LIRIAS2811989&amp;amp;context=L&amp;amp;vid=Lirias&amp;amp;search_scope=Lirias&amp;amp;tab=default_tab&amp;amp;lang=en_US&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;clasificar&lt;/a&gt; cada uno de los vasos sanguíneos en arteria o vena. Contar con esta herramienta nos permitirá más adelante estudiar de forma mucho más eficiente grandes volúmenes de imágenes, y poder realizar &lt;a href=&#34;https://arxiv.org/pdf/1805.10273.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;simulaciones hemodinámicas&lt;/a&gt; para comprender si ciertos parámetros obtenidos de dichas simulaciones se relacionan o no con la presencia de algunas enfermedades.&lt;/p&gt;
+&lt;p&gt;El proyecto estará supervisado por mí. Durante el transcurso de la beca vamos a utilizar el lenguaje de programación Python y la librería para deep learning Pytorch para desarrollar los métodos propuestos, además de placas gráficas de NVIDIA para correr los experimentos. Además, la iniciativa involucra aprender conceptos muy interesantes de análisis de imagen, visión computacional y machine learning, y embarrarnos un toque con una matemática no muy áspera :)&lt;/p&gt;
+&lt;p&gt;Si querés saber más, mandame un mail a &lt;a href=&#34;mailto:jiorlando@conicet.gov.ar&#34;&gt;jiorlando@conicet.gov.ar&lt;/a&gt; y nos juntamos a conversar un poco más del tema. También podés encontrar más información sobre temas relacionados en algunas de nuestras publicaciones más recientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Breda, J. B., Van Keer, K., Blaschko, M. B., Blanco, P. J., &amp;amp; Bulant, C. A. (2018, September). &lt;a href=&#34;https://arxiv.org/abs/1805.10273&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&lt;/a&gt;. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 65-73). Springer, Cham.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Prokofyeva, E., del Fresno, M., &amp;amp; Blaschko, M. B. (2018). &lt;a href=&#34;https://arxiv.org/abs/1706.03008&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;An ensemble deep learning based approach for red lesion detection in fundus images&lt;/a&gt;. Computer methods and programs in biomedicine, 153, 115-127.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Van Keer, K., Barbosa Breda, J., Manterola, H. L., Blaschko, M. B., &amp;amp; Clausse, A. (2017). &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/29044550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Proliferative diabetic retinopathy characterization based on fractal features: Evaluation on a publicly available dataset&lt;/a&gt;. Medical physics, 44(12), 6425-6434.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orlando, J. I., Prokofyeva, E., &amp;amp; Blaschko, M. B. (2016). &lt;a href=&#34;https://ieeexplore.ieee.org/document/7420682&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A discriminatively trained fully connected conditional random field model for blood vessel segmentation in fundus images&lt;/a&gt;. IEEE transactions on Biomedical Engineering, 64(1), 16-27.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;pladema&#34;&gt;PLADEMA&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.pladema.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PLADEMA&lt;/a&gt; es un instituto de investigación de referencia a nivel nacional en materia de análisis de imagen médica. Ubicados en el Campus Universitario de la UNICEN, contamos con numerosos investigadores responsables distribuidos en varios grupos de investigación que se enfocan en diversas áreas, yendo desde la computación gráfica y la simulación hasta el análisis de redes de energía y sistemas de transporte.&lt;/p&gt;
+&lt;p&gt;Como parte de este proyecto te incorporarías a Yatiris, el grupo de análisis de imágenes médicas. Además de un excelente clima de laburo y unos muy buenos cebadores de mates, contamos con acceso a recursos de cómputo suficientes para que puedas trabajar sin inconvenientes y hacer los experimentos necesarios. Contamos además con acceso a bases de datos públicas de imágenes de la retina, y contacto con instituciones de salud en Argentina, Bélgica y Austria como para acceder a datos extra de ser necesario. Como tu potencial director, te puedo ofrecer toda la mano que necesites (incluso codeando! amo codear, jeje) y algunos años de experiencia ya laburando con este tipo de imágenes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I got a permanent position as an Assistant Researcher at CONICET, Argentina</title>
+      <link>https://ignaciorlando.github.io/post/2019-09-01-conicet/</link>
+      <pubDate>Sun, 01 Sep 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-09-01-conicet/</guid>
+      <description>&lt;p&gt;In September 13th I&amp;rsquo;ll be landing in Argentina to be once again part of PLADEMA, this time as an Assistant Researcher funded by CONICET.
+I&amp;rsquo;ll be joining again Yatiris, a group within PLADEMA developing cutting edge technologies for medical image analysis using computer vision, machine learning and
+pattern recognition techniques. I&amp;rsquo;ll be responsible of coordinating all the deep learning initiatives, while continuing my own line of research in computer-assisted
+ophthalmology.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s hard to say goodbye to OPTIMA and such an amazing group of talents and good people. My time in Vienna was so exciting, full of research
+projects from which I learned a lot.
+I would like to thank Prof. Schmidt-Erfurth for trusting in me for this position, and also to Bianca Gerendas, Hrvoje Bogunović, Sebastian Waldstein
+and Martin Ehler for their continuous support. I would also like to thank all of my colleagues in the lab, specially Philipp, Dominik, Antoine,
+Wolf, Rhona, David, Thomas and Sophie. Some of them have turned into really good friends of mine that I will miss a lot being abroad!&lt;/p&gt;
+&lt;p&gt;That being said, I&amp;rsquo;m glad to move back to Argentina to give back to the country at least a little bit in proportion to what it did to me since I was born there :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two papers accepted for OMIA 2019!</title>
+      <link>https://ignaciorlando.github.io/post/2019-08-01-omia/</link>
+      <pubDate>Tue, 30 Jul 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-08-01-omia/</guid>
+      <description>&lt;p&gt;We got two papers accepted for publication at the OMIA workshop in MICCAI 2019 in Shengzen, China.&lt;/p&gt;
+&lt;p&gt;In &amp;ldquo;An amplified-target loss approach for photoreceptor layer segmentation in pathological OCT scans&amp;rdquo;, Anna Breger and I introduced an approach to increase penalization of errors in the central area of the input B-scan. By means of this approach, we force the neural network to take more into account the abnormalities that appear in the center of the scans in pathological retinas, improving results in photoreceptor layer segmentation. My other co-authors are Hrvoje Bogunović, Sophie Riedl, Bianca S. Gerendas, Martin Ehler and Ursula Schmidt-Erfurth.&lt;/p&gt;
+&lt;p&gt;In &amp;ldquo;Foveal Avascular Zone Segmentation in Clinical Routine Fluorescein Angiographies Using Multitask Learning&amp;rdquo;, Dominik Hofer introduces a multitask learning approach for FAZ segmentation in FA images. To the classical segmentation branch, we add a second decoder that outputs an Euclidean distance map. By penalizing errors both in segmentation and in this regression map, we increase the regularization of the model and improve its results in clinical routine images. The other co-authors are Philipp Seeböck, Georgios Mylonas, Felix Goldbach, Amir Sadeghipour, Bianca S Gerendas, Ursula Schmidt-Erfurth. This is part of Dominik&amp;rsquo;s PhD thesis, supervised by Bianca S Gerendas and Philipp Seeböck.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New paper at MICCAI 2019!</title>
+      <link>https://ignaciorlando.github.io/post/2019-06-05-miccai/</link>
+      <pubDate>Wed, 05 Jun 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-06-05-miccai/</guid>
+      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Multiclass segmentation as multitask learning for drusen segmentation in retinal optical coherence tomography&amp;rdquo; has been accepted for publication at MICCAI 2019!&lt;/p&gt;
+&lt;p&gt;Drusen segmentation in OCT is a challenging task. In general, it is posed either as a binary segmentation problem (drusen vs. everything else) or as a layer segmentation problem (by detecting the outer boundary of the RPE and the Bruch&amp;rsquo;s membrane). Each approach has its advantages and disadvantages: binary segmentation might be prone to false positives in areas that are not anatomically plausible, while layer segmentation might fail under the presence of large drusenoid deposits. In this paper we propose to take the best of each world by posing a multiclass segmentation problem in which we target both layers and drusen. Furthermore, instead of training a single, large capacity U-Net model with a multiclass cross entropy loss, we propose to benefit from multitask learning. To this end, we disentangle the multiclass problem as a series of binary segmentation tasks, and we assign to each of them its own decoder, while sharing a single encoder through skip connections. We also analyze if adding connections between the decoders for the layers with the decoder of the drusen segmentation task helps or not. In our experiments we observed better performance when no gradient flow is allowed through these extra connections.&lt;/p&gt;
+&lt;p&gt;If you have other problems with &amp;ldquo;sandwiched&amp;rdquo; classes, then maybe this idea can help you to boost your performance :)&lt;/p&gt;
+&lt;p&gt;This paper is part of Rhona Asgari&amp;rsquo;s PhD thesis, supervised by Hrvoje Bogunović at OPTIMA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New paper at IJCARS 2019!</title>
+      <link>https://ignaciorlando.github.io/post/2019-07-30-ijcars/</link>
+      <pubDate>Tue, 05 Feb 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-07-30-ijcars/</guid>
+      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Improving realism in patient specific Ultrasound simulation using CycleGANs&amp;rdquo; has been accepted for publication in the International Journal of Computer Assisted Radiology and Surgery (IJCARS)! This is an extension of what Santiago presented at CARS 2019 in Rennes, France.&lt;/p&gt;
+&lt;p&gt;In this article we present a hybrid approach towards US simulation that combines ray-casting techniques with CycleGANs. The key idea is to use these generative models to alleviate the drawback of current available simulation techniques. In particular, traditional ray-casting based solutions for US simulation usually fail to model complex features such as artifacts or attenuations that are typical from this imaging modality. To overcome this difficulty, we propose to train a CycleGAN using unpaired real US scans and ray-casting based simulations. The model is then applied on simulated images to get more realistic representations. We experimentally evaluated our approach in a user study with a cohort of more than 20 participants, observing that a ResNet based generator is able to significantly improved the appeareance of the images.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;We will need more US experts to further validate our approach&lt;/em&gt;, so if you are willing to help us please contact Santiago Vitale as &lt;a href=&#34;mailto:svitale@conicet.gov.ar&#34;&gt;svitale@conicet.gov.ar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This work was part of a collaboration with Santiago Vitale and Ignacio Larrabide, from Pladema / CONICET, and Emmanuel Iarussi, from UTN and also from CONICET. This is also part of Santiago&amp;rsquo;s PhD thesis on abdominal ultrasound simulation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Poster presentation at CARS 2019!</title>
+      <link>https://ignaciorlando.github.io/post/2019-05-02-cars/</link>
+      <pubDate>Tue, 05 Feb 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-05-02-cars/</guid>
+      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Improving realism in patient specific Ultrasound simulation using CycleGANs&amp;rdquo; has been accepted for poster presentation at CARS 2019 in Rennes, France.&lt;/p&gt;
+&lt;p&gt;This work was part of a collaboration with Santiago Vitale and Ignacio Larrabide, from Pladema / CONICET, and Emmanuel Iarussi, from UTN and also from CONICET.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two papers accepted for ISBI 2019!</title>
+      <link>https://ignaciorlando.github.io/post/2018-12-18-isbi/</link>
+      <pubDate>Tue, 18 Dec 2018 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-12-18-isbi/</guid>
+      <description>&lt;p&gt;Excellent news to finish an amazing year of work at &lt;a href=&#34;https://optima.meduniwien.ac.at&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OPTIMA&lt;/a&gt;! We got two papers accepted for presentation at ISBI 2019 :)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;U2-Net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans&amp;rdquo;&lt;/strong&gt; describes a novel U-shaped architecture for photoreceptor layer segmentation in OCT scans. We modified the basic U-Net with LeakyReLUs, batch normalization and dropout to improve the original segmentation performance. Additionally, we used epistemic uncertainty estimation based on Monte Carlo sampling with dropout on test time to provide qualitative feedback about potential errors of the network. We compared our performance with other baseline approaches and we got state of the art performance for this segmentation task! This study was possible thanks to the support of my co-authors: &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/philipp-seeboeck/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Phillip Seeböck&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/hrvoje-bogunovic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hrvoje Bogunović&lt;/a&gt; (who helped me with the technical details), &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/sophie-klimscha/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sophie Klimscha&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/christoph-grechenig/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christoph Grechenig&lt;/a&gt; (who coordinated the manual annotation procedure for us, thank you guys!), and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/sebastian-waldstein/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sebastian Waldstein&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/bianca-s-gerendas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bianca S. Gerendas&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/ursula-schmidt-erfurth/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ursula Schmidt-Erfurth&lt;/a&gt; (who supervised the study). Thanks a lot!&lt;/p&gt;
+&lt;p&gt;The second papers is &lt;strong&gt;&amp;ldquo;Using CycleGANs for effectively reducing image variability across OCT devices and improving retinal fluid segmentation&amp;rdquo;&lt;/strong&gt;, and it is a joint research lead both by &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/philipp-seeboeck/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Phillip Seeböck&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/david-romo-bucheli/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Romo-Bucheli&lt;/a&gt;. They introduced the idea of using a CycleGAN to reduce the covariate shift between different OCT devices and allows the transfer of existing segmentation models. I&amp;rsquo;ve colaborated with them developing part of the segmentation model. The other co-authors are &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/sebastian-waldstein/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sebastian Waldstein&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/hrvoje-bogunovic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hrvoje Bogunović&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/bianca-s-gerendas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bianca S. Gerendas&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/georg-langs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Georg Langs&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/ursula-schmidt-erfurth/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ursula Schmidt-Erfurth&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We kindly acknowledge the funding agencies supporting this research, including the Christian Doppler Research Association, the Austrian Federal Ministry for Digital and Economic Affairs and the National Foundation for Research, Technology and Development and the Austrian Science Fund, towards the projects FWF I2714-B31 and WWTF AugUniWien / FA746A0249. We also thank the NVIDIA Corporation for donating Titan X and Titan XP GPUs for our experiments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Retinal imaging talk at FCEN / UBA (Argentina)</title>
+      <link>https://ignaciorlando.github.io/post/2018-12-07-uba-presentation/</link>
+      <pubDate>Fri, 07 Dec 2018 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-12-07-uba-presentation/</guid>
+      <description>&lt;p&gt;In December 7th I gave a lecture on machine learning for ophthalmic image analysis to the students of the &amp;ldquo;Deep Learning for Medical Image Analysis&amp;rdquo; course that &lt;a href=&#34;https://eferrante.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Enzo Ferrante&lt;/a&gt; taught at the Computer Science Department from Facultad de Ciencias Exactas y Naturales, UBA. Thanks Enzo for the invitation!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>REFUGE: Retinal Fundus Glaucoma Challenge</title>
+      <link>https://ignaciorlando.github.io/post/2018-07-24-refuge/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-07-24-refuge/</guid>
+      <description>&lt;p&gt;This year I&amp;rsquo;ll be joining Yanwu Xu (Frank), Huazhu Fu and Hrvoje Bogunović as a co-organizer of &lt;a href=&#34;https://refuge.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;REFUGE&lt;/a&gt;, the first MICCAI challenge on glaucoma detection in fundus images! It will be held as part of the &lt;a href=&#34;https://sites.google.com/site/mwomia2018/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ophthalmic Medical Image Analysis (OMIA) workshop&lt;/a&gt; at &lt;a href=&#34;https://www.miccai2018.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAI 2018&lt;/a&gt; in Granada (Spain).&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be responsible of grading the teams based on their submitted results, presenting the outcomes of the challenge and writing the summary publication. Thanks Hrvoje and Frank for your vote of confidence!&lt;/p&gt;
+&lt;p&gt;The deadline for submitting results on the REFUGE validation set either for glaucoma detection, optic disc/cup segmentation and/or fovea detection is this Friday 28th! Looking forward for your submissions!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New paper at MICCAI 2018!</title>
+      <link>https://ignaciorlando.github.io/post/2018-05-25-miccai/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-05-25-miccai/</guid>
+      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&amp;rdquo; has been accepted for presentation in MICCAI 2018!&lt;/p&gt;
+&lt;p&gt;In this article we present one of the first attempts to characterize the hemodynamics of the retinal arterioles on glaucomatous patients. We have used a 0D model for simulating the blood flow in patient specific segmentations of the arteries, and proposed a novel dictionary-learning based strategy for summarizing all the hemodynamic outcomes into a fixed length feature vector. By means of this approach we want to perform clinical studies on large populations to understand the hemodynamics of glaucomatous patients!&lt;/p&gt;
+&lt;p&gt;We have good news for you, btw! Jointly with the manuscript, we will also release our code&amp;hellip; and data! We have built LES-AV, a set of 22 fundus photographs taken from the Leuven Eye Study. The images include not only manual annotations of the retinal vessels, but also their classification into arteries and veins.&lt;/p&gt;
+&lt;p&gt;This work was part of a collaboration with João Barbosa Breda, Karel van Keer, Matthew B. Blaschko, Pablo J. Blanco and Carlos A. Bulant. This is also part of the work that I made after defending my thesis in Argentina, and before moving to Vienna to join OPTIMA. So, yeah, it is cool to see CONICET again in the MICCAI proceedings :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I got an NVIDIA Hardware Grant</title>
+      <link>https://ignaciorlando.github.io/post/2018-02-14-nvidia/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-02-14-nvidia/</guid>
+      <description>&lt;p&gt;My application to the &lt;a href=&#34;https://developer.nvidia.com/academic_gpu_seeding&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA Hardware Grant&lt;/a&gt; was succesful! As part of this grant, I will receive a &lt;a href=&#34;https://www.nvidia.com/en-us/titan/titan-xp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA Titan XP GPU&lt;/a&gt; to perform my research on deep learning techniques for OCT image analysis. I thank NVIDIA Corporation for providing me with this cutting-edge hardware that will certainly help me to improve the efficiency of my methods.&lt;/p&gt;
+&lt;p&gt;Update 2028-03-15: I got the Titan Xp and I&amp;rsquo;m ready to put it on my computer!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Moving to Vienna!</title>
+      <link>https://ignaciorlando.github.io/post/2018-01-08-optima/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-01-08-optima/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m glad to tell you, guys, that since next week I will be formally part of the &lt;a href=&#34;https://optima.meduniwien.ac.at/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA)&lt;/a&gt;, a multidisciplinary research team that belongs to the Department of Ophthalmology and Optometry of the Medical University of Vienna (Austria). I&amp;rsquo;m joining the laboratory as a Postdoctoral Research Associate, working on automated OCT image analysis using deep learning techniques. My research will be funded by the project WWTF AugUniWien / FA746A0249. I&amp;rsquo;m really looking forward to start to work with this amazing team!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I&#39;ve defended my PhD thesis!</title>
+      <link>https://ignaciorlando.github.io/post/2017-09-22-phd-defense/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2017-09-22-phd-defense/</guid>
+      <description>&lt;p&gt;Yesterday, September 21th 2017, I have officially defended my PhD thesis!! It was quite an intense day. The night before there was a huge storm that broke several windows in the university. As a result, the Rector decided to cancel the activities&amp;hellip; of course including my defense. And, even worse, one of the members of the jury had to leave right after my defense, so under no circunstance it was possible to move it to a different day. Luckily for me, Mariana del Fresno, my PhD advisor, managed to move all the planets so that I can defend on ADUNCE&amp;rsquo;s room at the university rectorate. Yes, I defended my thesis in a union, isn&amp;rsquo;t that great?&lt;/p&gt;
+&lt;p&gt;My thesis is entitled &amp;ldquo;Machine learning for ophthalmic screening and diagnostics from fundus images&amp;rdquo;. You can find its English version &lt;a href=&#34;https://lirias.kuleuven.be/bitstream/123456789/592162/1/tesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, and the Spanish version &lt;a href=&#34;http://www.ridaa.unicen.edu.ar/xmlui/handle/123456789/1476&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Yes, I wrote it twice because by the time I was told that submitting it in English was not allowed, it was already finished.&lt;/p&gt;
+&lt;p&gt;Most of the code of each of the contributions is available on my github profile. Feel free to clone the repositories and experiment with them!&lt;/p&gt;
+&lt;p&gt;I would like to thank my supervisors, Matthew and Mariana, for guiding me through all this years. I would also like to thank the members of the jury, Prof. Dr. José M. Massa, Prof. Dra. Virginia Ballarin and Prof. Dr. Pablo Granitto, for carefully reading the thesis.&lt;/p&gt;
+&lt;p&gt;Now I will continue working as a postdoc at PLADEMA, until 2018, when I&amp;rsquo;m leaving to Vienna to join the Christian Doppler Laboratory for Ophthalmic Image Analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://ignaciorlando.github.io/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; data-caption=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
+
+
+  &lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-admin/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My ISBI 2019 was chosen for oral presentation</title>
+      <link>https://ignaciorlando.github.io/post/2019-03-24-isbi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-03-24-isbi/</guid>
+      <description>&lt;p&gt;Our paper on photoreceptor segmentation in retinal OCT scans was accepted for oral presentation at ISBI 2019. You can read the &lt;a href=&#34;https://arxiv.org/abs/1901.07929&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;preprint or arXiv here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

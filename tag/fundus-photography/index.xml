@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fundus photography | José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/tag/fundus-photography/</link>
+      <atom:link href="https://ignaciorlando.github.io/tag/fundus-photography/index.xml" rel="self" type="application/rss+xml" />
+    <description>fundus photography</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>fundus photography</title>
+      <link>https://ignaciorlando.github.io/tag/fundus-photography/</link>
+    </image>
+    
+    <item>
+      <title>REFUGE challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs</title>
+      <link>https://ignaciorlando.github.io/publication/2019-media-refuge/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2019-media-refuge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Glaucoma Risk Index Based on Simulated Hemodynamics from Fundus Images</title>
+      <link>https://ignaciorlando.github.io/publication/2018-miccai-hemodynamics/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2018-miccai-hemodynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retinal blood vessel segmentation in high resolution fundus photographs using automated feature parameter estimation</title>
+      <link>https://ignaciorlando.github.io/publication/2017-sipaim-vessels/</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2017-sipaim-vessels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proliferative diabetic retinopathy characterization based on fractal features: Evaluation on a publicly available dataset</title>
+      <link>https://ignaciorlando.github.io/publication/2017-medphys-fractal/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2017-medphys-fractal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aprendizaje automático para asistencia al diagnóstico de enfermedades visuales basado en imágenes de fondo de ojo (Machine learning for ophthalmic screening and diagnostics from fundus images)</title>
+      <link>https://ignaciorlando.github.io/publication/2017-thesis-retina/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2017-thesis-retina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convolutional neural network transfer for automated glaucoma identification</title>
+      <link>https://ignaciorlando.github.io/publication/2017-sipaim-glaucoma/</link>
+      <pubDate>Thu, 26 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2017-sipaim-glaucoma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Discriminatively Trained Fully Connected Conditional Random Field Model for Blood Vessel Segmentation in Fundus Images</title>
+      <link>https://ignaciorlando.github.io/publication/2016-tbme-vessels/</link>
+      <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2016-tbme-vessels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Fully-Connected CRFs for Blood Vessel Segmentation in Retinal Images</title>
+      <link>https://ignaciorlando.github.io/publication/2014-miccai-vessels/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2014-miccai-vessels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reviewing Preprocessing and Feature Extraction Techniques for Retinal Blood Vessels Segmentation in Fundus Images</title>
+      <link>https://ignaciorlando.github.io/publication/2014-mecom-vessels/</link>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2014-mecom-vessels/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

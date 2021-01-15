@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer graphics | José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/tag/computer-graphics/</link>
+      <atom:link href="https://ignaciorlando.github.io/tag/computer-graphics/index.xml" rel="self" type="application/rss+xml" />
+    <description>computer graphics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>computer graphics</title>
+      <link>https://ignaciorlando.github.io/tag/computer-graphics/</link>
+    </image>
+    
+    <item>
+      <title>SketchZooms: Deep multi-view descriptors for matching line drawings</title>
+      <link>https://ignaciorlando.github.io/publication/2020-cgf-sketchzooms/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2020-cgf-sketchzooms/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

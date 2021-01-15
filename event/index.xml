@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/event/</link>
+      <atom:link href="https://ignaciorlando.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Sat, 07 Dec 2019 09:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://ignaciorlando.github.io/event/</link>
+    </image>
+    
+    <item>
+      <title>What&#39;s next in AI for glaucoma screening? The REFUGE challenge outcomes</title>
+      <link>https://ignaciorlando.github.io/talk/whats-next-in-ai-for-glaucoma-screening-the-refuge-challenge-outcomes/</link>
+      <pubDate>Sat, 07 Dec 2019 09:30:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/whats-next-in-ai-for-glaucoma-screening-the-refuge-challenge-outcomes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>U2-Net: A Bayesian U-Net Model with Epistemic Uncertainty Feedback for Photoreceptor Layer Segmentation in Pathological OCT Scans</title>
+      <link>https://ignaciorlando.github.io/talk/u2-net-a-bayesian-u-net-model-with-epistemic-uncertainty-feedback-for-photoreceptor-layer-segmentation-in-pathological-oct-scans/</link>
+      <pubDate>Wed, 10 Apr 2019 15:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/u2-net-a-bayesian-u-net-model-with-epistemic-uncertainty-feedback-for-photoreceptor-layer-segmentation-in-pathological-oct-scans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning for ophthalmic image analysis</title>
+      <link>https://ignaciorlando.github.io/talk/machine-learning-for-ophthalmic-image-analysis/</link>
+      <pubDate>Fri, 07 Dec 2018 15:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/machine-learning-for-ophthalmic-image-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retinal blood vessel segmentation in high resolution fundus photographs using automated parameter estimation</title>
+      <link>https://ignaciorlando.github.io/talk/retinal-blood-vessel-segmentation-in-high-resolution-fundus-photographs-using-automated-parameter-estimation/</link>
+      <pubDate>Fri, 06 Oct 2017 15:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/retinal-blood-vessel-segmentation-in-high-resolution-fundus-photographs-using-automated-parameter-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convolutional Neural Network Transfer for Automated Glaucoma Identification</title>
+      <link>https://ignaciorlando.github.io/talk/convolutional-neural-network-transfer-for-automated-glaucoma-identification/</link>
+      <pubDate>Tue, 06 Dec 2016 11:15:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/convolutional-neural-network-transfer-for-automated-glaucoma-identification/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

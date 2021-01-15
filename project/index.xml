@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/project/</link>
+      <atom:link href="https://ignaciorlando.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://ignaciorlando.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>yatiris&#43;&#43;: AI for clinical applications</title>
+      <link>https://ignaciorlando.github.io/project/yatiris/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/project/yatiris/</guid>
+      <description>&lt;p&gt;Artificial intelligence is a cutting edge area in computer science that has recently been incorporated to medical imaging problems. However, most of the technological solutions associated to this field are usually developed in developed countries and subsequently bought by ours.&lt;/p&gt;
+&lt;p&gt;This project aims to develop novel AI techniques to solve medical imaging and biomedical engineering problems. To this end, we will introduce novel methods for image analysis based on machine/deep learning that will improve and/or complement current existing developments from Yatiris, the medical imaging group from PLADEMA Institute (UNICEN, Tandil, Argentina). Our purpose is to develop solution for key applications in medical personel training, clinical research, diagnostic, treatment and following of ophthalmological, vascular and neurological diseases. By the end of this project, we aim to count with sufficiently mature tools to be transfered to different medical institutions from Argentina.&lt;/p&gt;
+&lt;p&gt;PIs: Ignacio Larrabide, PhD and José Ignacio Orlando, PhD (CONICET / PLADEMA-UNICEN)&lt;/p&gt;
+&lt;p&gt;Collaborators:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alejandro Díaz, MD - CONICET / Facultad de Ciencias de la Salud, UNICEN, Olavarría, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Delfina Braggio, Eng - CONICET / PLADEMA-UNICEN, Tandil, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Hernán Külsgaard, Eng - CONICET / PLADEMA-UNICEN, Tandil, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Camila García, Eng - CONICET / PLADEMA-UNICEN, Tandil, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Santiago Vitale, Eng - CONICET / PLADEMA-UNICEN, Tandil, PBA, Argentina&lt;/li&gt;
+&lt;li&gt;Leandro Rocamora, MSc - PLADEMA-UNICEN, Tandil, PBA, Argentina&lt;/li&gt;
+&lt;li&gt;Mercedes Leguía, MD - Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Alejandro Koch, MD - Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Ezequiel Rosendi, MD - Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Oliver Gamondi, MD - Fisiología, Facultad de Ciencias de la Salud, UNICEN, Olavarría, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Mariana Bendersky, MD PhD - CONICET / ENyS / UBA / Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Mariana Vallejo Azar, MD - CONICET / ENyS / UBA / Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Juan Pablo Princich, MD PhD - ENyS / Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Paula González, PhD - CONICET / ENyS / Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Silvia Kochen, MD PhD - CONICET / ENyS / Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Supported by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kaggle Open Data Research Grant.&lt;/li&gt;
+&lt;li&gt;NVIDIA Hardware Grant.&lt;/li&gt;
+&lt;li&gt;PICT 2016-0116. HI-MED: Computational tools applied to medical image quantification, simulation and treatment planning (Herramientas Informáticas aplicadas a la cuanticación de imagen, simulación y planicación del tratamiento en MEDicina.)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>retinar: AI for diabetic retinopathy screening</title>
+      <link>https://ignaciorlando.github.io/project/retinar/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/project/retinar/</guid>
+      <description>&lt;p&gt;Diabetic retinopathy is the leading cause of preventable blindness in working age populations. Color fundus photography is currently used for telemedicine campaigns in which diabetic patients are remotely screened once an year through this imaging modality. The images are acquired by trained technicians, who transfer them to a study center in which retina experts analyzed them to determine the diagnostic. When the amount of patients increases, so does the number of images to analyze. As a consequence, these platforms suffer from scalability issues, which seriously affect their accuracy and efficiency.&lt;/p&gt;
+&lt;p&gt;In this project we aim to develop an AI-assisted platform to allow for efficient screening of diabetic retinopathy. Our system will use deep learning techniques to ensure capturing high quality photographs in the acquisitions centers and to provide early diagnostics to the patients. It will also feature lesion detections modules that will be used by the ophthalmologists to produce more accurate reports.&lt;/p&gt;
+&lt;p&gt;PI: José Ignacio Orlando, PhD&lt;/p&gt;
+&lt;p&gt;Collaborators:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mercedes Leguía, MD - Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Alejandro Koch, MD - Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Ignacio Larrabide, PhD - CONICET / PLADEMA-UNICEN.&lt;/li&gt;
+&lt;li&gt;Ezequiel Rosendi, MD - Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Tomás Castilla, Undergraduate student - Facultad de Ciencias Exactas, UNICEN.&lt;/li&gt;
+&lt;li&gt;Leandro Rocamora, MSc - PLADEMA-UNICEN.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Supported by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JOVIN 2020/2021 Grant (&amp;ldquo;Towards a smart platform for remote diabetic retinopathy screening: quality control in fundus photographs using autoencoders&amp;rdquo;). Convocatoria Jóvenes Investigadores JOVIN  2020/2021 (Programa de Fortalecimiento a la Ciencia y la Tecnología en Universidades Nacionales, Secretaría de Ciencia, Arte y Tecnología, UNICEN).&lt;/li&gt;
+&lt;li&gt;INI 2020 Scholarship (&amp;ldquo;Deep learning algorithms for computer assisted diagnostic of diabetic retino-pathy from fundus photographs&amp;rdquo;). Convocatoria Beca INI de Ingreso a la Investigación (Programa de Fortalecimiento a la Ciencia y la Tecnología en las Universidades Nacionales). Becario: Tomás Castilla.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This project was awarded with the Voted Best by the Audience prize at &lt;a href=&#34;https://www.prendete.com.ar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Concurso Prendete&lt;/a&gt; (Tandil, Argentina). As such, it was assigned with U$D 10.000 in AWS credits.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Towards a better understanding of glaucoma through fundus photography</title>
+      <link>https://ignaciorlando.github.io/project/canoa/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/project/canoa/</guid>
+      <description>&lt;p&gt;Glaucoma is one of the leading causes of preventable blindness. Known as &amp;ldquo;the silent thief of sight&amp;rdquo;, it is asymptomatic until it produces a permanent and irreversible damage of the retinal nerve fiber layer. A gold standard imaging technique to identify the disease is still missing: currently, glaucoma is diagnosed using multiple studies, including microperimetry, optical coherence tomography and color fundus phography. As a consequence, detecting it at an early stage through screening campaigns is still prohibitive.&lt;/p&gt;
+&lt;p&gt;In this project we aim to improve the usage of color fundus photography in the context of glaucoma screening. To this end, our purpose is to introduce novel deep learning based approaches to discover novel biomarkers on these images. By means of our techniques, clinicians will be able to diagnose glaucoma with higher sensitivity and specificity using this low-cost imaging technique.&lt;/p&gt;
+&lt;p&gt;PI: José Ignacio Orlando, PhD&lt;/p&gt;
+&lt;p&gt;Collaborators:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mercedes Leguía, MD - Hospital de Alta Complejidad El Cruce Dr. Néstor Carlos Kirchner, Florencio Varela, PBA, Argentina.&lt;/li&gt;
+&lt;li&gt;Ignacio Larrabide, PhD - CONICET / PLADEMA-UNICEN, Tandil, Argentina.&lt;/li&gt;
+&lt;li&gt;Emmanuel Iarussi, PhD - CONICET / UTN-FRBA, CABA, Argentina.&lt;/li&gt;
+&lt;li&gt;Carlos A. Bulant, PhD - CONICET / PLADEMA-UNICEN, Tandil, Argentina.&lt;/li&gt;
+&lt;li&gt;Karel van Keer, MD PhD - UZ Leuven, Leuven, Belgium.&lt;/li&gt;
+&lt;li&gt;João Barbosa Breda, MD PhD - University of Porto, Porto, Portugal; KU Leuven, Leuven, Belgium.&lt;/li&gt;
+&lt;li&gt;Lautaro Gramuglia, Undergraduate student - Facultad de Ciencias Exactas, UNICEN.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Supported by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;INI 2020 Scholarship (&amp;ldquo;Artery/vein segmentation in color fundus pictures using deep learning: applications to simulation of retinal hemodynamics&amp;rdquo;). Convocatoria Beca INI de Ingreso a la Investigación (Programa de Fortalecimiento a la Ciencia y la Tecnología en las Universidades Nacionales). Becario: Tomás Castilla.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

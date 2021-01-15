@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>news | José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/tag/news/</link>
+      <atom:link href="https://ignaciorlando.github.io/tag/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>news</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Thu, 12 Dec 2019 12:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>news</title>
+      <link>https://ignaciorlando.github.io/tag/news/</link>
+    </image>
+    
+    <item>
+      <title>Presentation at IMAGE AI in Leuven, Belgium</title>
+      <link>https://ignaciorlando.github.io/post/2019-12-12-imageai/</link>
+      <pubDate>Thu, 12 Dec 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-12-12-imageai/</guid>
+      <description>&lt;p&gt;In December 12th I participated (remotely) as a lecturer at &lt;a href=&#34;https://www.eugs.org/newsletter/newsletter-2019-11/IMAGE_AI.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IMAGE AI&lt;/a&gt;, an international meeting on artificial intelligence and its application to glaucoma, organized by the European Glaucoma Society in collaboration with researchers from UZ Leuven and VITO. I was invited to present the results of the challenge REFUGE, in whose organization I participated during my postdoc in Austria. &lt;a href=&#34;https://ignaciorlando.github.io/static/pptx/ImageAI2019_alternative.pptx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The slides can be found here&lt;/a&gt;. This work is a collaboration between Yanwu Xu, Hrvoje Bogunović, Huazhu Fu, Xiualn Zhang, Fei Li and the REFUGE team.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I got a permanent position as an Assistant Researcher at CONICET, Argentina</title>
+      <link>https://ignaciorlando.github.io/post/2019-09-01-conicet/</link>
+      <pubDate>Sun, 01 Sep 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-09-01-conicet/</guid>
+      <description>&lt;p&gt;In September 13th I&amp;rsquo;ll be landing in Argentina to be once again part of PLADEMA, this time as an Assistant Researcher funded by CONICET.
+I&amp;rsquo;ll be joining again Yatiris, a group within PLADEMA developing cutting edge technologies for medical image analysis using computer vision, machine learning and
+pattern recognition techniques. I&amp;rsquo;ll be responsible of coordinating all the deep learning initiatives, while continuing my own line of research in computer-assisted
+ophthalmology.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s hard to say goodbye to OPTIMA and such an amazing group of talents and good people. My time in Vienna was so exciting, full of research
+projects from which I learned a lot.
+I would like to thank Prof. Schmidt-Erfurth for trusting in me for this position, and also to Bianca Gerendas, Hrvoje Bogunović, Sebastian Waldstein
+and Martin Ehler for their continuous support. I would also like to thank all of my colleagues in the lab, specially Philipp, Dominik, Antoine,
+Wolf, Rhona, David, Thomas and Sophie. Some of them have turned into really good friends of mine that I will miss a lot being abroad!&lt;/p&gt;
+&lt;p&gt;That being said, I&amp;rsquo;m glad to move back to Argentina to give back to the country at least a little bit in proportion to what it did to me since I was born there :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two papers accepted for OMIA 2019!</title>
+      <link>https://ignaciorlando.github.io/post/2019-08-01-omia/</link>
+      <pubDate>Tue, 30 Jul 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-08-01-omia/</guid>
+      <description>&lt;p&gt;We got two papers accepted for publication at the OMIA workshop in MICCAI 2019 in Shengzen, China.&lt;/p&gt;
+&lt;p&gt;In &amp;ldquo;An amplified-target loss approach for photoreceptor layer segmentation in pathological OCT scans&amp;rdquo;, Anna Breger and I introduced an approach to increase penalization of errors in the central area of the input B-scan. By means of this approach, we force the neural network to take more into account the abnormalities that appear in the center of the scans in pathological retinas, improving results in photoreceptor layer segmentation. My other co-authors are Hrvoje Bogunović, Sophie Riedl, Bianca S. Gerendas, Martin Ehler and Ursula Schmidt-Erfurth.&lt;/p&gt;
+&lt;p&gt;In &amp;ldquo;Foveal Avascular Zone Segmentation in Clinical Routine Fluorescein Angiographies Using Multitask Learning&amp;rdquo;, Dominik Hofer introduces a multitask learning approach for FAZ segmentation in FA images. To the classical segmentation branch, we add a second decoder that outputs an Euclidean distance map. By penalizing errors both in segmentation and in this regression map, we increase the regularization of the model and improve its results in clinical routine images. The other co-authors are Philipp Seeböck, Georgios Mylonas, Felix Goldbach, Amir Sadeghipour, Bianca S Gerendas, Ursula Schmidt-Erfurth. This is part of Dominik&amp;rsquo;s PhD thesis, supervised by Bianca S Gerendas and Philipp Seeböck.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New paper at MICCAI 2019!</title>
+      <link>https://ignaciorlando.github.io/post/2019-06-05-miccai/</link>
+      <pubDate>Wed, 05 Jun 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-06-05-miccai/</guid>
+      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Multiclass segmentation as multitask learning for drusen segmentation in retinal optical coherence tomography&amp;rdquo; has been accepted for publication at MICCAI 2019!&lt;/p&gt;
+&lt;p&gt;Drusen segmentation in OCT is a challenging task. In general, it is posed either as a binary segmentation problem (drusen vs. everything else) or as a layer segmentation problem (by detecting the outer boundary of the RPE and the Bruch&amp;rsquo;s membrane). Each approach has its advantages and disadvantages: binary segmentation might be prone to false positives in areas that are not anatomically plausible, while layer segmentation might fail under the presence of large drusenoid deposits. In this paper we propose to take the best of each world by posing a multiclass segmentation problem in which we target both layers and drusen. Furthermore, instead of training a single, large capacity U-Net model with a multiclass cross entropy loss, we propose to benefit from multitask learning. To this end, we disentangle the multiclass problem as a series of binary segmentation tasks, and we assign to each of them its own decoder, while sharing a single encoder through skip connections. We also analyze if adding connections between the decoders for the layers with the decoder of the drusen segmentation task helps or not. In our experiments we observed better performance when no gradient flow is allowed through these extra connections.&lt;/p&gt;
+&lt;p&gt;If you have other problems with &amp;ldquo;sandwiched&amp;rdquo; classes, then maybe this idea can help you to boost your performance :)&lt;/p&gt;
+&lt;p&gt;This paper is part of Rhona Asgari&amp;rsquo;s PhD thesis, supervised by Hrvoje Bogunović at OPTIMA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New paper at IJCARS 2019!</title>
+      <link>https://ignaciorlando.github.io/post/2019-07-30-ijcars/</link>
+      <pubDate>Tue, 05 Feb 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-07-30-ijcars/</guid>
+      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Improving realism in patient specific Ultrasound simulation using CycleGANs&amp;rdquo; has been accepted for publication in the International Journal of Computer Assisted Radiology and Surgery (IJCARS)! This is an extension of what Santiago presented at CARS 2019 in Rennes, France.&lt;/p&gt;
+&lt;p&gt;In this article we present a hybrid approach towards US simulation that combines ray-casting techniques with CycleGANs. The key idea is to use these generative models to alleviate the drawback of current available simulation techniques. In particular, traditional ray-casting based solutions for US simulation usually fail to model complex features such as artifacts or attenuations that are typical from this imaging modality. To overcome this difficulty, we propose to train a CycleGAN using unpaired real US scans and ray-casting based simulations. The model is then applied on simulated images to get more realistic representations. We experimentally evaluated our approach in a user study with a cohort of more than 20 participants, observing that a ResNet based generator is able to significantly improved the appeareance of the images.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;We will need more US experts to further validate our approach&lt;/em&gt;, so if you are willing to help us please contact Santiago Vitale as &lt;a href=&#34;mailto:svitale@conicet.gov.ar&#34;&gt;svitale@conicet.gov.ar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This work was part of a collaboration with Santiago Vitale and Ignacio Larrabide, from Pladema / CONICET, and Emmanuel Iarussi, from UTN and also from CONICET. This is also part of Santiago&amp;rsquo;s PhD thesis on abdominal ultrasound simulation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Poster presentation at CARS 2019!</title>
+      <link>https://ignaciorlando.github.io/post/2019-05-02-cars/</link>
+      <pubDate>Tue, 05 Feb 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-05-02-cars/</guid>
+      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Improving realism in patient specific Ultrasound simulation using CycleGANs&amp;rdquo; has been accepted for poster presentation at CARS 2019 in Rennes, France.&lt;/p&gt;
+&lt;p&gt;This work was part of a collaboration with Santiago Vitale and Ignacio Larrabide, from Pladema / CONICET, and Emmanuel Iarussi, from UTN and also from CONICET.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two papers accepted for ISBI 2019!</title>
+      <link>https://ignaciorlando.github.io/post/2018-12-18-isbi/</link>
+      <pubDate>Tue, 18 Dec 2018 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-12-18-isbi/</guid>
+      <description>&lt;p&gt;Excellent news to finish an amazing year of work at &lt;a href=&#34;https://optima.meduniwien.ac.at&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OPTIMA&lt;/a&gt;! We got two papers accepted for presentation at ISBI 2019 :)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;U2-Net: A Bayesian U-Net model with epistemic uncertainty feedback for photoreceptor layer segmentation in pathological OCT scans&amp;rdquo;&lt;/strong&gt; describes a novel U-shaped architecture for photoreceptor layer segmentation in OCT scans. We modified the basic U-Net with LeakyReLUs, batch normalization and dropout to improve the original segmentation performance. Additionally, we used epistemic uncertainty estimation based on Monte Carlo sampling with dropout on test time to provide qualitative feedback about potential errors of the network. We compared our performance with other baseline approaches and we got state of the art performance for this segmentation task! This study was possible thanks to the support of my co-authors: &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/philipp-seeboeck/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Phillip Seeböck&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/hrvoje-bogunovic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hrvoje Bogunović&lt;/a&gt; (who helped me with the technical details), &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/sophie-klimscha/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sophie Klimscha&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/christoph-grechenig/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christoph Grechenig&lt;/a&gt; (who coordinated the manual annotation procedure for us, thank you guys!), and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/sebastian-waldstein/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sebastian Waldstein&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/bianca-s-gerendas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bianca S. Gerendas&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/ursula-schmidt-erfurth/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ursula Schmidt-Erfurth&lt;/a&gt; (who supervised the study). Thanks a lot!&lt;/p&gt;
+&lt;p&gt;The second papers is &lt;strong&gt;&amp;ldquo;Using CycleGANs for effectively reducing image variability across OCT devices and improving retinal fluid segmentation&amp;rdquo;&lt;/strong&gt;, and it is a joint research lead both by &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/philipp-seeboeck/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Phillip Seeböck&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/david-romo-bucheli/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Romo-Bucheli&lt;/a&gt;. They introduced the idea of using a CycleGAN to reduce the covariate shift between different OCT devices and allows the transfer of existing segmentation models. I&amp;rsquo;ve colaborated with them developing part of the segmentation model. The other co-authors are &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/sebastian-waldstein/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sebastian Waldstein&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/hrvoje-bogunovic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hrvoje Bogunović&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/bianca-s-gerendas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bianca S. Gerendas&lt;/a&gt;, &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/computational-imaging-research/georg-langs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Georg Langs&lt;/a&gt; and &lt;a href=&#34;https://optima.meduniwien.ac.at/about-us/team/clinical-research/ursula-schmidt-erfurth/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ursula Schmidt-Erfurth&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We kindly acknowledge the funding agencies supporting this research, including the Christian Doppler Research Association, the Austrian Federal Ministry for Digital and Economic Affairs and the National Foundation for Research, Technology and Development and the Austrian Science Fund, towards the projects FWF I2714-B31 and WWTF AugUniWien / FA746A0249. We also thank the NVIDIA Corporation for donating Titan X and Titan XP GPUs for our experiments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Retinal imaging talk at FCEN / UBA (Argentina)</title>
+      <link>https://ignaciorlando.github.io/post/2018-12-07-uba-presentation/</link>
+      <pubDate>Fri, 07 Dec 2018 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-12-07-uba-presentation/</guid>
+      <description>&lt;p&gt;In December 7th I gave a lecture on machine learning for ophthalmic image analysis to the students of the &amp;ldquo;Deep Learning for Medical Image Analysis&amp;rdquo; course that &lt;a href=&#34;https://eferrante.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Enzo Ferrante&lt;/a&gt; taught at the Computer Science Department from Facultad de Ciencias Exactas y Naturales, UBA. Thanks Enzo for the invitation!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>REFUGE: Retinal Fundus Glaucoma Challenge</title>
+      <link>https://ignaciorlando.github.io/post/2018-07-24-refuge/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-07-24-refuge/</guid>
+      <description>&lt;p&gt;This year I&amp;rsquo;ll be joining Yanwu Xu (Frank), Huazhu Fu and Hrvoje Bogunović as a co-organizer of &lt;a href=&#34;https://refuge.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;REFUGE&lt;/a&gt;, the first MICCAI challenge on glaucoma detection in fundus images! It will be held as part of the &lt;a href=&#34;https://sites.google.com/site/mwomia2018/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ophthalmic Medical Image Analysis (OMIA) workshop&lt;/a&gt; at &lt;a href=&#34;https://www.miccai2018.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAI 2018&lt;/a&gt; in Granada (Spain).&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be responsible of grading the teams based on their submitted results, presenting the outcomes of the challenge and writing the summary publication. Thanks Hrvoje and Frank for your vote of confidence!&lt;/p&gt;
+&lt;p&gt;The deadline for submitting results on the REFUGE validation set either for glaucoma detection, optic disc/cup segmentation and/or fovea detection is this Friday 28th! Looking forward for your submissions!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New paper at MICCAI 2018!</title>
+      <link>https://ignaciorlando.github.io/post/2018-05-25-miccai/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-05-25-miccai/</guid>
+      <description>&lt;p&gt;Our paper entitled &amp;ldquo;Towards a glaucoma risk index based on simulated hemodynamics from fundus images&amp;rdquo; has been accepted for presentation in MICCAI 2018!&lt;/p&gt;
+&lt;p&gt;In this article we present one of the first attempts to characterize the hemodynamics of the retinal arterioles on glaucomatous patients. We have used a 0D model for simulating the blood flow in patient specific segmentations of the arteries, and proposed a novel dictionary-learning based strategy for summarizing all the hemodynamic outcomes into a fixed length feature vector. By means of this approach we want to perform clinical studies on large populations to understand the hemodynamics of glaucomatous patients!&lt;/p&gt;
+&lt;p&gt;We have good news for you, btw! Jointly with the manuscript, we will also release our code&amp;hellip; and data! We have built LES-AV, a set of 22 fundus photographs taken from the Leuven Eye Study. The images include not only manual annotations of the retinal vessels, but also their classification into arteries and veins.&lt;/p&gt;
+&lt;p&gt;This work was part of a collaboration with João Barbosa Breda, Karel van Keer, Matthew B. Blaschko, Pablo J. Blanco and Carlos A. Bulant. This is also part of the work that I made after defending my thesis in Argentina, and before moving to Vienna to join OPTIMA. So, yeah, it is cool to see CONICET again in the MICCAI proceedings :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I got an NVIDIA Hardware Grant</title>
+      <link>https://ignaciorlando.github.io/post/2018-02-14-nvidia/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-02-14-nvidia/</guid>
+      <description>&lt;p&gt;My application to the &lt;a href=&#34;https://developer.nvidia.com/academic_gpu_seeding&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA Hardware Grant&lt;/a&gt; was succesful! As part of this grant, I will receive a &lt;a href=&#34;https://www.nvidia.com/en-us/titan/titan-xp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA Titan XP GPU&lt;/a&gt; to perform my research on deep learning techniques for OCT image analysis. I thank NVIDIA Corporation for providing me with this cutting-edge hardware that will certainly help me to improve the efficiency of my methods.&lt;/p&gt;
+&lt;p&gt;Update 2028-03-15: I got the Titan Xp and I&amp;rsquo;m ready to put it on my computer!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Moving to Vienna!</title>
+      <link>https://ignaciorlando.github.io/post/2018-01-08-optima/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2018-01-08-optima/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m glad to tell you, guys, that since next week I will be formally part of the &lt;a href=&#34;https://optima.meduniwien.ac.at/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christian Doppler Laboratory for Ophthalmic Image Analysis (OPTIMA)&lt;/a&gt;, a multidisciplinary research team that belongs to the Department of Ophthalmology and Optometry of the Medical University of Vienna (Austria). I&amp;rsquo;m joining the laboratory as a Postdoctoral Research Associate, working on automated OCT image analysis using deep learning techniques. My research will be funded by the project WWTF AugUniWien / FA746A0249. I&amp;rsquo;m really looking forward to start to work with this amazing team!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I&#39;ve defended my PhD thesis!</title>
+      <link>https://ignaciorlando.github.io/post/2017-09-22-phd-defense/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2017-09-22-phd-defense/</guid>
+      <description>&lt;p&gt;Yesterday, September 21th 2017, I have officially defended my PhD thesis!! It was quite an intense day. The night before there was a huge storm that broke several windows in the university. As a result, the Rector decided to cancel the activities&amp;hellip; of course including my defense. And, even worse, one of the members of the jury had to leave right after my defense, so under no circunstance it was possible to move it to a different day. Luckily for me, Mariana del Fresno, my PhD advisor, managed to move all the planets so that I can defend on ADUNCE&amp;rsquo;s room at the university rectorate. Yes, I defended my thesis in a union, isn&amp;rsquo;t that great?&lt;/p&gt;
+&lt;p&gt;My thesis is entitled &amp;ldquo;Machine learning for ophthalmic screening and diagnostics from fundus images&amp;rdquo;. You can find its English version &lt;a href=&#34;https://lirias.kuleuven.be/bitstream/123456789/592162/1/tesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, and the Spanish version &lt;a href=&#34;http://www.ridaa.unicen.edu.ar/xmlui/handle/123456789/1476&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Yes, I wrote it twice because by the time I was told that submitting it in English was not allowed, it was already finished.&lt;/p&gt;
+&lt;p&gt;Most of the code of each of the contributions is available on my github profile. Feel free to clone the repositories and experiment with them!&lt;/p&gt;
+&lt;p&gt;I would like to thank my supervisors, Matthew and Mariana, for guiding me through all this years. I would also like to thank the members of the jury, Prof. Dr. José M. Massa, Prof. Dra. Virginia Ballarin and Prof. Dr. Pablo Granitto, for carefully reading the thesis.&lt;/p&gt;
+&lt;p&gt;Now I will continue working as a postdoc at PLADEMA, until 2018, when I&amp;rsquo;m leaving to Vienna to join the Christian Doppler Laboratory for Ophthalmic Image Analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My ISBI 2019 was chosen for oral presentation</title>
+      <link>https://ignaciorlando.github.io/post/2019-03-24-isbi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-03-24-isbi/</guid>
+      <description>&lt;p&gt;Our paper on photoreceptor segmentation in retinal OCT scans was accepted for oral presentation at ISBI 2019. You can read the &lt;a href=&#34;https://arxiv.org/abs/1901.07929&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;preprint or arXiv here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
