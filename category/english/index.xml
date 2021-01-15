@@ -5,12 +5,41 @@
     <link>https://ignaciorlando.github.io/category/english/</link>
       <atom:link href="https://ignaciorlando.github.io/category/english/index.xml" rel="self" type="application/rss+xml" />
     <description>english</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Thu, 12 Dec 2019 12:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>english</title>
       <link>https://ignaciorlando.github.io/category/english/</link>
     </image>
+    
+    <item>
+      <title>Our project retinar was awarded by Prendete</title>
+      <link>https://ignaciorlando.github.io/post/2020-11-20-prendete/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2020-11-20-prendete/</guid>
+      <description>&lt;p&gt;retinar won the popular vote in Prendete 2020, the start-up contest organized in Tandil to increase the visibility of innovative initiatives. By winning this prize we were assigned with U$D 10.000 in AWS credits that we will certainly use to deploy our MVP. Thanks you very much to everyone who voted us!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>We were awarded with a JOVIN grant by UNICEN</title>
+      <link>https://ignaciorlando.github.io/post/2020-12-11-jovin/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2020-12-11-jovin/</guid>
+      <description>&lt;p&gt;Our project entitled &amp;ldquo;Towards a smart platform for remote diabetic retinopathy screening: quality control in fundus photographs using autoencoders&amp;rdquo; (Hacia una plataforma inteligente para el tamizado remoto de la retinopatía diabética: control de calidad de fotografías de fondo de ojo utilizando autocodificadores) was granted with AR$ 50.000 by UNICEN. This grant is part of the initiative Programa de Fortalecimiento a la Ciencia y la Tecnología en Universidad Nacionales from Secretaría de Ciencia, Arte y Tecnología at UNICEN.&lt;/p&gt;
+&lt;p&gt;In this project we aim to develop one of the key modules for retinar, our AI-guided telemedicine platform for remote diabetic retinopathy screening. Our goal is to develop AI models for automatically detecting low quality fundus photographs, in order to avoid transmissions of suboptimal scans and to recommend the technicians to reacquire the images before the patient leaves the appointment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>We were granted with a Kaggle Open Data Research Grant</title>
+      <link>https://ignaciorlando.github.io/post/2020-01-22-kaggle/</link>
+      <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2020-01-22-kaggle/</guid>
+      <description>&lt;p&gt;We are proud to announce that we were awarded with a &lt;a href=&#34;https://www.kaggle.com/open-data-research-grant-2020-awardees#project-title-12&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kaggle Open Data Research Grant&lt;/a&gt; for Santiago Vitale&amp;rsquo;s PhD project on GANs for ultrasound simulation. This grant comprises U$D 2.000 and are awarded to AI initiatives that will ultimately release both code and data. In this case, it was assigned to our project on ultrasound simulation using a combination of ray-casting techniques and GANs. This is part of Santiago&amp;rsquo;s PhD thesis, supervised by Ignacio Larrabide and in which I&amp;rsquo;m collaborating mostly for the AI part. The other team members are Emmanual Iarussi (CONICET / UTN Regional CABA) and Alejandro Díaz (CONICET / UNICEN).&lt;/p&gt;
+&lt;p&gt;This grant comes in the right moment, as we were seeking to improve our computational resources by buying new NVIDIA GPUs. Thanks Google Kaggle for supporting our research!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Presentation at IMAGE AI in Leuven, Belgium</title>
