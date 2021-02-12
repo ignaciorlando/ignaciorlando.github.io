@@ -5,12 +5,22 @@
     <link>https://ignaciorlando.github.io/</link>
       <atom:link href="https://ignaciorlando.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>José Ignacio Orlando</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Sun, 27 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>José Ignacio Orlando</title>
       <link>https://ignaciorlando.github.io/</link>
     </image>
+    
+    <item>
+      <title>We were awarded with a PICT 2019</title>
+      <link>https://ignaciorlando.github.io/post/2021-02-12-pict/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2021-02-12-pict/</guid>
+      <description>&lt;p&gt;Our project entitled &amp;ldquo;Characterization of optic nerve head morphology from color fundus pictures using deep learning&amp;rdquo; was granted with a PICT 2019&amp;quot; (CANOA: Caracterización morfológica de la cabeza del nervio óptico en fotografías de fondo de ojo mediante aprendizaje profundo) was accepted as a PICT 2019 Joven Investigador by Agencia I+D+i, the national agency for funding research. This 2 years initiative will be funded with AR$ 475.000.&lt;/p&gt;
+&lt;p&gt;Our goal is to develop cutting-edge representation learning approaches to extract novel glaucoma biomarkers from color fundus images. In particular, we will apply autoencoders and multitask learning techniques to extract valuable information describing the morphology of the optic nerve head, the area that is damaged the most by glaucoma.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SketchZooms: Deep multi-view descriptors for matching line drawings</title>
@@ -304,7 +314,8 @@ Si de todas formas no quedás en la preselección, te vamos a tener en cuenta pa
 &lt;/ul&gt;
 &lt;p&gt;Supported by:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;INI 2020 Scholarship (&amp;ldquo;Artery/vein segmentation in color fundus pictures using deep learning: applications to simulation of retinal hemodynamics&amp;rdquo;). Convocatoria Beca INI de Ingreso a la Investigación (Programa de Fortalecimiento a la Ciencia y la Tecnología en las Universidades Nacionales). Becario: Tomás Castilla.&lt;/li&gt;
+&lt;li&gt;PICT 2019-00070 (&amp;ldquo;CANOA: CAracterización morfológica de la cabeza del Nervio Óptico en fotografías de fondo de ojo mediante Aprendizaje profundo&amp;rdquo;). Proyectos de Investigación Científica y Tecnológica PICT 2019 Joven Investigador (FONCyT, Agencia I+D+i, Ministerio de Ciencia, Tecnología e Innovación).&lt;/li&gt;
+&lt;li&gt;INI 2020 Scholarship (&amp;ldquo;Artery/vein segmentation in color fundus pictures using deep learning: applications to simulation of retinal hemodynamics&amp;rdquo;). Convocatoria Beca INI de Ingreso a la Investigación (Programa de Fortalecimiento a la Ciencia y la Tecnología en las Universidades Nacionales). Becario: Lautaro Gramuglia.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

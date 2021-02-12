@@ -5,12 +5,22 @@
     <link>https://ignaciorlando.github.io/category/grant/</link>
       <atom:link href="https://ignaciorlando.github.io/category/grant/index.xml" rel="self" type="application/rss+xml" />
     <description>grant</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>grant</title>
       <link>https://ignaciorlando.github.io/category/grant/</link>
     </image>
+    
+    <item>
+      <title>We were awarded with a PICT 2019</title>
+      <link>https://ignaciorlando.github.io/post/2021-02-12-pict/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2021-02-12-pict/</guid>
+      <description>&lt;p&gt;Our project entitled &amp;ldquo;Characterization of optic nerve head morphology from color fundus pictures using deep learning&amp;rdquo; was granted with a PICT 2019&amp;quot; (CANOA: Caracterización morfológica de la cabeza del nervio óptico en fotografías de fondo de ojo mediante aprendizaje profundo) was accepted as a PICT 2019 Joven Investigador by Agencia I+D+i, the national agency for funding research. This 2 years initiative will be funded with AR$ 475.000.&lt;/p&gt;
+&lt;p&gt;Our goal is to develop cutting-edge representation learning approaches to extract novel glaucoma biomarkers from color fundus images. In particular, we will apply autoencoders and multitask learning techniques to extract valuable information describing the morphology of the optic nerve head, the area that is damaged the most by glaucoma.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Our project retinar was awarded by Prendete</title>
