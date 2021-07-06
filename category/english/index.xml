@@ -14,11 +14,20 @@
     
     <item>
       <title>We were awarded with a PICT 2019</title>
-      <link>https://ignaciorlando.github.io/post/2021-02-05-wow/</link>
+      <link>https://ignaciorlando.github.io/post/2021-02-05-pict/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/post/2021-02-05-wow/</guid>
+      <guid>https://ignaciorlando.github.io/post/2021-02-05-pict/</guid>
       <description>&lt;p&gt;Our project entitled &amp;ldquo;Characterization of optic nerve head morphology from color fundus pictures using deep learning&amp;rdquo; was granted with a PICT 2019&amp;quot; (CANOA: Caracterización morfológica de la cabeza del nervio óptico en fotografías de fondo de ojo mediante aprendizaje profundo) was accepted as a PICT 2019 Joven Investigador by Agencia I+D+i, the national agency for funding research. This 2 years initiative will be funded with AR$ 475.000.&lt;/p&gt;
 &lt;p&gt;Our goal is to develop cutting-edge representation learning approaches to extract novel glaucoma biomarkers from color fundus images. In particular, we will apply autoencoders and multitask learning techniques to extract valuable information describing the morphology of the optic nerve head, the area that is damaged the most by glaucoma.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>retinar was awarded by NVIDIA</title>
+      <link>https://ignaciorlando.github.io/post/2021-06-22-nvidia-applied-research/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2021-06-22-nvidia-applied-research/</guid>
+      <description>&lt;p&gt;Our project entitled &amp;ldquo;retinar: assisting remote diabetic retinopathy screening with AI tools&amp;rdquo; was awarded as part of the NVIDIA Applied Research Accelerator Program, from NVIDIA Corporation. We received an initial donation of 500 hours on V100 GPU instances via SaturnCloud, in support of the applied research project in which we intend to implement &lt;a href=&#34;https://retinar.com.ar/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retinar&lt;/a&gt;, an AI based system for detecting diabetic retinopathy from fundus photographs.&lt;/p&gt;
 </description>
     </item>
     
