@@ -40,9 +40,10 @@
 &lt;/ul&gt;
 &lt;p&gt;Supported by:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;PIP 2021-2023. yatiris++: inteligencia artificial para aplicaciones clínicas basadas en imágenes médicas.&lt;/li&gt;
 &lt;li&gt;Kaggle Open Data Research Grant.&lt;/li&gt;
 &lt;li&gt;NVIDIA Hardware Grant.&lt;/li&gt;
-&lt;li&gt;PICT 2016-0116. HI-MED: Computational tools applied to medical image quantification, simulation and treatment planning (Herramientas Informáticas aplicadas a la cuanticación de imagen, simulación y planicación del tratamiento en MEDicina.)&lt;/li&gt;
+&lt;li&gt;PICT 2016-0116. HI-MED: Computational tools applied to medical image quantification, simulation and treatment planning (Herramientas Informáticas aplicadas a la cuantificación de imagen, simulación y planicación del tratamiento en MEDicina.)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -66,6 +67,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Supported by:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;PAC Emprendedores para la Innovación. Ministerio de Desarrollo Productivo de la Nación.&lt;/li&gt;
 &lt;li&gt;NVIDIA Applied Research Accelerator Program (500 hours on V100 GPU instances via SaturnCloud).&lt;/li&gt;
 &lt;li&gt;JOVIN 2020/2021 Grant (&amp;ldquo;Towards a smart platform for remote diabetic retinopathy screening: quality control in fundus photographs using autoencoders&amp;rdquo;). Convocatoria Jóvenes Investigadores JOVIN  2020/2021 (Programa de Fortalecimiento a la Ciencia y la Tecnología en Universidades Nacionales, Secretaría de Ciencia, Arte y Tecnología, UNICEN).&lt;/li&gt;
 &lt;li&gt;INI 2020 Scholarship (&amp;ldquo;Deep learning algorithms for computer assisted diagnostic of diabetic retino-pathy from fundus photographs&amp;rdquo;). Convocatoria Beca INI de Ingreso a la Investigación (Programa de Fortalecimiento a la Ciencia y la Tecnología en las Universidades Nacionales). Becario: Tomás Castilla.&lt;/li&gt;
