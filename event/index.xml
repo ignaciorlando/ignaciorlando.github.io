@@ -5,12 +5,20 @@
     <link>https://ignaciorlando.github.io/event/</link>
       <atom:link href="https://ignaciorlando.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Sat, 07 Dec 2019 09:30:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Fri, 29 Oct 2021 09:30:00 +0000</lastBuildDate>
     <image>
       <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://ignaciorlando.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Inteligencia artificial en oftalmología - desarrollos argentinos, oportunidades y desafíos</title>
+      <link>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmologia-desarrollos-argentinos-oportunidades-y-desafios/</link>
+      <pubDate>Fri, 29 Oct 2021 09:30:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmologia-desarrollos-argentinos-oportunidades-y-desafios/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>What&#39;s next in AI for glaucoma screening? The REFUGE challenge outcomes</title>
