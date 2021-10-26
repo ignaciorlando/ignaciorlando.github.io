@@ -5,12 +5,21 @@
     <link>https://ignaciorlando.github.io/</link>
       <atom:link href="https://ignaciorlando.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>José Ignacio Orlando</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Tue, 22 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Tue, 21 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>José Ignacio Orlando</title>
       <link>https://ignaciorlando.github.io/</link>
     </image>
+    
+    <item>
+      <title>We&#39;ve received a PIP 2021-2023 grant</title>
+      <link>https://ignaciorlando.github.io/post/2021-09-21-pip/</link>
+      <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2021-09-21-pip/</guid>
+      <description>&lt;p&gt;Our project entitled &amp;ldquo;yatiris++ - AI for clinical applications&amp;rdquo; received funding from CONICET as part of the PIP 2021-2023 grants. The grant corresponds to 3-years funding for a total amount of AR$ 1.200.000, that will be used for supporting our research on AI for neuroimaging, ophthalmology and ultrasound. I&amp;rsquo;m the project leader in this case, and the team is also integrated by Ignacio Larrabide, Alejandro Díaz, Delfina Braggio, Hernán Külsgaard, Camila García, Santiago Vitale and Leandro Rocamora.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>retinar was awarded by NVIDIA</title>
