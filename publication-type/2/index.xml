@@ -5,12 +5,20 @@
     <link>https://ignaciorlando.github.io/publication-type/2/</link>
       <atom:link href="https://ignaciorlando.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>https://ignaciorlando.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Improving foveal avascular zone segmentation in fluorescein angiograms by leveraging manual vessel labels from public color fundus pictures</title>
+      <link>https://ignaciorlando.github.io/publication/2022-cycleganfa/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2022-cycleganfa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Linking Function and Structure with ReSenseNet: Predicting Retinal Sensitivity from Optical Coherence Tomography using Deep Learning</title>
