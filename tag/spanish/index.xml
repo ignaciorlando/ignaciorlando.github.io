@@ -5,12 +5,20 @@
     <link>https://ignaciorlando.github.io/tag/spanish/</link>
       <atom:link href="https://ignaciorlando.github.io/tag/spanish/index.xml" rel="self" type="application/rss+xml" />
     <description>spanish</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Tue, 16 Nov 2021 12:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Wed, 01 Jun 2022 14:45:00 +0000</lastBuildDate>
     <image>
       <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>spanish</title>
       <link>https://ignaciorlando.github.io/tag/spanish/</link>
     </image>
+    
+    <item>
+      <title>Evaluación retrospectiva de un primer modelo de inteligencia artificial argentino para tamizaje automático de retinopatía diabética referible a partir de fotografías de fondo de ojo</title>
+      <link>https://ignaciorlando.github.io/talk/evaluacion-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-automatico-de-retinopatia-diabetica-referible-a-partir-de-fotografias-de-fondo-de-ojo/</link>
+      <pubDate>Wed, 01 Jun 2022 14:45:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/evaluacion-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-automatico-de-retinopatia-diabetica-referible-a-partir-de-fotografias-de-fondo-de-ojo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>retinar - hacia una plataforma nacional basada en inteligencia artificial para la detección temprana de la retinopatía diabética</title>
