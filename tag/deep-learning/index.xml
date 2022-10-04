@@ -5,12 +5,20 @@
     <link>https://ignaciorlando.github.io/tag/deep-learning/</link>
       <atom:link href="https://ignaciorlando.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>deep learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Wed, 21 Sep 2022 12:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Mon, 03 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>deep learning</title>
       <link>https://ignaciorlando.github.io/tag/deep-learning/</link>
     </image>
+    
+    <item>
+      <title>Assessing Coarse-to-Fine Deep Learning Models for Optic Disc and Cup Segmentation in Fundus Images&#34;</title>
+      <link>https://ignaciorlando.github.io/publication/2022-optic-disc-sipaim/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2022-optic-disc-sipaim/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cómo entrenar bien un baseline - Experiencias y recomendaciones desde la aplicación de deep learning en oftalmología</title>
