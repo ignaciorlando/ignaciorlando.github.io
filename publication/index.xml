@@ -13,7 +13,15 @@
     </image>
     
     <item>
-      <title>Assessing Coarse-to-Fine Deep Learning Models for Optic Disc and Cup Segmentation in Fundus Images&#34;</title>
+      <title>A deep learning model for brain vessel segmentation\ in 3DRA with arteriovenous malformations</title>
+      <link>https://ignaciorlando.github.io/publication/2022-3dra-sipaim/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2022-3dra-sipaim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing Coarse-to-Fine Deep Learning Models for Optic Disc and Cup Segmentation in Fundus Images</title>
       <link>https://ignaciorlando.github.io/publication/2022-optic-disc-sipaim/</link>
       <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://ignaciorlando.github.io/publication/2022-optic-disc-sipaim/</guid>
