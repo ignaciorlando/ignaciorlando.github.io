@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ignaciorlando.github.io/publication-type/2/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/machine-learning/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/ophthalmology/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/publication/2022-icl-sizing/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/publication_types/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/publication/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tags/</loc>
+    <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ignaciorlando.github.io/publication-type/1/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,19 +41,7 @@
     <loc>https://ignaciorlando.github.io/tag/fundus-photography/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/publication_types/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/publication/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ignaciorlando.github.io/tag/retinal-imaging/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/tags/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/publication/2022-3dra-sipaim/</loc>
@@ -58,9 +70,6 @@
   </url><url>
     <loc>https://ignaciorlando.github.io/talk/evaluacion-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-automatico-de-retinopatia-diabetica-referible-a-partir-de-fotografias-de-fondo-de-ojo/</loc>
     <lastmod>2022-06-01T14:45:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/publication-type/2/</loc>
-    <lastmod>2022-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/tag/fa/</loc>
     <lastmod>2022-04-04T00:00:00+00:00</lastmod>
@@ -175,9 +184,6 @@
   </url><url>
     <loc>https://ignaciorlando.github.io/tag/medical-imaging/</loc>
     <lastmod>2020-11-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/tag/machine-learning/</loc>
-    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/publication/2020-jns-ssvbm/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
