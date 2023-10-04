@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ignaciorlando.github.io/tag/deep-learning/</loc>
+    <lastmod>2023-10-04T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/</loc>
+    <lastmod>2023-10-04T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificacion-a-una-clase-en-vision-artificial-y-medicina/</loc>
+    <lastmod>2023-10-04T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/event/</loc>
+    <lastmod>2023-10-04T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/spanish/</loc>
+    <lastmod>2023-10-04T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tags/</loc>
+    <lastmod>2023-10-04T08:30:00+00:00</lastmod>
+  </url><url>
     <loc>https://ignaciorlando.github.io/publication-type/1/</loc>
     <lastmod>2023-06-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,9 +27,6 @@
     <lastmod>2023-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/tag/brain-imaging/</loc>
-    <lastmod>2023-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/</loc>
     <lastmod>2023-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/publication/2023-miccai/</loc>
@@ -29,9 +44,6 @@
     <loc>https://ignaciorlando.github.io/publication/</loc>
     <lastmod>2023-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/tags/</loc>
-    <lastmod>2023-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ignaciorlando.github.io/tag/ophthalmology/</loc>
     <lastmod>2022-10-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -39,9 +51,6 @@
     <lastmod>2022-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/publication/2022-resnet-sipaim/</loc>
-    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/tag/deep-learning/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/tag/diabetic-retinopathy/</loc>
@@ -69,12 +78,6 @@
     <lastmod>2022-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/talk/como-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicacion-de-deep-learning-en-oftalmologia/</loc>
-    <lastmod>2022-09-21T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/event/</loc>
-    <lastmod>2022-09-21T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/tag/spanish/</loc>
     <lastmod>2022-09-21T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/talk/evaluacion-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-automatico-de-retinopatia-diabetica-referible-a-partir-de-fotografias-de-fondo-de-ojo/</loc>
