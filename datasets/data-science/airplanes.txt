@@ -1,0 +1,7 @@
+Aeropuertos, Aerolíneas, Aviones y Rutas
+
+Acerca del Conjunto de Datos
+
+Aeropuertos, Aerolíneas y Rutas es un completo conjunto de datos que incluye información sobre viajes aéreos, abarcando aeropuertos, aerolíneas, rutas y aviones. La base de datos contiene más de 10,000 puntos de información compilados por OpenFlights (https://openflights.org) a partir de diversas fuentes.
+
+Información adicional disponible aquí: https://openflights.org
