@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: May 17, 2025 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.e4b9d3e8ce28da563d74b4089f677743.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.cf1d00e0c3e65e264b4b1bb9fccf9e5b.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" >
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="José Ignacio Orlando" />
+
+
+
+
+
+  
+
+<meta name="description" content=" Cuando aplicamos inteligencia artificial en medicina, solemos seguir uno de dos enfoques: o bien utilizar modelos que ya existen para resolver un problema nuevo, o bien proponer un modelo nuevo para resolver problemas que ya existen. En todos los casos, siempre debemos validar que nuestro nuevo modelo resuelva los inconvenientes de los modelos que ya existen, a los que denominamos baselines. Estos baselines deben estar entrenados siguiendo buenas prácticas, para evitar subestimar su performance. Sin embargo, estudios recientes en numerosas areas han comenzado a demostrar que enfoques simples son capaces de superar los resultados de otros mucho más complejos, simplemente siendo cuidadosos en el proceso de entrenamiento. En esta presentación mostraremos algunos ejemplos de aplicaciones en oftalmología en las que efectivamente comprobamos estos mismos inconveniente, y compartiremos algunas recomendaciones experimentales y buenas prácticas para asegurar la obtención de baselines competitivos." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/" />
+<link rel="canonical" href="https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu_65a5d87812c5ce07.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_fe68fd13c7894da.png" />
+
+<meta name="theme-color" content="#bbdefb" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/featured.png" />
+
+
+
+  
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="José Ignacio Orlando" />
+<meta property="og:url" content="https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/" />
+<meta property="og:title" content="Cómo entrenar bien un baseline - Experiencias y recomendaciones desde la aplicación de deep learning en oftalmología | José Ignacio Orlando" />
+<meta property="og:description" content=" Cuando aplicamos inteligencia artificial en medicina, solemos seguir uno de dos enfoques: o bien utilizar modelos que ya existen para resolver un problema nuevo, o bien proponer un modelo nuevo para resolver problemas que ya existen. En todos los casos, siempre debemos validar que nuestro nuevo modelo resuelva los inconvenientes de los modelos que ya existen, a los que denominamos baselines. Estos baselines deben estar entrenados siguiendo buenas prácticas, para evitar subestimar su performance. Sin embargo, estudios recientes en numerosas areas han comenzado a demostrar que enfoques simples son capaces de superar los resultados de otros mucho más complejos, simplemente siendo cuidadosos en el proceso de entrenamiento. En esta presentación mostraremos algunos ejemplos de aplicaciones en oftalmología en las que efectivamente comprobamos estos mismos inconveniente, y compartiremos algunas recomendaciones experimentales y buenas prácticas para asegurar la obtención de baselines competitivos." /><meta property="og:image" content="https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/featured.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2022-09-20T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2022-09-21T12:00:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/"
+  },
+  "name": "Cómo entrenar bien un baseline - Experiencias y recomendaciones desde la aplicación de deep learning en oftalmología",
+  
+  "location": {
+    "@type": "Place",
+    "name": "12 hs. Aula A402 - Edificio Alcorta, 4° piso | Campus Di Tella,",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Figueroa Alcorta 7350",
+      "addressLocality": "Ciudad Autónoma de Buenos Aires",
+      "postalCode": "C1428BCW",
+      "addressRegion": "",
+      "addressCountry": "Argentina"
+    }
+    
+  },
+  
+  
+  "image": [
+    "https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/featured.png"
+  ],
+  
+  "startDate": "2022-09-21T12:00:00Z",
+  
+  "endDate": "2022-09-21T12:30:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "José Ignacio Orlando"
+  },
+  
+  "description": " Cuando aplicamos inteligencia artificial en medicina, solemos seguir uno de dos enfoques: o bien utilizar modelos que ya existen para resolver un problema nuevo, o bien proponer un modelo nuevo para resolver problemas que ya existen. En todos los casos, siempre debemos validar que nuestro nuevo modelo resuelva los inconvenientes de los modelos que ya existen, a los que denominamos baselines. Estos baselines deben estar entrenados siguiendo buenas prácticas, para evitar subestimar su performance. Sin embargo, estudios recientes en numerosas areas han comenzado a demostrar que enfoques simples son capaces de superar los resultados de otros mucho más complejos, simplemente siendo cuidadosos en el proceso de entrenamiento. En esta presentación mostraremos algunos ejemplos de aplicaciones en oftalmología en las que efectivamente comprobamos estos mismos inconveniente, y compartiremos algunas recomendaciones experimentales y buenas prácticas para asegurar la obtención de baselines competitivos."
+}
+</script>
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Cómo entrenar bien un baseline - Experiencias y recomendaciones desde la aplicación de deep learning en oftalmología | José Ignacio Orlando</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="891f766a044a45be5c89149b54b73112" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.db21e13b9b5c4f4b947717750ec8b3cc.js"></script>
+
+  
+
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#supervision"><span>Supervision</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>Experience</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/media/cv_orlando_en.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<div class="article-container pt-3">
+  <h1>Cómo entrenar bien un baseline - Experiencias y recomendaciones desde la aplicación de deep learning en oftalmología</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      José Ignacio Orlando</span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/canoa/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/retinar/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/yatiris/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/slides/2022_siam.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 404px;">
+  <div style="position: relative">
+    <img src="/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/featured_hu_7e7371b3ad9aa01e.webp" width="720" height="404" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">Cuando aplicamos inteligencia artificial en medicina, solemos seguir uno de dos enfoques: o bien utilizar modelos que ya existen para resolver un problema nuevo, o bien proponer un modelo nuevo para resolver problemas que ya existen. En todos los casos, siempre debemos validar que nuestro nuevo modelo resuelva los inconvenientes de los modelos que ya existen, a los que denominamos baselines. Estos baselines deben estar entrenados siguiendo buenas prácticas, para evitar subestimar su performance. Sin embargo, estudios recientes en numerosas areas han comenzado a demostrar que enfoques simples son capaces de superar los resultados de otros mucho más complejos, simplemente siendo cuidadosos en el proceso de entrenamiento. En esta presentación mostraremos algunos ejemplos de aplicaciones en oftalmología en las que efectivamente comprobamos estos mismos inconveniente, y compartiremos algunas recomendaciones experimentales y buenas prácticas para asegurar la obtención de baselines competitivos.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Sep 21, 2022 12:00 PM &mdash; 12:30 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://www.utdt.edu/ver_evento_agenda.php?id_evento_agenda=9445&amp;id_item_menu=431" target="_blank" rel="noopener">
+            Seminario de Inteligencia Artificial en Medicina
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">12 hs. Aula A402 - Edificio Alcorta, 4° piso | Campus Di Tella,</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9">Av. Figueroa Alcorta 7350, Ciudad Autónoma de Buenos Aires, C1428BCW</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/diabetic-retinopathy/">Diabetic Retinopathy</a>
+  
+  <a class="badge badge-light" href="/tag/glaucoma/">Glaucoma</a>
+  
+  <a class="badge badge-light" href="/tag/deep-learning/">Deep Learning</a>
+  
+  <a class="badge badge-light" href="/tag/spanish/">Spanish</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fc%25C3%25B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%25C3%25B3n-de-deep-learning-en-oftalmolog%25C3%25ADa%2F&amp;text=C%C3%B3mo&#43;entrenar&#43;bien&#43;un&#43;baseline&#43;-&#43;Experiencias&#43;y&#43;recomendaciones&#43;desde&#43;la&#43;aplicaci%C3%B3n&#43;de&#43;deep&#43;learning&#43;en&#43;oftalmolog%C3%ADa" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fc%25C3%25B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%25C3%25B3n-de-deep-learning-en-oftalmolog%25C3%25ADa%2F&amp;t=C%C3%B3mo&#43;entrenar&#43;bien&#43;un&#43;baseline&#43;-&#43;Experiencias&#43;y&#43;recomendaciones&#43;desde&#43;la&#43;aplicaci%C3%B3n&#43;de&#43;deep&#43;learning&#43;en&#43;oftalmolog%C3%ADa" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=C%C3%B3mo%20entrenar%20bien%20un%20baseline%20-%20Experiencias%20y%20recomendaciones%20desde%20la%20aplicaci%C3%B3n%20de%20deep%20learning%20en%20oftalmolog%C3%ADa&amp;body=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fc%25C3%25B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%25C3%25B3n-de-deep-learning-en-oftalmolog%25C3%25ADa%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fc%25C3%25B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%25C3%25B3n-de-deep-learning-en-oftalmolog%25C3%25ADa%2F&amp;title=C%C3%B3mo&#43;entrenar&#43;bien&#43;un&#43;baseline&#43;-&#43;Experiencias&#43;y&#43;recomendaciones&#43;desde&#43;la&#43;aplicaci%C3%B3n&#43;de&#43;deep&#43;learning&#43;en&#43;oftalmolog%C3%ADa" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=C%C3%B3mo&#43;entrenar&#43;bien&#43;un&#43;baseline&#43;-&#43;Experiencias&#43;y&#43;recomendaciones&#43;desde&#43;la&#43;aplicaci%C3%B3n&#43;de&#43;deep&#43;learning&#43;en&#43;oftalmolog%C3%ADa%20https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fc%25C3%25B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%25C3%25B3n-de-deep-learning-en-oftalmolog%25C3%25ADa%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fc%25C3%25B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%25C3%25B3n-de-deep-learning-en-oftalmolog%25C3%25ADa%2F&amp;title=C%C3%B3mo&#43;entrenar&#43;bien&#43;un&#43;baseline&#43;-&#43;Experiencias&#43;y&#43;recomendaciones&#43;desde&#43;la&#43;aplicaci%C3%B3n&#43;de&#43;deep&#43;learning&#43;en&#43;oftalmolog%C3%ADa" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://ignaciorlando.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu_27062397d0cdef0e.jpg" alt="José Ignacio Orlando"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://ignaciorlando.github.io/">José Ignacio Orlando</a></h5>
+      <h6 class="card-subtitle">Associate Researcher</h6>
+      <p class="card-text">My research interests include machine learning and computer vision techniques for medical imaging applications, mostly centered in ophthalmology.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiorlando@pladema.exa.unicen.edu.ar" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ignaciorlando" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jos%C3%A9-ignacio-orlando-560b8040/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=2N3oD28AAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ignaciorlando" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/media/cv_orlando_en.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.da259f97ed0f170b3547d57d1c732d58.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+  
+
+<script src="/en/js/wowchemy.min.024a250be80968f65c7ba869d7c1c887.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

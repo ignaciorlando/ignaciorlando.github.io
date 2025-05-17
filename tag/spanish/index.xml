@@ -5,50 +5,66 @@
     <link>https://ignaciorlando.github.io/tag/spanish/</link>
       <atom:link href="https://ignaciorlando.github.io/tag/spanish/index.xml" rel="self" type="application/rss+xml" />
     <description>Spanish</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Wed, 04 Oct 2023 08:30:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Wed, 11 Jun 2025 08:30:00 +0000</lastBuildDate>
     <image>
-      <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://ignaciorlando.github.io/media/icon_hu_388cc44a393ad7d0.png</url>
       <title>Spanish</title>
       <link>https://ignaciorlando.github.io/tag/spanish/</link>
     </image>
     
     <item>
+      <title>Inteligencia artificial - Del laboratorio al mundo real</title>
+      <link>https://ignaciorlando.github.io/talk/inteligencia-artificial-del-laboratorio-al-mundo-real/</link>
+      <pubDate>Wed, 11 Jun 2025 08:30:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/inteligencia-artificial-del-laboratorio-al-mundo-real/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retinar - Prevenir la ceguera por diabetes con inteligencia artificial</title>
+      <link>https://ignaciorlando.github.io/talk/retinar-prevenir-la-ceguera-por-diabetes-con-inteligencia-artificial/</link>
+      <pubDate>Wed, 09 Apr 2025 08:30:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/retinar-prevenir-la-ceguera-por-diabetes-con-inteligencia-artificial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>One class to rule them all - Aplicaciones de clasificación a una clase en visión artificial y medicina</title>
-      <link>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificacion-a-una-clase-en-vision-artificial-y-medicina/</link>
+      <link>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificaci%C3%B3n-a-una-clase-en-visi%C3%B3n-artificial-y-medicina/</link>
       <pubDate>Wed, 04 Oct 2023 08:30:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificacion-a-una-clase-en-vision-artificial-y-medicina/</guid>
+      <guid>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificaci%C3%B3n-a-una-clase-en-visi%C3%B3n-artificial-y-medicina/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cómo entrenar bien un baseline - Experiencias y recomendaciones desde la aplicación de deep learning en oftalmología</title>
-      <link>https://ignaciorlando.github.io/talk/como-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicacion-de-deep-learning-en-oftalmologia/</link>
+      <link>https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/</link>
       <pubDate>Wed, 21 Sep 2022 12:00:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/como-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicacion-de-deep-learning-en-oftalmologia/</guid>
+      <guid>https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evaluación retrospectiva de un primer modelo de inteligencia artificial argentino para tamizaje automático de retinopatía diabética referible a partir de fotografías de fondo de ojo</title>
-      <link>https://ignaciorlando.github.io/talk/evaluacion-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-automatico-de-retinopatia-diabetica-referible-a-partir-de-fotografias-de-fondo-de-ojo/</link>
+      <link>https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/</link>
       <pubDate>Wed, 01 Jun 2022 14:45:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/evaluacion-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-automatico-de-retinopatia-diabetica-referible-a-partir-de-fotografias-de-fondo-de-ojo/</guid>
+      <guid>https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>retinar - hacia una plataforma nacional basada en inteligencia artificial para la detección temprana de la retinopatía diabética</title>
-      <link>https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-deteccion-temprana-de-la-retinopatia-diabetica/</link>
+      <link>https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/</link>
       <pubDate>Tue, 16 Nov 2021 12:00:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-deteccion-temprana-de-la-retinopatia-diabetica/</guid>
+      <guid>https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inteligencia artificial en oftalmología - desarrollos argentinos, oportunidades y desafíos</title>
-      <link>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmologia-desarrollos-argentinos-oportunidades-y-desafios/</link>
+      <link>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmolog%C3%ADa-desarrollos-argentinos-oportunidades-y-desaf%C3%ADos/</link>
       <pubDate>Fri, 29 Oct 2021 09:30:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmologia-desarrollos-argentinos-oportunidades-y-desafios/</guid>
+      <guid>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmolog%C3%ADa-desarrollos-argentinos-oportunidades-y-desaf%C3%ADos/</guid>
       <description></description>
     </item>
     

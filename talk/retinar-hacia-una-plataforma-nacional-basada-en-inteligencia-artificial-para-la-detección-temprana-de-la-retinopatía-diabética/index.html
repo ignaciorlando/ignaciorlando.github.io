@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: May 17, 2025 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.e4b9d3e8ce28da563d74b4089f677743.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.cf1d00e0c3e65e264b4b1bb9fccf9e5b.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" >
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="José Ignacio Orlando" />
+
+
+
+
+
+  
+
+<meta name="description" content=" Introducción. 463 millones de personas en todo el mundo padecen de diabetes. En Latinoamérica, esta cantidad asciende a 32 millones, y se espera que crezca en un 55% hacia 2050. Una de sus consecuencias más comunes es la retinopatía diabética (RD), que es la principal causa de ceguera prevenible e irreversible en adultos en edad laboral. En Argentina, se estima que un 16% de los casos de ceguera son producto de esta enfermedad. Los tratamientos para la RD se orientan a disminuir o detener su avance, y el deterioro en la visión causado por ella suele ser irreversible. Por ello se recomienda a la persona diabética asistir al menos una vez al año al/la oftalmólogo/a, para realizar un chequeo de sus retinas. Este control permite evitar en un 90% complicaciones oculares graves y pérdida visual. Sin embargo, un 77% de las personas diabéticas en Argentina no cumple con su chequeo anual, con un 20% de las ingresando a su primera consulta ya en estado de ceguera legal. Esto es consecuencia de la poca disponibilidad de oftalmólogos/as (1 cada 755 personas diabéticas), su mala distribución geográfica (concentrada en grandes urbes) y el costo elevado del control (unos AR$ 30.000). Para darle solución a este problema, se han desarrollado estrategias de telemedicina que llevan el diagnóstico a regiones con bajo acceso a oftalmólogos. Mediante la introducción de nodos de captura de fotografías de fondo de ojo, es posible obtener imágenes de personas diabéticas in-situ y transmitirlas a un nodo de informes, en donde oftalmólogos/as determinan el diagnóstico y la recomendación de tratamiento. Sin embargo, las redes de teleoftalmología no escalan lo suficiente debido a la saturación del nodo de informes, que demanda dedicar muchos/as especialistas únicamente al diagnóstico. Así, es necesario introducir enfoques que permitan aliviar la carga de estos centros, para reducir costos y mejorar la disponibilidad del recurso humano. En tal sentido, la inteligencia artificial ofrece una oportunidad para dar respuesta a esta necesidad, debido por ejemplo a su efectividad para automatizar problemas de clasificación de imágenes.
+Objetivo. Desarrollar una plataforma de telemedicina que permita disminuir las asimetrías en el acceso al control oftalmológico anual de las personas diabéticas mediante la integración de inteligencia artificial para tamizado de casos de RD referibles.
+Métodos. Como primera etapa, se propuso desarrollar un primer modelo experimental de aprendizaje profundo basado en redes neuronales convolucionales para la detección automática de RD referible a partir de fotografías de fondo de ojo. A tal fin, se realizó un curado de las bases de datos públicas IDRiD, Kaggle, MESSIDOR-2, ODIR y DiaRetDB1, reuniendo un total de 99.247 estudios. Se construyeron particiones de entrenamiento (38%, 37.617), validación (6%, 5.633) y test (56%, 55.997) balanceadas entre sí en términos de casos referibles (20%) y no referibles (80%). Estos datos se utilizaron para reentrenar un modelo ResNet-18 preeentrado en ImageNet, explorando un ajuste paulatino de la estrategia de aumentación de imágenes mediante forward selection, variando colores, orientaciones de la imagen, rotaciones, escalados y recortes. También se integraron estrategias para la generación de mapas de atribución (en particular, retropropagación guiada, SHAP, gradientes integrados y mapas de oclusión), para estudiar cualitativamente las áreas tenidas en cuenta por el algoritmo para determinar los resultados y ofrecer retroalimentación gráfica para el usuario.
+Resultados. El modelo final fue evaluado mediante curvas ROC (AUC) y de precision/recall (AUC-Pr/Re) sobre las particiones de test de IDRiD (AUC = 0.9331, AUC-Pr/Re = 0.9651), Kaggle (AUC = 0.9315, AUC-Pr/Re = 0.8582), MESSIDOR-2 (AUC = 0.9341, AUC-Pr/Re = 0.9090), ODIR (AUC = 0.8989, AUC-Pr/Re = 0.7329) y DiaRetDB1 (AUC = 0.9697, AUC-Pr/Re = 0.9777). Reuniendo globalmente todos los estudios de test, el método reportó un AUC = 0.9259 y un AUC-Pr/Re = 0.8380, mientras que para una especificidad fija del 50% obtuvo una especificidad del 95.9%. Del análisis cualitativo de los mapas de atribución, se observó al método de Retropropagación Guiada como el más efectivo para indicar lesiones de la RD. Finalmente, el estudio en casos con comorbilidades (cataratas, hipertensión y glaucoma) demostró robustez ante enfermedades concomitantes.
+Conclusión. Los resultados preliminares demostraron resultados en línea con el estado del arte y comparables con los de algunas herramientas comerciales, todas mucho más especializadas y diseñadas específicamente para resolver este problema. Los próximos pasos involucrarán incrementar la especialización de este modelo base. En paralelo, se encuentran en desarrollo el prototipo navegable y funcional de la herramienta." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/" />
+<link rel="canonical" href="https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu_65a5d87812c5ce07.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_fe68fd13c7894da.png" />
+
+<meta name="theme-color" content="#bbdefb" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/featured.png" />
+
+
+
+  
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="José Ignacio Orlando" />
+<meta property="og:url" content="https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/" />
+<meta property="og:title" content="retinar - hacia una plataforma nacional basada en inteligencia artificial para la detección temprana de la retinopatía diabética | José Ignacio Orlando" />
+<meta property="og:description" content=" Introducción. 463 millones de personas en todo el mundo padecen de diabetes. En Latinoamérica, esta cantidad asciende a 32 millones, y se espera que crezca en un 55% hacia 2050. Una de sus consecuencias más comunes es la retinopatía diabética (RD), que es la principal causa de ceguera prevenible e irreversible en adultos en edad laboral. En Argentina, se estima que un 16% de los casos de ceguera son producto de esta enfermedad. Los tratamientos para la RD se orientan a disminuir o detener su avance, y el deterioro en la visión causado por ella suele ser irreversible. Por ello se recomienda a la persona diabética asistir al menos una vez al año al/la oftalmólogo/a, para realizar un chequeo de sus retinas. Este control permite evitar en un 90% complicaciones oculares graves y pérdida visual. Sin embargo, un 77% de las personas diabéticas en Argentina no cumple con su chequeo anual, con un 20% de las ingresando a su primera consulta ya en estado de ceguera legal. Esto es consecuencia de la poca disponibilidad de oftalmólogos/as (1 cada 755 personas diabéticas), su mala distribución geográfica (concentrada en grandes urbes) y el costo elevado del control (unos AR$ 30.000). Para darle solución a este problema, se han desarrollado estrategias de telemedicina que llevan el diagnóstico a regiones con bajo acceso a oftalmólogos. Mediante la introducción de nodos de captura de fotografías de fondo de ojo, es posible obtener imágenes de personas diabéticas in-situ y transmitirlas a un nodo de informes, en donde oftalmólogos/as determinan el diagnóstico y la recomendación de tratamiento. Sin embargo, las redes de teleoftalmología no escalan lo suficiente debido a la saturación del nodo de informes, que demanda dedicar muchos/as especialistas únicamente al diagnóstico. Así, es necesario introducir enfoques que permitan aliviar la carga de estos centros, para reducir costos y mejorar la disponibilidad del recurso humano. En tal sentido, la inteligencia artificial ofrece una oportunidad para dar respuesta a esta necesidad, debido por ejemplo a su efectividad para automatizar problemas de clasificación de imágenes.
+Objetivo. Desarrollar una plataforma de telemedicina que permita disminuir las asimetrías en el acceso al control oftalmológico anual de las personas diabéticas mediante la integración de inteligencia artificial para tamizado de casos de RD referibles.
+Métodos. Como primera etapa, se propuso desarrollar un primer modelo experimental de aprendizaje profundo basado en redes neuronales convolucionales para la detección automática de RD referible a partir de fotografías de fondo de ojo. A tal fin, se realizó un curado de las bases de datos públicas IDRiD, Kaggle, MESSIDOR-2, ODIR y DiaRetDB1, reuniendo un total de 99.247 estudios. Se construyeron particiones de entrenamiento (38%, 37.617), validación (6%, 5.633) y test (56%, 55.997) balanceadas entre sí en términos de casos referibles (20%) y no referibles (80%). Estos datos se utilizaron para reentrenar un modelo ResNet-18 preeentrado en ImageNet, explorando un ajuste paulatino de la estrategia de aumentación de imágenes mediante forward selection, variando colores, orientaciones de la imagen, rotaciones, escalados y recortes. También se integraron estrategias para la generación de mapas de atribución (en particular, retropropagación guiada, SHAP, gradientes integrados y mapas de oclusión), para estudiar cualitativamente las áreas tenidas en cuenta por el algoritmo para determinar los resultados y ofrecer retroalimentación gráfica para el usuario.
+Resultados. El modelo final fue evaluado mediante curvas ROC (AUC) y de precision/recall (AUC-Pr/Re) sobre las particiones de test de IDRiD (AUC = 0.9331, AUC-Pr/Re = 0.9651), Kaggle (AUC = 0.9315, AUC-Pr/Re = 0.8582), MESSIDOR-2 (AUC = 0.9341, AUC-Pr/Re = 0.9090), ODIR (AUC = 0.8989, AUC-Pr/Re = 0.7329) y DiaRetDB1 (AUC = 0.9697, AUC-Pr/Re = 0.9777). Reuniendo globalmente todos los estudios de test, el método reportó un AUC = 0.9259 y un AUC-Pr/Re = 0.8380, mientras que para una especificidad fija del 50% obtuvo una especificidad del 95.9%. Del análisis cualitativo de los mapas de atribución, se observó al método de Retropropagación Guiada como el más efectivo para indicar lesiones de la RD. Finalmente, el estudio en casos con comorbilidades (cataratas, hipertensión y glaucoma) demostró robustez ante enfermedades concomitantes.
+Conclusión. Los resultados preliminares demostraron resultados en línea con el estado del arte y comparables con los de algunas herramientas comerciales, todas mucho más especializadas y diseñadas específicamente para resolver este problema. Los próximos pasos involucrarán incrementar la especialización de este modelo base. En paralelo, se encuentran en desarrollo el prototipo navegable y funcional de la herramienta." /><meta property="og:image" content="https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/featured.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2021-10-25T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2021-11-16T12:00:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/"
+  },
+  "name": "retinar - hacia una plataforma nacional basada en inteligencia artificial para la detección temprana de la retinopatía diabética",
+  
+  "location": {
+    "@type": "Place",
+    "name": "Evento Virtual",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "",
+      "postalCode": "",
+      "addressRegion": "",
+      "addressCountry": ""
+    }
+    
+  },
+  
+  
+  "image": [
+    "https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/featured.png"
+  ],
+  
+  "startDate": "2021-11-16T12:00:00Z",
+  
+  "endDate": "2021-11-16T14:00:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "José Ignacio Orlando"
+  },
+  
+  "description": " Introducción. 463 millones de personas en todo el mundo padecen de diabetes. En Latinoamérica, esta cantidad asciende a 32 millones, y se espera que crezca en un 55% hacia 2050. Una de sus consecuencias más comunes es la retinopatía diabética (RD), que es la principal causa de ceguera prevenible e irreversible en adultos en edad laboral. En Argentina, se estima que un 16% de los casos de ceguera son producto de esta enfermedad. Los tratamientos para la RD se orientan a disminuir o detener su avance, y el deterioro en la visión causado por ella suele ser irreversible. Por ello se recomienda a la persona diabética asistir al menos una vez al año al/la oftalmólogo/a, para realizar un chequeo de sus retinas. Este control permite evitar en un 90% complicaciones oculares graves y pérdida visual. Sin embargo, un 77% de las personas diabéticas en Argentina no cumple con su chequeo anual, con un 20% de las ingresando a su primera consulta ya en estado de ceguera legal. Esto es consecuencia de la poca disponibilidad de oftalmólogos/as (1 cada 755 personas diabéticas), su mala distribución geográfica (concentrada en grandes urbes) y el costo elevado del control (unos AR$ 30.000). Para darle solución a este problema, se han desarrollado estrategias de telemedicina que llevan el diagnóstico a regiones con bajo acceso a oftalmólogos. Mediante la introducción de nodos de captura de fotografías de fondo de ojo, es posible obtener imágenes de personas diabéticas in-situ y transmitirlas a un nodo de informes, en donde oftalmólogos/as determinan el diagnóstico y la recomendación de tratamiento. Sin embargo, las redes de teleoftalmología no escalan lo suficiente debido a la saturación del nodo de informes, que demanda dedicar muchos/as especialistas únicamente al diagnóstico. Así, es necesario introducir enfoques que permitan aliviar la carga de estos centros, para reducir costos y mejorar la disponibilidad del recurso humano. En tal sentido, la inteligencia artificial ofrece una oportunidad para dar respuesta a esta necesidad, debido por ejemplo a su efectividad para automatizar problemas de clasificación de imágenes.\nObjetivo. Desarrollar una plataforma de telemedicina que permita disminuir las asimetrías en el acceso al control oftalmológico anual de las personas diabéticas mediante la integración de inteligencia artificial para tamizado de casos de RD referibles.\nMétodos. Como primera etapa, se propuso desarrollar un primer modelo experimental de aprendizaje profundo basado en redes neuronales convolucionales para la detección automática de RD referible a partir de fotografías de fondo de ojo. A tal fin, se realizó un curado de las bases de datos públicas IDRiD, Kaggle, MESSIDOR-2, ODIR y DiaRetDB1, reuniendo un total de 99.247 estudios. Se construyeron particiones de entrenamiento (38%, 37.617), validación (6%, 5.633) y test (56%, 55.997) balanceadas entre sí en términos de casos referibles (20%) y no referibles (80%). Estos datos se utilizaron para reentrenar un modelo ResNet-18 preeentrado en ImageNet, explorando un ajuste paulatino de la estrategia de aumentación de imágenes mediante forward selection, variando colores, orientaciones de la imagen, rotaciones, escalados y recortes. También se integraron estrategias para la generación de mapas de atribución (en particular, retropropagación guiada, SHAP, gradientes integrados y mapas de oclusión), para estudiar cualitativamente las áreas tenidas en cuenta por el algoritmo para determinar los resultados y ofrecer retroalimentación gráfica para el usuario.\nResultados. El modelo final fue evaluado mediante curvas ROC (AUC) y de precision/recall (AUC-Pr/Re) sobre las particiones de test de IDRiD (AUC = 0.9331, AUC-Pr/Re = 0.9651), Kaggle (AUC = 0.9315, AUC-Pr/Re = 0.8582), MESSIDOR-2 (AUC = 0.9341, AUC-Pr/Re = 0.9090), ODIR (AUC = 0.8989, AUC-Pr/Re = 0.7329) y DiaRetDB1 (AUC = 0.9697, AUC-Pr/Re = 0.9777). Reuniendo globalmente todos los estudios de test, el método reportó un AUC = 0.9259 y un AUC-Pr/Re = 0.8380, mientras que para una especificidad fija del 50% obtuvo una especificidad del 95.9%. Del análisis cualitativo de los mapas de atribución, se observó al método de Retropropagación Guiada como el más efectivo para indicar lesiones de la RD. Finalmente, el estudio en casos con comorbilidades (cataratas, hipertensión y glaucoma) demostró robustez ante enfermedades concomitantes.\nConclusión. Los resultados preliminares demostraron resultados en línea con el estado del arte y comparables con los de algunas herramientas comerciales, todas mucho más especializadas y diseñadas específicamente para resolver este problema. Los próximos pasos involucrarán incrementar la especialización de este modelo base. En paralelo, se encuentran en desarrollo el prototipo navegable y funcional de la herramienta."
+}
+</script>
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>retinar - hacia una plataforma nacional basada en inteligencia artificial para la detección temprana de la retinopatía diabética | José Ignacio Orlando</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="8dfda14ae660c1bb1d2d240a4b226751" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.db21e13b9b5c4f4b947717750ec8b3cc.js"></script>
+
+  
+
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#supervision"><span>Supervision</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>Experience</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/media/cv_orlando_en.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<div class="article-container pt-3">
+  <h1>retinar - hacia una plataforma nacional basada en inteligencia artificial para la detección temprana de la retinopatía diabética</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      José Ignacio Orlando</span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/retinar/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/slides/2021_JIS21.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 407px;">
+  <div style="position: relative">
+    <img src="/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/featured_hu_480aab5c940a72f3.webp" width="720" height="407" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">Introducción. 463 millones de personas en todo el mundo padecen de diabetes. En Latinoamérica, esta cantidad asciende a 32 millones, y se espera que crezca en un 55% hacia 2050. Una de sus consecuencias más comunes es la retinopatía diabética (RD), que es la principal causa de ceguera prevenible e irreversible en adultos en edad laboral. En Argentina, se estima que un 16% de los casos de ceguera son producto de esta enfermedad. Los tratamientos para la RD se orientan a disminuir o detener su avance, y el deterioro en la visión causado por ella suele ser irreversible. Por ello se recomienda a la persona diabética asistir al menos una vez al año al/la oftalmólogo/a, para realizar un chequeo de sus retinas. Este control permite evitar en un 90% complicaciones oculares graves y pérdida visual. Sin embargo, un 77% de las personas diabéticas en Argentina no cumple con su chequeo anual, con un 20% de las ingresando a su primera consulta ya en estado de ceguera legal. Esto es consecuencia de la poca disponibilidad de oftalmólogos/as (1 cada 755 personas diabéticas), su mala distribución geográfica (concentrada en grandes urbes) y el costo elevado del control (unos AR$ 30.000). Para darle solución a este problema, se han desarrollado estrategias de telemedicina que llevan el diagnóstico a regiones con bajo acceso a oftalmólogos. Mediante la introducción de nodos de captura de fotografías de fondo de ojo, es posible obtener imágenes de personas diabéticas in-situ y transmitirlas a un nodo de informes, en donde oftalmólogos/as determinan el diagnóstico y la recomendación de tratamiento. Sin embargo, las redes de teleoftalmología no escalan lo suficiente debido a la saturación del nodo de informes, que demanda dedicar muchos/as especialistas únicamente al diagnóstico. Así, es necesario introducir enfoques que permitan aliviar la carga de estos centros, para reducir costos y mejorar la disponibilidad del recurso humano. En tal sentido, la inteligencia artificial ofrece una oportunidad para dar respuesta a esta necesidad, debido por ejemplo a su efectividad para automatizar problemas de clasificación de imágenes.
+Objetivo. Desarrollar una plataforma de telemedicina que permita disminuir las asimetrías en el acceso al control oftalmológico anual de las personas diabéticas mediante la integración de inteligencia artificial para tamizado de casos de RD referibles.
+Métodos. Como primera etapa, se propuso desarrollar un primer modelo experimental de aprendizaje profundo basado en redes neuronales convolucionales para la detección automática de RD referible a partir de fotografías de fondo de ojo. A tal fin, se realizó un curado de las bases de datos públicas IDRiD, Kaggle, MESSIDOR-2, ODIR y DiaRetDB1, reuniendo un total de 99.247 estudios. Se construyeron particiones de entrenamiento (38%, 37.617), validación (6%, 5.633) y test (56%, 55.997) balanceadas entre sí en términos de casos referibles (20%) y no referibles (80%). Estos datos se utilizaron para reentrenar un modelo ResNet-18 preeentrado en ImageNet, explorando un ajuste paulatino de la estrategia de aumentación de imágenes mediante forward selection, variando colores, orientaciones de la imagen, rotaciones, escalados y recortes. También se integraron estrategias para la generación de mapas de atribución (en particular, retropropagación guiada, SHAP, gradientes integrados y mapas de oclusión), para estudiar cualitativamente las áreas tenidas en cuenta por el algoritmo para determinar los resultados y ofrecer retroalimentación gráfica para el usuario.
+Resultados. El modelo final fue evaluado mediante curvas ROC (AUC) y de precision/recall (AUC-Pr/Re) sobre las particiones de test de IDRiD (AUC = 0.9331, AUC-Pr/Re = 0.9651), Kaggle (AUC = 0.9315, AUC-Pr/Re = 0.8582), MESSIDOR-2 (AUC = 0.9341, AUC-Pr/Re = 0.9090), ODIR (AUC = 0.8989, AUC-Pr/Re = 0.7329) y DiaRetDB1 (AUC = 0.9697, AUC-Pr/Re = 0.9777). Reuniendo globalmente todos los estudios de test, el método reportó un AUC = 0.9259 y un AUC-Pr/Re = 0.8380, mientras que para una especificidad fija del 50% obtuvo una especificidad del 95.9%. Del análisis cualitativo de los mapas de atribución, se observó al método de Retropropagación Guiada como el más efectivo para indicar lesiones de la RD. Finalmente, el estudio en casos con comorbilidades (cataratas, hipertensión y glaucoma) demostró robustez ante enfermedades concomitantes.
+Conclusión. Los resultados preliminares demostraron resultados en línea con el estado del arte y comparables con los de algunas herramientas comerciales, todas mucho más especializadas y diseñadas específicamente para resolver este problema. Los próximos pasos involucrarán incrementar la especialización de este modelo base. En paralelo, se encuentran en desarrollo el prototipo navegable y funcional de la herramienta.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Nov 16, 2021 12:00 PM &mdash; 2:00 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://eventovirtualhiba.org.ar/jis-go-live-2021/inicio" target="_blank" rel="noopener">
+            Jornadas de Informática en Salud 2021 - Hospital Italiano de Buenos Aires
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Evento Virtual</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9"></div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/diabetic-retinopathy/">Diabetic Retinopathy</a>
+  
+  <a class="badge badge-light" href="/tag/spanish/">Spanish</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%25C3%25B3n-temprana-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F&amp;text=retinar&#43;-&#43;hacia&#43;una&#43;plataforma&#43;nacional&#43;basada&#43;en&#43;inteligencia&#43;artificial&#43;para&#43;la&#43;detecci%C3%B3n&#43;temprana&#43;de&#43;la&#43;retinopat%C3%ADa&#43;diab%C3%A9tica" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%25C3%25B3n-temprana-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F&amp;t=retinar&#43;-&#43;hacia&#43;una&#43;plataforma&#43;nacional&#43;basada&#43;en&#43;inteligencia&#43;artificial&#43;para&#43;la&#43;detecci%C3%B3n&#43;temprana&#43;de&#43;la&#43;retinopat%C3%ADa&#43;diab%C3%A9tica" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=retinar%20-%20hacia%20una%20plataforma%20nacional%20basada%20en%20inteligencia%20artificial%20para%20la%20detecci%C3%B3n%20temprana%20de%20la%20retinopat%C3%ADa%20diab%C3%A9tica&amp;body=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%25C3%25B3n-temprana-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%25C3%25B3n-temprana-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F&amp;title=retinar&#43;-&#43;hacia&#43;una&#43;plataforma&#43;nacional&#43;basada&#43;en&#43;inteligencia&#43;artificial&#43;para&#43;la&#43;detecci%C3%B3n&#43;temprana&#43;de&#43;la&#43;retinopat%C3%ADa&#43;diab%C3%A9tica" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=retinar&#43;-&#43;hacia&#43;una&#43;plataforma&#43;nacional&#43;basada&#43;en&#43;inteligencia&#43;artificial&#43;para&#43;la&#43;detecci%C3%B3n&#43;temprana&#43;de&#43;la&#43;retinopat%C3%ADa&#43;diab%C3%A9tica%20https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%25C3%25B3n-temprana-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%25C3%25B3n-temprana-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F&amp;title=retinar&#43;-&#43;hacia&#43;una&#43;plataforma&#43;nacional&#43;basada&#43;en&#43;inteligencia&#43;artificial&#43;para&#43;la&#43;detecci%C3%B3n&#43;temprana&#43;de&#43;la&#43;retinopat%C3%ADa&#43;diab%C3%A9tica" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://ignaciorlando.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu_27062397d0cdef0e.jpg" alt="José Ignacio Orlando"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://ignaciorlando.github.io/">José Ignacio Orlando</a></h5>
+      <h6 class="card-subtitle">Associate Researcher</h6>
+      <p class="card-text">My research interests include machine learning and computer vision techniques for medical imaging applications, mostly centered in ophthalmology.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiorlando@pladema.exa.unicen.edu.ar" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ignaciorlando" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jos%C3%A9-ignacio-orlando-560b8040/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=2N3oD28AAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ignaciorlando" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/media/cv_orlando_en.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.da259f97ed0f170b3547d57d1c732d58.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+  
+
+<script src="/en/js/wowchemy.min.024a250be80968f65c7ba869d7c1c887.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

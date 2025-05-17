@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medical Image Synthesis | José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/tag/medical-image-synthesis/</link>
+      <atom:link href="https://ignaciorlando.github.io/tag/medical-image-synthesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Medical Image Synthesis</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ignaciorlando.github.io/media/icon_hu_388cc44a393ad7d0.png</url>
+      <title>Medical Image Synthesis</title>
+      <link>https://ignaciorlando.github.io/tag/medical-image-synthesis/</link>
+    </image>
+    
+    <item>
+      <title>Improving realism in abdominal ultrasound simulation combining a segmentation-guided loss and polar coordinates training</title>
+      <link>https://ignaciorlando.github.io/publication/2025-medphys/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2025-medphys/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

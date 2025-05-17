@@ -2,8 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ignaciorlando.github.io/tag/deep-learning/</loc>
+    <lastmod>2025-06-11T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/talk/inteligencia-artificial-del-laboratorio-al-mundo-real/</loc>
+    <lastmod>2025-06-11T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/</loc>
+    <lastmod>2025-06-11T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/event/</loc>
+    <lastmod>2025-06-11T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/retinar/</loc>
+    <lastmod>2025-06-11T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/spanish/</loc>
+    <lastmod>2025-06-11T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tags/</loc>
+    <lastmod>2025-06-11T08:30:00+00:00</lastmod>
+  </url><url>
     <loc>https://ignaciorlando.github.io/publication-type/2/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/gan/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/publication/2025-medphys/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/medical-image-synthesis/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/polar-coordinates/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/publication_types/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/publication/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/segmentation-guided-loss/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/ultrasound-simulation/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/talk/retinar-prevenir-la-ceguera-por-diabetes-con-inteligencia-artificial/</loc>
+    <lastmod>2025-04-09T08:30:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/publication/2025-neuroinformatics/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
@@ -11,28 +59,13 @@
     <loc>https://ignaciorlando.github.io/tag/brain-imaging/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ignaciorlando.github.io/tag/machine-learning/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/publication_types/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/publication/</loc>
-    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/tags/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/publication/2024-qjmrs/</loc>
     <lastmod>2024-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/publication/2024-cvet/</loc>
-    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/tag/deep-learning/</loc>
     <lastmod>2024-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/tag/vessels/</loc>
@@ -59,13 +92,7 @@
     <loc>https://ignaciorlando.github.io/publication/2023-media/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificacion-a-una-clase-en-vision-artificial-y-medicina/</loc>
-    <lastmod>2023-10-04T08:30:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/event/</loc>
-    <lastmod>2023-10-04T08:30:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/tag/spanish/</loc>
+    <loc>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificaci%C3%B3n-a-una-clase-en-visi%C3%B3n-artificial-y-medicina/</loc>
     <lastmod>2023-10-04T08:30:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/publication/2023-miccai/</loc>
@@ -98,10 +125,10 @@
     <loc>https://ignaciorlando.github.io/tag/segmentation/</loc>
     <lastmod>2022-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/talk/como-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicacion-de-deep-learning-en-oftalmologia/</loc>
+    <loc>https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/</loc>
     <lastmod>2022-09-21T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/talk/evaluacion-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-automatico-de-retinopatia-diabetica-referible-a-partir-de-fotografias-de-fondo-de-ojo/</loc>
+    <loc>https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/</loc>
     <lastmod>2022-06-01T14:45:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/tag/fa/</loc>
@@ -116,10 +143,10 @@
     <loc>https://ignaciorlando.github.io/categories/</loc>
     <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/tag/open-position/</loc>
+    <loc>https://ignaciorlando.github.io/category/open-position/</loc>
     <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/category/open-position/</loc>
+    <loc>https://ignaciorlando.github.io/tag/open-position/</loc>
     <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/post/2022-open-position-agencia/</loc>
@@ -140,22 +167,19 @@
     <loc>https://ignaciorlando.github.io/tag/oct/</loc>
     <lastmod>2022-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-deteccion-temprana-de-la-retinopatia-diabetica/</loc>
+    <loc>https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/</loc>
     <lastmod>2021-11-16T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmologia-desarrollos-argentinos-oportunidades-y-desafios/</loc>
+    <loc>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmolog%C3%ADa-desarrollos-argentinos-oportunidades-y-desaf%C3%ADos/</loc>
     <lastmod>2021-10-29T09:30:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/category/diabetic-retinopathy/</loc>
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/tag/news/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ignaciorlando.github.io/category/news/</loc>
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/tag/retinar/</loc>
+    <loc>https://ignaciorlando.github.io/tag/news/</loc>
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/category/retinar/</loc>
@@ -176,19 +200,19 @@
     <loc>https://ignaciorlando.github.io/post/2021-09-21-pip/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/tag/yatiris-/</loc>
+    <loc>https://ignaciorlando.github.io/category/yatiris-/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/category/yatiris-/</loc>
+    <loc>https://ignaciorlando.github.io/tag/yatiris-/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/post/2021-06-22-nvidia-applied-research/</loc>
     <lastmod>2021-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/tag/grant/</loc>
+    <loc>https://ignaciorlando.github.io/category/grant/</loc>
     <lastmod>2021-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/category/grant/</loc>
+    <loc>https://ignaciorlando.github.io/tag/grant/</loc>
     <lastmod>2021-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/post/2021-02-05-pict/</loc>
@@ -293,9 +317,6 @@
     <loc>https://ignaciorlando.github.io/publication/2019-ijcars-us/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/tag/ultrasound-simulation/</loc>
-    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ignaciorlando.github.io/post/2019-08-01-omia/</loc>
     <lastmod>2019-07-30T12:00:00+00:00</lastmod>
   </url><url>
@@ -316,6 +337,9 @@
   </url><url>
     <loc>https://ignaciorlando.github.io/talk/u2-net-a-bayesian-u-net-model-with-epistemic-uncertainty-feedback-for-photoreceptor-layer-segmentation-in-pathological-oct-scans/</loc>
     <lastmod>2019-04-10T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/post/2019-03-24-isbi/</loc>
+    <lastmod>2019-03-23T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/post/2019-07-30-ijcars/</loc>
     <lastmod>2019-02-05T12:00:00+00:00</lastmod>
@@ -400,7 +424,5 @@
   </url><url>
     <loc>https://ignaciorlando.github.io/publication/2014-mecom-vessels/</loc>
     <lastmod>2014-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/post/2019-03-24-isbi/</loc>
   </url>
 </urlset>

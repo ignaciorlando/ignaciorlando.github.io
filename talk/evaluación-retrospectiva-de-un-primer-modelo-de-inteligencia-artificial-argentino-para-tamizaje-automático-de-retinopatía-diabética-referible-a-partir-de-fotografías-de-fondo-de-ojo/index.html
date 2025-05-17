@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: May 17, 2025 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.e4b9d3e8ce28da563d74b4089f677743.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.cf1d00e0c3e65e264b4b1bb9fccf9e5b.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" >
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="José Ignacio Orlando" />
+
+
+
+
+
+  
+
+<meta name="description" content=" Objetivos: Evaluar la efectividad de una red neuronal convolucional para la identificación de casos de retinopatía diabética (RD) referible a partir de fotografías de fondo de ojo, entrenada con 39.592 estudios recolectados de conjuntos públicos.
+Materiales y Métodos: Se realizó un estudio observacional retrospectivo sobre 61.525 retinografías no empleadas para entrenamiento. 61.007 imágenes son internacionales y de origen público, utilizadas comúnmente para evaluar estos algoritmos, y están agrupadas en 9 conjuntos diferentes. Las restantes 519 fueron recolectadas retrospectivamente de las bases de datos clínicas del Centro de Oftalmología Martínez (Pehuajó, Argentina) y del Hospital de Alta Complejidad El Cruce (Florencio Varela, Argentina). Para cada imagen, se cuenta con una etiqueta asociada indicando si el caso corresponde a un paciente con signos de RD referible o no. En el caso de los datos de Argentina, estas etiquetas fueron asignadas manualmente por dos oftalmólogas expertas. Las rpobabilidades de salida del algoritmo se compararon con las etiquetas manuales utilizando curvas ROC y cuantificando tanto área bajo la curva (AUC) como valores de sensibilidad (SE) y especificidad (ESP) y sus intervalos de confianza (IC 95%). Para SE y ESP se utilizaron tres puntos operativos diferentes, seleccionados utilizando 9.569 estudios que no se emplearon ni para entrenar ni para evaluar el algoritmo. Estos puntos corresponden a umbrales de probabilidad que aseguran SE alta (PO1), ESP alta (PO2) o que consideran referibles a los casos con un 50% de probabilidad asignada (PO50%). Para analizar cualitativamente la respuesta del modelo, se estudiaron manualmente las regiones que el algoritmo tuvo en cuenta utilizando mapas de calor obtenidos mediante la técnica XGrad-Cam.
+Resultados: El modelo reportó un AUC = 0.954 (0.952-0.956). Para el PO1, se obtuvieron SE = 95.5% (95.1%-95.8%) y ESP = 70.2% (69.8%-70.6%), para PO2 SE = 74.8% (74.0%-75.5%) y ESP = 0.97.8% (97.6%-97.9%) y para PO50% SE = 75.2% (74.4%-75.9%) y ESP = 97.7% (97.5%-97.8%). En los casos correctamente clasificados como referibles, los mapas de calor indicaron que el algoritmo analizó mayormente la presencia de hemorragias y/o exudados duros y algodonosos, mientras que en los correctamente clasificados como no referibles las activaciones más notorias se reconocen en las regiones de la mácula, el nervio óptico y las arcadas vasculares. Los casos erróneos, por otro lado, se asocian mayormente a problemas de captura tales como suciedad en la lente y artefactos, o a la presencia de otras enfermedades con signos similares a los de la RD.
+Conclusiones: El modelo demostró valores altos de SE y ESP y respuestas cualitativas compatibles con las observaciones normalmente realizadas por los fotalmólogos. Se espera continuar recolectando datos para realizar una evaluación más exhaustivas sobre datos nacionales, con el propósito de integrar este algoritmo a una plataforma digital argentina actualmente en desarrollo para el tamizaje de la RD." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/" />
+<link rel="canonical" href="https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu_65a5d87812c5ce07.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_fe68fd13c7894da.png" />
+
+<meta name="theme-color" content="#bbdefb" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/featured.png" />
+
+
+
+  
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="José Ignacio Orlando" />
+<meta property="og:url" content="https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/" />
+<meta property="og:title" content="Evaluación retrospectiva de un primer modelo de inteligencia artificial argentino para tamizaje automático de retinopatía diabética referible a partir de fotografías de fondo de ojo | José Ignacio Orlando" />
+<meta property="og:description" content=" Objetivos: Evaluar la efectividad de una red neuronal convolucional para la identificación de casos de retinopatía diabética (RD) referible a partir de fotografías de fondo de ojo, entrenada con 39.592 estudios recolectados de conjuntos públicos.
+Materiales y Métodos: Se realizó un estudio observacional retrospectivo sobre 61.525 retinografías no empleadas para entrenamiento. 61.007 imágenes son internacionales y de origen público, utilizadas comúnmente para evaluar estos algoritmos, y están agrupadas en 9 conjuntos diferentes. Las restantes 519 fueron recolectadas retrospectivamente de las bases de datos clínicas del Centro de Oftalmología Martínez (Pehuajó, Argentina) y del Hospital de Alta Complejidad El Cruce (Florencio Varela, Argentina). Para cada imagen, se cuenta con una etiqueta asociada indicando si el caso corresponde a un paciente con signos de RD referible o no. En el caso de los datos de Argentina, estas etiquetas fueron asignadas manualmente por dos oftalmólogas expertas. Las rpobabilidades de salida del algoritmo se compararon con las etiquetas manuales utilizando curvas ROC y cuantificando tanto área bajo la curva (AUC) como valores de sensibilidad (SE) y especificidad (ESP) y sus intervalos de confianza (IC 95%). Para SE y ESP se utilizaron tres puntos operativos diferentes, seleccionados utilizando 9.569 estudios que no se emplearon ni para entrenar ni para evaluar el algoritmo. Estos puntos corresponden a umbrales de probabilidad que aseguran SE alta (PO1), ESP alta (PO2) o que consideran referibles a los casos con un 50% de probabilidad asignada (PO50%). Para analizar cualitativamente la respuesta del modelo, se estudiaron manualmente las regiones que el algoritmo tuvo en cuenta utilizando mapas de calor obtenidos mediante la técnica XGrad-Cam.
+Resultados: El modelo reportó un AUC = 0.954 (0.952-0.956). Para el PO1, se obtuvieron SE = 95.5% (95.1%-95.8%) y ESP = 70.2% (69.8%-70.6%), para PO2 SE = 74.8% (74.0%-75.5%) y ESP = 0.97.8% (97.6%-97.9%) y para PO50% SE = 75.2% (74.4%-75.9%) y ESP = 97.7% (97.5%-97.8%). En los casos correctamente clasificados como referibles, los mapas de calor indicaron que el algoritmo analizó mayormente la presencia de hemorragias y/o exudados duros y algodonosos, mientras que en los correctamente clasificados como no referibles las activaciones más notorias se reconocen en las regiones de la mácula, el nervio óptico y las arcadas vasculares. Los casos erróneos, por otro lado, se asocian mayormente a problemas de captura tales como suciedad en la lente y artefactos, o a la presencia de otras enfermedades con signos similares a los de la RD.
+Conclusiones: El modelo demostró valores altos de SE y ESP y respuestas cualitativas compatibles con las observaciones normalmente realizadas por los fotalmólogos. Se espera continuar recolectando datos para realizar una evaluación más exhaustivas sobre datos nacionales, con el propósito de integrar este algoritmo a una plataforma digital argentina actualmente en desarrollo para el tamizaje de la RD." /><meta property="og:image" content="https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/featured.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2022-05-25T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2022-06-01T14:45:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/"
+  },
+  "name": "Evaluación retrospectiva de un primer modelo de inteligencia artificial argentino para tamizaje automático de retinopatía diabética referible a partir de fotografías de fondo de ojo",
+  
+  "location": {
+    "@type": "Place",
+    "name": "14:45 hs. Salón Alerce, Hotel Hilton Puerto Madero,",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Macacha Güemes 351",
+      "addressLocality": "Ciudad Autónoma de Buenos Aires",
+      "postalCode": "C1106BKG",
+      "addressRegion": "",
+      "addressCountry": "Argentina"
+    }
+    
+  },
+  
+  
+  "image": [
+    "https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/featured.png"
+  ],
+  
+  "startDate": "2022-06-01T14:45:00Z",
+  
+  "endDate": "2022-06-01T16:45:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "José Ignacio Orlando"
+  },
+  
+  "description": " Objetivos: Evaluar la efectividad de una red neuronal convolucional para la identificación de casos de retinopatía diabética (RD) referible a partir de fotografías de fondo de ojo, entrenada con 39.592 estudios recolectados de conjuntos públicos.\nMateriales y Métodos: Se realizó un estudio observacional retrospectivo sobre 61.525 retinografías no empleadas para entrenamiento. 61.007 imágenes son internacionales y de origen público, utilizadas comúnmente para evaluar estos algoritmos, y están agrupadas en 9 conjuntos diferentes. Las restantes 519 fueron recolectadas retrospectivamente de las bases de datos clínicas del Centro de Oftalmología Martínez (Pehuajó, Argentina) y del Hospital de Alta Complejidad El Cruce (Florencio Varela, Argentina). Para cada imagen, se cuenta con una etiqueta asociada indicando si el caso corresponde a un paciente con signos de RD referible o no. En el caso de los datos de Argentina, estas etiquetas fueron asignadas manualmente por dos oftalmólogas expertas. Las rpobabilidades de salida del algoritmo se compararon con las etiquetas manuales utilizando curvas ROC y cuantificando tanto área bajo la curva (AUC) como valores de sensibilidad (SE) y especificidad (ESP) y sus intervalos de confianza (IC 95%). Para SE y ESP se utilizaron tres puntos operativos diferentes, seleccionados utilizando 9.569 estudios que no se emplearon ni para entrenar ni para evaluar el algoritmo. Estos puntos corresponden a umbrales de probabilidad que aseguran SE alta (PO1), ESP alta (PO2) o que consideran referibles a los casos con un 50% de probabilidad asignada (PO50%). Para analizar cualitativamente la respuesta del modelo, se estudiaron manualmente las regiones que el algoritmo tuvo en cuenta utilizando mapas de calor obtenidos mediante la técnica XGrad-Cam.\nResultados: El modelo reportó un AUC = 0.954 (0.952-0.956). Para el PO1, se obtuvieron SE = 95.5% (95.1%-95.8%) y ESP = 70.2% (69.8%-70.6%), para PO2 SE = 74.8% (74.0%-75.5%) y ESP = 0.97.8% (97.6%-97.9%) y para PO50% SE = 75.2% (74.4%-75.9%) y ESP = 97.7% (97.5%-97.8%). En los casos correctamente clasificados como referibles, los mapas de calor indicaron que el algoritmo analizó mayormente la presencia de hemorragias y/o exudados duros y algodonosos, mientras que en los correctamente clasificados como no referibles las activaciones más notorias se reconocen en las regiones de la mácula, el nervio óptico y las arcadas vasculares. Los casos erróneos, por otro lado, se asocian mayormente a problemas de captura tales como suciedad en la lente y artefactos, o a la presencia de otras enfermedades con signos similares a los de la RD.\nConclusiones: El modelo demostró valores altos de SE y ESP y respuestas cualitativas compatibles con las observaciones normalmente realizadas por los fotalmólogos. Se espera continuar recolectando datos para realizar una evaluación más exhaustivas sobre datos nacionales, con el propósito de integrar este algoritmo a una plataforma digital argentina actualmente en desarrollo para el tamizaje de la RD."
+}
+</script>
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Evaluación retrospectiva de un primer modelo de inteligencia artificial argentino para tamizaje automático de retinopatía diabética referible a partir de fotografías de fondo de ojo | José Ignacio Orlando</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="bce5d022ed49032faf6a5a93a7d2e747" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.db21e13b9b5c4f4b947717750ec8b3cc.js"></script>
+
+  
+
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#supervision"><span>Supervision</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>Experience</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/media/cv_orlando_en.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<div class="article-container pt-3">
+  <h1>Evaluación retrospectiva de un primer modelo de inteligencia artificial argentino para tamizaje automático de retinopatía diabética referible a partir de fotografías de fondo de ojo</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      José Ignacio Orlando</span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="/abstracts/cno2022.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/retinar/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/slides/2022_cno.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
+  <div style="position: relative">
+    <img src="/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/featured_hu_363e37d74527d917.webp" width="720" height="405" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">Objetivos: Evaluar la efectividad de una red neuronal convolucional para la identificación de casos de retinopatía diabética (RD) referible a partir de fotografías de fondo de ojo, entrenada con 39.592 estudios recolectados de conjuntos públicos.
+Materiales y Métodos: Se realizó un estudio observacional retrospectivo sobre 61.525 retinografías no empleadas para entrenamiento. 61.007 imágenes son internacionales y de origen público, utilizadas comúnmente para evaluar estos algoritmos, y están agrupadas en 9 conjuntos diferentes. Las restantes 519 fueron recolectadas retrospectivamente de las bases de datos clínicas del Centro de Oftalmología Martínez (Pehuajó, Argentina) y del Hospital de Alta Complejidad El Cruce (Florencio Varela, Argentina). Para cada imagen, se cuenta con una etiqueta asociada indicando si el caso corresponde a un paciente con signos de RD referible o no. En el caso de los datos de Argentina, estas etiquetas fueron asignadas manualmente por dos oftalmólogas expertas. Las rpobabilidades de salida del algoritmo se compararon con las etiquetas manuales utilizando curvas ROC y cuantificando tanto área bajo la curva (AUC) como valores de sensibilidad (SE) y especificidad (ESP) y sus intervalos de confianza (IC 95%). Para SE y ESP se utilizaron tres puntos operativos diferentes, seleccionados utilizando 9.569 estudios que no se emplearon ni para entrenar ni para evaluar el algoritmo. Estos puntos corresponden a umbrales de probabilidad que aseguran SE alta (PO1), ESP alta (PO2) o que consideran referibles a los casos con un 50% de probabilidad asignada (PO50%). Para analizar cualitativamente la respuesta del modelo, se estudiaron manualmente las regiones que el algoritmo tuvo en cuenta utilizando mapas de calor obtenidos mediante la técnica XGrad-Cam.
+Resultados: El modelo reportó un AUC = 0.954 (0.952-0.956). Para el PO1, se obtuvieron SE = 95.5% (95.1%-95.8%) y ESP = 70.2% (69.8%-70.6%), para PO2 SE = 74.8% (74.0%-75.5%) y ESP = 0.97.8% (97.6%-97.9%) y para PO50% SE = 75.2% (74.4%-75.9%) y ESP = 97.7% (97.5%-97.8%). En los casos correctamente clasificados como referibles, los mapas de calor indicaron que el algoritmo analizó mayormente la presencia de hemorragias y/o exudados duros y algodonosos, mientras que en los correctamente clasificados como no referibles las activaciones más notorias se reconocen en las regiones de la mácula, el nervio óptico y las arcadas vasculares. Los casos erróneos, por otro lado, se asocian mayormente a problemas de captura tales como suciedad en la lente y artefactos, o a la presencia de otras enfermedades con signos similares a los de la RD.
+Conclusiones: El modelo demostró valores altos de SE y ESP y respuestas cualitativas compatibles con las observaciones normalmente realizadas por los fotalmólogos. Se espera continuar recolectando datos para realizar una evaluación más exhaustivas sobre datos nacionales, con el propósito de integrar este algoritmo a una plataforma digital argentina actualmente en desarrollo para el tamizaje de la RD.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Jun 1, 2022 2:45 PM &mdash; 4:45 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://www.eventgo.ar/CAO22/ProgramaWEB.dll/EXEC/0/1wcdufl0zxtnb219j63ky0voq1wt" target="_blank" rel="noopener">
+            Congreso Nacional de Oftalmología
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">14:45 hs. Salón Alerce, Hotel Hilton Puerto Madero,</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9">Macacha Güemes 351, Ciudad Autónoma de Buenos Aires, C1106BKG</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/diabetic-retinopathy/">Diabetic Retinopathy</a>
+  
+  <a class="badge badge-light" href="/tag/spanish/">Spanish</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fevaluaci%25C3%25B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%25C3%25A1tico-de-retinopat%25C3%25ADa-diab%25C3%25A9tica-referible-a-partir-de-fotograf%25C3%25ADas-de-fondo-de-ojo%2F&amp;text=Evaluaci%C3%B3n&#43;retrospectiva&#43;de&#43;un&#43;primer&#43;modelo&#43;de&#43;inteligencia&#43;artificial&#43;argentino&#43;para&#43;tamizaje&#43;autom%C3%A1tico&#43;de&#43;retinopat%C3%ADa&#43;diab%C3%A9tica&#43;referible&#43;a&#43;partir&#43;de&#43;fotograf%C3%ADas&#43;de&#43;fondo&#43;de&#43;ojo" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fevaluaci%25C3%25B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%25C3%25A1tico-de-retinopat%25C3%25ADa-diab%25C3%25A9tica-referible-a-partir-de-fotograf%25C3%25ADas-de-fondo-de-ojo%2F&amp;t=Evaluaci%C3%B3n&#43;retrospectiva&#43;de&#43;un&#43;primer&#43;modelo&#43;de&#43;inteligencia&#43;artificial&#43;argentino&#43;para&#43;tamizaje&#43;autom%C3%A1tico&#43;de&#43;retinopat%C3%ADa&#43;diab%C3%A9tica&#43;referible&#43;a&#43;partir&#43;de&#43;fotograf%C3%ADas&#43;de&#43;fondo&#43;de&#43;ojo" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Evaluaci%C3%B3n%20retrospectiva%20de%20un%20primer%20modelo%20de%20inteligencia%20artificial%20argentino%20para%20tamizaje%20autom%C3%A1tico%20de%20retinopat%C3%ADa%20diab%C3%A9tica%20referible%20a%20partir%20de%20fotograf%C3%ADas%20de%20fondo%20de%20ojo&amp;body=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fevaluaci%25C3%25B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%25C3%25A1tico-de-retinopat%25C3%25ADa-diab%25C3%25A9tica-referible-a-partir-de-fotograf%25C3%25ADas-de-fondo-de-ojo%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fevaluaci%25C3%25B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%25C3%25A1tico-de-retinopat%25C3%25ADa-diab%25C3%25A9tica-referible-a-partir-de-fotograf%25C3%25ADas-de-fondo-de-ojo%2F&amp;title=Evaluaci%C3%B3n&#43;retrospectiva&#43;de&#43;un&#43;primer&#43;modelo&#43;de&#43;inteligencia&#43;artificial&#43;argentino&#43;para&#43;tamizaje&#43;autom%C3%A1tico&#43;de&#43;retinopat%C3%ADa&#43;diab%C3%A9tica&#43;referible&#43;a&#43;partir&#43;de&#43;fotograf%C3%ADas&#43;de&#43;fondo&#43;de&#43;ojo" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Evaluaci%C3%B3n&#43;retrospectiva&#43;de&#43;un&#43;primer&#43;modelo&#43;de&#43;inteligencia&#43;artificial&#43;argentino&#43;para&#43;tamizaje&#43;autom%C3%A1tico&#43;de&#43;retinopat%C3%ADa&#43;diab%C3%A9tica&#43;referible&#43;a&#43;partir&#43;de&#43;fotograf%C3%ADas&#43;de&#43;fondo&#43;de&#43;ojo%20https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fevaluaci%25C3%25B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%25C3%25A1tico-de-retinopat%25C3%25ADa-diab%25C3%25A9tica-referible-a-partir-de-fotograf%25C3%25ADas-de-fondo-de-ojo%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fevaluaci%25C3%25B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%25C3%25A1tico-de-retinopat%25C3%25ADa-diab%25C3%25A9tica-referible-a-partir-de-fotograf%25C3%25ADas-de-fondo-de-ojo%2F&amp;title=Evaluaci%C3%B3n&#43;retrospectiva&#43;de&#43;un&#43;primer&#43;modelo&#43;de&#43;inteligencia&#43;artificial&#43;argentino&#43;para&#43;tamizaje&#43;autom%C3%A1tico&#43;de&#43;retinopat%C3%ADa&#43;diab%C3%A9tica&#43;referible&#43;a&#43;partir&#43;de&#43;fotograf%C3%ADas&#43;de&#43;fondo&#43;de&#43;ojo" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://ignaciorlando.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu_27062397d0cdef0e.jpg" alt="José Ignacio Orlando"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://ignaciorlando.github.io/">José Ignacio Orlando</a></h5>
+      <h6 class="card-subtitle">Associate Researcher</h6>
+      <p class="card-text">My research interests include machine learning and computer vision techniques for medical imaging applications, mostly centered in ophthalmology.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiorlando@pladema.exa.unicen.edu.ar" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ignaciorlando" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jos%C3%A9-ignacio-orlando-560b8040/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=2N3oD28AAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ignaciorlando" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/media/cv_orlando_en.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.da259f97ed0f170b3547d57d1c732d58.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+  
+
+<script src="/en/js/wowchemy.min.024a250be80968f65c7ba869d7c1c887.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -5,12 +5,36 @@
     <link>https://ignaciorlando.github.io/</link>
       <atom:link href="https://ignaciorlando.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>José Ignacio Orlando</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Wed, 11 Jun 2025 08:30:00 +0000</lastBuildDate>
     <image>
-      <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://ignaciorlando.github.io/media/icon_hu_388cc44a393ad7d0.png</url>
       <title>José Ignacio Orlando</title>
       <link>https://ignaciorlando.github.io/</link>
     </image>
+    
+    <item>
+      <title>Inteligencia artificial - Del laboratorio al mundo real</title>
+      <link>https://ignaciorlando.github.io/talk/inteligencia-artificial-del-laboratorio-al-mundo-real/</link>
+      <pubDate>Wed, 11 Jun 2025 08:30:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/inteligencia-artificial-del-laboratorio-al-mundo-real/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving realism in abdominal ultrasound simulation combining a segmentation-guided loss and polar coordinates training</title>
+      <link>https://ignaciorlando.github.io/publication/2025-medphys/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2025-medphys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retinar - Prevenir la ceguera por diabetes con inteligencia artificial</title>
+      <link>https://ignaciorlando.github.io/talk/retinar-prevenir-la-ceguera-por-diabetes-con-inteligencia-artificial/</link>
+      <pubDate>Wed, 09 Apr 2025 08:30:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/retinar-prevenir-la-ceguera-por-diabetes-con-inteligencia-artificial/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Self-supervised Deep Learning Model for Diagonal Sulcus Detection with Limited Labeled Data</title>
@@ -70,9 +94,9 @@
     
     <item>
       <title>One class to rule them all - Aplicaciones de clasificación a una clase en visión artificial y medicina</title>
-      <link>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificacion-a-una-clase-en-vision-artificial-y-medicina/</link>
+      <link>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificaci%C3%B3n-a-una-clase-en-visi%C3%B3n-artificial-y-medicina/</link>
       <pubDate>Wed, 04 Oct 2023 08:30:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificacion-a-una-clase-en-vision-artificial-y-medicina/</guid>
+      <guid>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificaci%C3%B3n-a-una-clase-en-visi%C3%B3n-artificial-y-medicina/</guid>
       <description></description>
     </item>
     
@@ -126,17 +150,17 @@
     
     <item>
       <title>Cómo entrenar bien un baseline - Experiencias y recomendaciones desde la aplicación de deep learning en oftalmología</title>
-      <link>https://ignaciorlando.github.io/talk/como-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicacion-de-deep-learning-en-oftalmologia/</link>
+      <link>https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/</link>
       <pubDate>Wed, 21 Sep 2022 12:00:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/como-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicacion-de-deep-learning-en-oftalmologia/</guid>
+      <guid>https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evaluación retrospectiva de un primer modelo de inteligencia artificial argentino para tamizaje automático de retinopatía diabética referible a partir de fotografías de fondo de ojo</title>
-      <link>https://ignaciorlando.github.io/talk/evaluacion-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-automatico-de-retinopatia-diabetica-referible-a-partir-de-fotografias-de-fondo-de-ojo/</link>
+      <link>https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/</link>
       <pubDate>Wed, 01 Jun 2022 14:45:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/evaluacion-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-automatico-de-retinopatia-diabetica-referible-a-partir-de-fotografias-de-fondo-de-ojo/</guid>
+      <guid>https://ignaciorlando.github.io/talk/evaluaci%C3%B3n-retrospectiva-de-un-primer-modelo-de-inteligencia-artificial-argentino-para-tamizaje-autom%C3%A1tico-de-retinopat%C3%ADa-diab%C3%A9tica-referible-a-partir-de-fotograf%C3%ADas-de-fondo-de-ojo/</guid>
       <description></description>
     </item>
     
@@ -214,17 +238,17 @@ PLADEMA es un instituto de investigación de referencia a nivel nacional en mate
     
     <item>
       <title>retinar - hacia una plataforma nacional basada en inteligencia artificial para la detección temprana de la retinopatía diabética</title>
-      <link>https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-deteccion-temprana-de-la-retinopatia-diabetica/</link>
+      <link>https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/</link>
       <pubDate>Tue, 16 Nov 2021 12:00:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-deteccion-temprana-de-la-retinopatia-diabetica/</guid>
+      <guid>https://ignaciorlando.github.io/talk/retinar-hacia-una-plataforma-nacional-basada-en-inteligencia-artificial-para-la-detecci%C3%B3n-temprana-de-la-retinopat%C3%ADa-diab%C3%A9tica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inteligencia artificial en oftalmología - desarrollos argentinos, oportunidades y desafíos</title>
-      <link>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmologia-desarrollos-argentinos-oportunidades-y-desafios/</link>
+      <link>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmolog%C3%ADa-desarrollos-argentinos-oportunidades-y-desaf%C3%ADos/</link>
       <pubDate>Fri, 29 Oct 2021 09:30:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmologia-desarrollos-argentinos-oportunidades-y-desafios/</guid>
+      <guid>https://ignaciorlando.github.io/talk/inteligencia-artificial-en-oftalmolog%C3%ADa-desarrollos-argentinos-oportunidades-y-desaf%C3%ADos/</guid>
       <description></description>
     </item>
     
@@ -766,6 +790,15 @@ Wolf, Rhona, David, Thomas and Sophie. Some of them have turned into really good
     </item>
     
     <item>
+      <title>My ISBI 2019 was chosen for oral presentation</title>
+      <link>https://ignaciorlando.github.io/post/2019-03-24-isbi/</link>
+      <pubDate>Sat, 23 Mar 2019 12:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/post/2019-03-24-isbi/</guid>
+      <description>&lt;p&gt;Our paper on photoreceptor segmentation in retinal OCT scans was accepted for oral presentation at ISBI 2019. You can read the &lt;a href=&#34;https://arxiv.org/abs/1901.07929&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;preprint or arXiv here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>New paper at IJCARS 2019!</title>
       <link>https://ignaciorlando.github.io/post/2019-07-30-ijcars/</link>
       <pubDate>Tue, 05 Feb 2019 12:00:00 +0000</pubDate>
@@ -839,13 +872,13 @@ $$&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-   One 
+  One
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-   **Two** 
+  &lt;strong&gt;Two&lt;/strong&gt;
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-   Three 
+  Three
 &lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
@@ -1102,15 +1135,6 @@ $$&lt;/p&gt;
       <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
       <guid>https://ignaciorlando.github.io/publication/2014-mecom-vessels/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>My ISBI 2019 was chosen for oral presentation</title>
-      <link>https://ignaciorlando.github.io/post/2019-03-24-isbi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/post/2019-03-24-isbi/</guid>
-      <description>&lt;p&gt;Our paper on photoreceptor segmentation in retinal OCT scans was accepted for oral presentation at ISBI 2019. You can read the &lt;a href=&#34;https://arxiv.org/abs/1901.07929&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;preprint or arXiv here&lt;/a&gt;.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

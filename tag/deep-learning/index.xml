@@ -5,12 +5,28 @@
     <link>https://ignaciorlando.github.io/tag/deep-learning/</link>
       <atom:link href="https://ignaciorlando.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Mon, 19 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Wed, 11 Jun 2025 08:30:00 +0000</lastBuildDate>
     <image>
-      <url>https://ignaciorlando.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://ignaciorlando.github.io/media/icon_hu_388cc44a393ad7d0.png</url>
       <title>Deep Learning</title>
       <link>https://ignaciorlando.github.io/tag/deep-learning/</link>
     </image>
+    
+    <item>
+      <title>Inteligencia artificial - Del laboratorio al mundo real</title>
+      <link>https://ignaciorlando.github.io/talk/inteligencia-artificial-del-laboratorio-al-mundo-real/</link>
+      <pubDate>Wed, 11 Jun 2025 08:30:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/inteligencia-artificial-del-laboratorio-al-mundo-real/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retinar - Prevenir la ceguera por diabetes con inteligencia artificial</title>
+      <link>https://ignaciorlando.github.io/talk/retinar-prevenir-la-ceguera-por-diabetes-con-inteligencia-artificial/</link>
+      <pubDate>Wed, 09 Apr 2025 08:30:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/retinar-prevenir-la-ceguera-por-diabetes-con-inteligencia-artificial/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Computer Aided Intracranial Aneurysm Treatment Based on 2D/3D Mapping, Virtual Deployment and Online Distal Marker Detection</title>
@@ -22,9 +38,9 @@
     
     <item>
       <title>One class to rule them all - Aplicaciones de clasificación a una clase en visión artificial y medicina</title>
-      <link>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificacion-a-una-clase-en-vision-artificial-y-medicina/</link>
+      <link>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificaci%C3%B3n-a-una-clase-en-visi%C3%B3n-artificial-y-medicina/</link>
       <pubDate>Wed, 04 Oct 2023 08:30:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificacion-a-una-clase-en-vision-artificial-y-medicina/</guid>
+      <guid>https://ignaciorlando.github.io/talk/one-class-to-rule-them-all-aplicaciones-de-clasificaci%C3%B3n-a-una-clase-en-visi%C3%B3n-artificial-y-medicina/</guid>
       <description></description>
     </item>
     
@@ -54,9 +70,9 @@
     
     <item>
       <title>Cómo entrenar bien un baseline - Experiencias y recomendaciones desde la aplicación de deep learning en oftalmología</title>
-      <link>https://ignaciorlando.github.io/talk/como-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicacion-de-deep-learning-en-oftalmologia/</link>
+      <link>https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/</link>
       <pubDate>Wed, 21 Sep 2022 12:00:00 +0000</pubDate>
-      <guid>https://ignaciorlando.github.io/talk/como-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicacion-de-deep-learning-en-oftalmologia/</guid>
+      <guid>https://ignaciorlando.github.io/talk/c%C3%B3mo-entrenar-bien-un-baseline-experiencias-y-recomendaciones-desde-la-aplicaci%C3%B3n-de-deep-learning-en-oftalmolog%C3%ADa/</guid>
       <description></description>
     </item>
     
