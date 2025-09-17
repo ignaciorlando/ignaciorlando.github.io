@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: September 17, 2025 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.e4b9d3e8ce28da563d74b4089f677743.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.cf1d00e0c3e65e264b4b1bb9fccf9e5b.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" >
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="José Ignacio Orlando" />
+
+
+
+
+
+  
+
+<meta name="description" content="La charla tiene como objetivo abordar las oportunidades y desafíos de la digitalización en salud en el contexto actual de la incorporación de IA, utilizando a Retinar como ejemplo de desarrollo tecnológico y recogiendo al final los principales aprendizajes alcanzados tras la implementación del producto." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://ignaciorlando.github.io/talk/retinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%C3%B3stico-asistido-de-la-retinopat%C3%ADa-diab%C3%A9tica/" />
+<link rel="canonical" href="https://ignaciorlando.github.io/talk/retinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%C3%B3stico-asistido-de-la-retinopat%C3%ADa-diab%C3%A9tica/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu_65a5d87812c5ce07.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_fe68fd13c7894da.png" />
+
+<meta name="theme-color" content="#bbdefb" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://ignaciorlando.github.io/talk/retinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%C3%B3stico-asistido-de-la-retinopat%C3%ADa-diab%C3%A9tica/featured.png" />
+
+
+
+  
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="José Ignacio Orlando" />
+<meta property="og:url" content="https://ignaciorlando.github.io/talk/retinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%C3%B3stico-asistido-de-la-retinopat%C3%ADa-diab%C3%A9tica/" />
+<meta property="og:title" content="Retinar - Inteligencia artificial y telemedicina distribuida para diagnóstico asistido de la retinopatía diabética | José Ignacio Orlando" />
+<meta property="og:description" content="La charla tiene como objetivo abordar las oportunidades y desafíos de la digitalización en salud en el contexto actual de la incorporación de IA, utilizando a Retinar como ejemplo de desarrollo tecnológico y recogiendo al final los principales aprendizajes alcanzados tras la implementación del producto." /><meta property="og:image" content="https://ignaciorlando.github.io/talk/retinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%C3%B3stico-asistido-de-la-retinopat%C3%ADa-diab%C3%A9tica/featured.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2025-09-17T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2025-09-17T08:30:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ignaciorlando.github.io/talk/retinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%C3%B3stico-asistido-de-la-retinopat%C3%ADa-diab%C3%A9tica/"
+  },
+  "name": "Retinar - Inteligencia artificial y telemedicina distribuida para diagnóstico asistido de la retinopatía diabética",
+  
+  "location": {
+    "@type": "Place",
+    "name": "Campus Victoria | Universidad de San Andrés",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Vito Dumas 284",
+      "addressLocality": "Victoria",
+      "postalCode": "B1644BID",
+      "addressRegion": "Buenos Aires",
+      "addressCountry": "Argentina"
+    }
+    
+  },
+  
+  
+  "image": [
+    "https://ignaciorlando.github.io/talk/retinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%C3%B3stico-asistido-de-la-retinopat%C3%ADa-diab%C3%A9tica/featured.png"
+  ],
+  
+  "startDate": "2025-09-17T08:30:00Z",
+  
+  "endDate": "2025-09-17T16:30:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "José Ignacio Orlando"
+  },
+  
+  "description": "La charla tiene como objetivo abordar las oportunidades y desafíos de la digitalización en salud en el contexto actual de la incorporación de IA, utilizando a Retinar como ejemplo de desarrollo tecnológico y recogiendo al final los principales aprendizajes alcanzados tras la implementación del producto."
+}
+</script>
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Retinar - Inteligencia artificial y telemedicina distribuida para diagnóstico asistido de la retinopatía diabética | José Ignacio Orlando</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="6285d35b73d6ba1fe636a73ab131f618" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.db21e13b9b5c4f4b947717750ec8b3cc.js"></script>
+
+  
+
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#supervision"><span>Supervision</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>Experience</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/media/cv_orlando_en.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<div class="article-container pt-3">
+  <h1>Retinar - Inteligencia artificial y telemedicina distribuida para diagnóstico asistido de la retinopatía diabética</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      José Ignacio Orlando</span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/retinar/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/slides/2025-catedra-roche.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 404px;">
+  <div style="position: relative">
+    <img src="/talk/retinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%C3%B3stico-asistido-de-la-retinopat%C3%ADa-diab%C3%A9tica/featured_hu_e8b82c2d16c858a7.webp" width="720" height="404" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">La charla tiene como objetivo abordar las oportunidades y desafíos de la digitalización en salud en el contexto actual de la incorporación de IA, utilizando a Retinar como ejemplo de desarrollo tecnológico y recogiendo al final los principales aprendizajes alcanzados tras la implementación del producto.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Sep 17, 2025 8:30 AM &mdash; 4:30 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            
+            Cátedra Roche de Decisiones en Salud
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Campus Victoria | Universidad de San Andrés</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9">Vito Dumas 284, Victoria, Buenos Aires B1644BID</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/deep-learning/">Deep Learning</a>
+  
+  <a class="badge badge-light" href="/tag/spanish/">Spanish</a>
+  
+  <a class="badge badge-light" href="/tag/retinar/">Retinar</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%25C3%25B3stico-asistido-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F&amp;text=Retinar&#43;-&#43;Inteligencia&#43;artificial&#43;y&#43;telemedicina&#43;distribuida&#43;para&#43;diagn%C3%B3stico&#43;asistido&#43;de&#43;la&#43;retinopat%C3%ADa&#43;diab%C3%A9tica" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%25C3%25B3stico-asistido-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F&amp;t=Retinar&#43;-&#43;Inteligencia&#43;artificial&#43;y&#43;telemedicina&#43;distribuida&#43;para&#43;diagn%C3%B3stico&#43;asistido&#43;de&#43;la&#43;retinopat%C3%ADa&#43;diab%C3%A9tica" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Retinar%20-%20Inteligencia%20artificial%20y%20telemedicina%20distribuida%20para%20diagn%C3%B3stico%20asistido%20de%20la%20retinopat%C3%ADa%20diab%C3%A9tica&amp;body=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%25C3%25B3stico-asistido-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%25C3%25B3stico-asistido-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F&amp;title=Retinar&#43;-&#43;Inteligencia&#43;artificial&#43;y&#43;telemedicina&#43;distribuida&#43;para&#43;diagn%C3%B3stico&#43;asistido&#43;de&#43;la&#43;retinopat%C3%ADa&#43;diab%C3%A9tica" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Retinar&#43;-&#43;Inteligencia&#43;artificial&#43;y&#43;telemedicina&#43;distribuida&#43;para&#43;diagn%C3%B3stico&#43;asistido&#43;de&#43;la&#43;retinopat%C3%ADa&#43;diab%C3%A9tica%20https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%25C3%25B3stico-asistido-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fignaciorlando.github.io%2Ftalk%2Fretinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%25C3%25B3stico-asistido-de-la-retinopat%25C3%25ADa-diab%25C3%25A9tica%2F&amp;title=Retinar&#43;-&#43;Inteligencia&#43;artificial&#43;y&#43;telemedicina&#43;distribuida&#43;para&#43;diagn%C3%B3stico&#43;asistido&#43;de&#43;la&#43;retinopat%C3%ADa&#43;diab%C3%A9tica" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://ignaciorlando.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu_27062397d0cdef0e.jpg" alt="José Ignacio Orlando"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://ignaciorlando.github.io/">José Ignacio Orlando</a></h5>
+      <h6 class="card-subtitle">Associate Researcher</h6>
+      <p class="card-text">My research interests include machine learning and computer vision techniques for medical imaging applications, mostly centered in ophthalmology.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiorlando@pladema.exa.unicen.edu.ar" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ignaciorlando" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jos%C3%A9-ignacio-orlando-560b8040/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=2N3oD28AAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ignaciorlando" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/media/cv_orlando_en.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.da259f97ed0f170b3547d57d1c732d58.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+  
+
+<script src="/en/js/wowchemy.min.024a250be80968f65c7ba869d7c1c887.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

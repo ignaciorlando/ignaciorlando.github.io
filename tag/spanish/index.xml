@@ -5,12 +5,20 @@
     <link>https://ignaciorlando.github.io/tag/spanish/</link>
       <atom:link href="https://ignaciorlando.github.io/tag/spanish/index.xml" rel="self" type="application/rss+xml" />
     <description>Spanish</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Wed, 11 Jun 2025 08:30:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Wed, 17 Sep 2025 08:30:00 +0000</lastBuildDate>
     <image>
       <url>https://ignaciorlando.github.io/media/icon_hu_388cc44a393ad7d0.png</url>
       <title>Spanish</title>
       <link>https://ignaciorlando.github.io/tag/spanish/</link>
     </image>
+    
+    <item>
+      <title>Retinar - Inteligencia artificial y telemedicina distribuida para diagnóstico asistido de la retinopatía diabética</title>
+      <link>https://ignaciorlando.github.io/talk/retinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%C3%B3stico-asistido-de-la-retinopat%C3%ADa-diab%C3%A9tica/</link>
+      <pubDate>Wed, 17 Sep 2025 08:30:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/talk/retinar-inteligencia-artificial-y-telemedicina-distribuida-para-diagn%C3%B3stico-asistido-de-la-retinopat%C3%ADa-diab%C3%A9tica/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Inteligencia artificial - Del laboratorio al mundo real</title>
