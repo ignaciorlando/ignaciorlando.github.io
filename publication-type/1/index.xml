@@ -5,12 +5,20 @@
     <link>https://ignaciorlando.github.io/publication-type/1/</link>
       <atom:link href="https://ignaciorlando.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ignaciorlando.github.io/media/icon_hu_388cc44a393ad7d0.png</url>
       <title>1</title>
       <link>https://ignaciorlando.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Evaluating Fundus-Specific Foundation Models for Diabetic Macular Edema Detection</title>
+      <link>https://ignaciorlando.github.io/publication/2025-sipaim/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2025-sipaim/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Semi-supervised learning with Noisy Students improves domain generalization in optic disc and cup segmentation in uncropped fundus images</title>
