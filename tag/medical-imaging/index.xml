@@ -5,12 +5,20 @@
     <link>https://ignaciorlando.github.io/tag/medical-imaging/</link>
       <atom:link href="https://ignaciorlando.github.io/tag/medical-imaging/index.xml" rel="self" type="application/rss+xml" />
     <description>Medical Imaging</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ignaciorlando.github.io/media/icon_hu_388cc44a393ad7d0.png</url>
       <title>Medical Imaging</title>
       <link>https://ignaciorlando.github.io/tag/medical-imaging/</link>
     </image>
+    
+    <item>
+      <title>Can Coding Agents Build Robust Baselines? A Skill-Based Approach for Automating the Medical Imaging Model-Development Pipeline</title>
+      <link>https://ignaciorlando.github.io/publication/2026-agenticmed-coding-agents/</link>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2026-agenticmed-coding-agents/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Automated lumen segmentation using multi-frame convolutional neural networks in intravascular ultrasound datasets</title>

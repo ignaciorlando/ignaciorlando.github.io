@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interpretable AI | José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/tag/interpretable-ai/</link>
+      <atom:link href="https://ignaciorlando.github.io/tag/interpretable-ai/index.xml" rel="self" type="application/rss+xml" />
+    <description>Interpretable AI</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ignaciorlando.github.io/media/icon_hu_388cc44a393ad7d0.png</url>
+      <title>Interpretable AI</title>
+      <link>https://ignaciorlando.github.io/tag/interpretable-ai/</link>
+    </image>
+    
+    <item>
+      <title>Semi-Supervised Multi-Task Learning for Interpretable Quality Assessment of Fundus Images</title>
+      <link>https://ignaciorlando.github.io/publication/2026-bspc-riqa/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2026-bspc-riqa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
