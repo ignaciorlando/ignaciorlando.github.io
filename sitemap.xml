@@ -3,7 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ignaciorlando.github.io/publication-type/1/</loc>
-    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/domain-generalization/</loc>
+    <lastmod>2026-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/fundus-imaging/</loc>
+    <lastmod>2026-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/</loc>
+    <lastmod>2026-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/optic-disc-and-cup-segmentation/</loc>
+    <lastmod>2026-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/publication/2026-sipaim/</loc>
+    <lastmod>2026-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/pseudo-label-quality/</loc>
+    <lastmod>2026-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/publication_types/</loc>
+    <lastmod>2026-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/publication/</loc>
+    <lastmod>2026-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/semi-supervised-learning/</loc>
+    <lastmod>2026-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tags/</loc>
+    <lastmod>2026-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/publication-type/2/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/publication/2026-abme/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/diffusion-models/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/pathology-simulation/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/physics-based-supervision/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/semantic-image-synthesis/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ignaciorlando.github.io/tag/ultrasound-simulation/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/tag/agentic-workflows/</loc>
     <lastmod>2026-08-24T00:00:00+00:00</lastmod>
@@ -23,26 +74,8 @@
     <loc>https://ignaciorlando.github.io/tag/deep-learning/</loc>
     <lastmod>2026-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ignaciorlando.github.io/</loc>
-    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ignaciorlando.github.io/tag/medical-imaging/</loc>
     <lastmod>2026-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/publication_types/</loc>
-    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/publication/</loc>
-    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/tags/</loc>
-    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/publication-type/2/</loc>
-    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/tag/fundus-imaging/</loc>
-    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/tag/interpretable-ai/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
@@ -54,9 +87,6 @@
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/tag/retinal-image-quality-assessment/</loc>
-    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/tag/semi-supervised-learning/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/publication/2026-bspc-riqa/</loc>
@@ -105,9 +135,6 @@
     <lastmod>2025-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/tag/segmentation-guided-loss/</loc>
-    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ignaciorlando.github.io/tag/ultrasound-simulation/</loc>
     <lastmod>2025-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ignaciorlando.github.io/talk/retinar-prevenir-la-ceguera-por-diabetes-con-inteligencia-artificial/</loc>

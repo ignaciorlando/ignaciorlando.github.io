@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semantic Image Synthesis | José Ignacio Orlando</title>
+    <link>https://ignaciorlando.github.io/tag/semantic-image-synthesis/</link>
+      <atom:link href="https://ignaciorlando.github.io/tag/semantic-image-synthesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Semantic Image Synthesis</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><copyright>© 2021 José Ignacio Orlando</copyright><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ignaciorlando.github.io/media/icon_hu_388cc44a393ad7d0.png</url>
+      <title>Semantic Image Synthesis</title>
+      <link>https://ignaciorlando.github.io/tag/semantic-image-synthesis/</link>
+    </image>
+    
+    <item>
+      <title>Abdominal Ultrasound Simulation from Semantic Labels using Paired Label-to-Physics-Based Image Translation</title>
+      <link>https://ignaciorlando.github.io/publication/2026-abme/</link>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://ignaciorlando.github.io/publication/2026-abme/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

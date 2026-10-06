@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: October 6, 2026 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.e4b9d3e8ce28da563d74b4089f677743.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.cf1d00e0c3e65e264b4b1bb9fccf9e5b.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" >
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="José Ignacio Orlando" />
+
+
+
+
+
+  
+
+<meta name="description" content="A two-stage framework generates abdominal ultrasound images from semantic labels using physics-based supervision and anatomy-preserving refinement, enabling controlled simulations of motion, deformations, and pathological findings without patient-specific CT volumes at inference time." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://ignaciorlando.github.io/publication/2026-abme/" />
+<link rel="canonical" href="https://ignaciorlando.github.io/publication/2026-abme/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu_65a5d87812c5ce07.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_fe68fd13c7894da.png" />
+
+<meta name="theme-color" content="#bbdefb" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://ignaciorlando.github.io/publication/2026-abme/featured.png" />
+
+
+
+  
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="José Ignacio Orlando" />
+<meta property="og:url" content="https://ignaciorlando.github.io/publication/2026-abme/" />
+<meta property="og:title" content="Abdominal Ultrasound Simulation from Semantic Labels using Paired Label-to-Physics-Based Image Translation | José Ignacio Orlando" />
+<meta property="og:description" content="A two-stage framework generates abdominal ultrasound images from semantic labels using physics-based supervision and anatomy-preserving refinement, enabling controlled simulations of motion, deformations, and pathological findings without patient-specific CT volumes at inference time." /><meta property="og:image" content="https://ignaciorlando.github.io/publication/2026-abme/featured.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2026-10-06T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2026-10-06T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ignaciorlando.github.io/publication/2026-abme/"
+  },
+  "headline": "Abdominal Ultrasound Simulation from Semantic Labels using Paired Label-to-Physics-Based Image Translation",
+  
+  "image": [
+    "https://ignaciorlando.github.io/publication/2026-abme/featured.png"
+  ],
+  
+  "datePublished": "2026-10-06T00:00:00Z",
+  "dateModified": "2026-10-06T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Santiago Vitale"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "José Ignacio Orlando",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ignaciorlando.github.io/media/icon_hu_e2348af0c6082c3e.png"
+    }
+  },
+  "description": "A two-stage framework generates abdominal ultrasound images from semantic labels using physics-based supervision and anatomy-preserving refinement, enabling controlled simulations of motion, deformations, and pathological findings without patient-specific CT volumes at inference time."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Abdominal Ultrasound Simulation from Semantic Labels using Paired Label-to-Physics-Based Image Translation | José Ignacio Orlando</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="ae6f6ac7b4c2a2ef002d6af979c1671c" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.db21e13b9b5c4f4b947717750ec8b3cc.js"></script>
+
+  
+
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">José Ignacio Orlando</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#supervision"><span>Supervision</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>Experience</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/media/cv_orlando_en.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+  
+    
+    
+  
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<div class="article-container pt-3">
+  <h1>Abdominal Ultrasound Simulation from Semantic Labels using Paired Label-to-Physics-Based Image Translation</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Santiago Vitale</span>, <span >
+      Duilio Deangeli</span>, <span >
+      Ignacio Larrabide</span>, <span >
+      José Ignacio Orlando</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    October 2026
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="/publication/2026-abme/2026-abme.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/2026-abme/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/thepochynsons/semantic-label-abdominal-us-synthesis" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://www.kaggle.com/datasets/ignaciorlando/ussimandsegm" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/yatiris/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
+  <div style="position: relative">
+    <img src="/publication/2026-abme/featured_hu_a5552bf77a087a06.webp" width="720" height="405" alt="" class="featured-image">
+    <span class="article-header-caption">Figure 1. Overview of the proposed inference pipeline. (a) A semantic label map is translated into a simplified US image via a paired model. (b) An unpaired SG-CycleGAN refines realism while preserving anatomy. (c) Optional label transformations T (e.g., motion, lesions, deformations) enable diverse scenario generation without CT input. Yellow arrows highlight the anatomical regions affected by the simulated deformation.</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Purpose: Current abdominal ultrasound (US) simulation methods often require CT-based anatomical references for ray-casting, limiting deformation and pathology variability. We propose a learning-based pipeline trained to predict physics-based images derived from CT scans from semantic labels, enabling controlled simulations without patient-specific CT volumes at inference time. Methods: We introduce a two-stage pipeline that maps anatomical segmentations to realistic US images through a simplified US image. Stage I synthesizes this image from semantic labels using models trained on CT-based ray-casting outputs. Stage II refines it into a realistic US scan using anatomically guided unpaired translation. Deformations and pathologies are generated by editing anatomical maps. Results: We evaluated Pix2Pix and the Semantic Diffusion Model (SDM) in Stage I, followed by segmentation-guided CycleGAN (SG-CycleGAN) refinement in Stage II. SDM significantly outperformed Pix2Pix in morphological metrics, including MAE↓ (19.85 vs. 21.65), SSIM↑ (0.28 vs. 0.24), and mIoU↑ (0.43 vs. 0.29), whereas Pix2Pix yielded better perceptual point estimates (LPIPS↓: 0.17 vs. 0.19; FID↓: 0.32 vs. 0.37; KID↓: 0.25 vs. 0.48). Conclusion: Training paired generative models with physics-based supervision enables approximation of CT-derived ray-casting outputs at inference time directly from semantic labels. Although the pipeline does not require patient-specific CT volumes at inference time, CT-derived segmentations and ray-casting simulations remain necessary to train Stage I. Once trained, the framework enables controllable healthy and pathological simulations through semantic-map modification.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#2">
+              2
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Annals of Biomedical Engineering</em>.</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/ultrasound-simulation/">Ultrasound Simulation</a>
+  
+  <a class="badge badge-light" href="/tag/semantic-image-synthesis/">Semantic Image Synthesis</a>
+  
+  <a class="badge badge-light" href="/tag/diffusion-models/">Diffusion Models</a>
+  
+  <a class="badge badge-light" href="/tag/physics-based-supervision/">Physics-Based Supervision</a>
+  
+  <a class="badge badge-light" href="/tag/pathology-simulation/">Pathology Simulation</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fignaciorlando.github.io%2Fpublication%2F2026-abme%2F&amp;text=Abdominal&#43;Ultrasound&#43;Simulation&#43;from&#43;Semantic&#43;Labels&#43;using&#43;Paired&#43;Label-to-Physics-Based&#43;Image&#43;Translation" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fignaciorlando.github.io%2Fpublication%2F2026-abme%2F&amp;t=Abdominal&#43;Ultrasound&#43;Simulation&#43;from&#43;Semantic&#43;Labels&#43;using&#43;Paired&#43;Label-to-Physics-Based&#43;Image&#43;Translation" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Abdominal%20Ultrasound%20Simulation%20from%20Semantic%20Labels%20using%20Paired%20Label-to-Physics-Based%20Image%20Translation&amp;body=https%3A%2F%2Fignaciorlando.github.io%2Fpublication%2F2026-abme%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fignaciorlando.github.io%2Fpublication%2F2026-abme%2F&amp;title=Abdominal&#43;Ultrasound&#43;Simulation&#43;from&#43;Semantic&#43;Labels&#43;using&#43;Paired&#43;Label-to-Physics-Based&#43;Image&#43;Translation" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Abdominal&#43;Ultrasound&#43;Simulation&#43;from&#43;Semantic&#43;Labels&#43;using&#43;Paired&#43;Label-to-Physics-Based&#43;Image&#43;Translation%20https%3A%2F%2Fignaciorlando.github.io%2Fpublication%2F2026-abme%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fignaciorlando.github.io%2Fpublication%2F2026-abme%2F&amp;title=Abdominal&#43;Ultrasound&#43;Simulation&#43;from&#43;Semantic&#43;Labels&#43;using&#43;Paired&#43;Label-to-Physics-Based&#43;Image&#43;Translation" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.da259f97ed0f170b3547d57d1c732d58.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+  
+
+<script src="/en/js/wowchemy.min.024a250be80968f65c7ba869d7c1c887.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
